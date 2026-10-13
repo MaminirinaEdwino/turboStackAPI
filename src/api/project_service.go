@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/MaminirinaEdwino/turbostack/src/config"
-	turbojwt "github.com/MaminirinaEdwino/turbostackapi/src/config"
+	turbojwt "github.com/MaminirinaEdwino/turbostackapi/src/TurboJwt"
+	"github.com/MaminirinaEdwino/turbostackapi/src/config"
 	"github.com/MaminirinaEdwino/turbostackapi/src/entity"
 )
 
