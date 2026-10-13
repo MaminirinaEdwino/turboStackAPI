@@ -5,7 +5,6 @@ import (
 	webview "github.com/webview/webview_go"
 )
 
-type UserService struct{}
 
 func (s *UserService) SayHello(name string) string {
 	return "Bonjour " + name

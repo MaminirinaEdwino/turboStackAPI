@@ -6,6 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"net/http"
 	"os"
 	"os/exec"
 	"path/filepath"
@@ -356,7 +357,10 @@ func (s *ProjectService) ExportProject(name, typeProject, path string) string {
 	return "Success"
 }
 
-func (s *ProjectService) CreateProject(name, description, projectType string) string {
+func (s *ProjectService) CreateProject(w http.ResponseWriter, r http.Request) string {
+
+	var name, description, projectType string
+	
 	pJson := entity.ProjectJSON{
 		Nom:         name,
 		Description: description,

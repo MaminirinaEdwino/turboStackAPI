@@ -24,8 +24,8 @@ func main() {
 	// Routes Auth & User
 	mux.HandleFunc("POST /api/auth/register", userSvc.Register)
 	mux.HandleFunc("POST /api/auth/login", userSvc.Login)
-	mux.HandleFunc("POST /api/user/token", userSvc.SaveToken)
-	mux.HandleFunc("GET /api/user/token/check", userSvc.CheckToken)
+	// mux.HandleFunc("POST /api/user/token", userSvc.SaveToken)
+	// mux.HandleFunc("GET /api/user/token/check", userSvc.CheckToken)
 
 	// Routes Projets (Liées à l'utilisateur via JWT)
 	mux.HandleFunc("POST /api/projects", projSvc.CreateProject)
@@ -36,7 +36,6 @@ func main() {
 	mux.HandleFunc("POST /api/projects/assets", projSvc.UploadAsset)
 
 	// Routes Système & Librairies
-	mux.HandleFunc("GET /api/system/stats", sysSvc.GetStats)
 	mux.HandleFunc("GET /api/system/librairie", sysSvc.LoadLibrairie)
 
 	// Middleware CORS global optionnel
