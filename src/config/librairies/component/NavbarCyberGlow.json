@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "⚡ CYBERSTACK",
+                    "form_type": "",
+                    "href": "",
+                    "id": "nav_cyb_logo",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"16px\",\"font-weight\":\"800\",\"color\":\"#34d399\",\"letter-spacing\":\"0.05em\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                },
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Network",
+                            "form_type": "",
+                            "href": "#",
+                            "id": "cyb_1",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"color\":\"#a7f3d0\",\"font-size\":\"13px\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "a"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Protocol",
+                            "form_type": "",
+                            "href": "#",
+                            "id": "cyb_2",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"color\":\"#a7f3d0\",\"font-size\":\"13px\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "a"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "nav_cyb_links",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"gap\":\"20px\"},\"tablet\":{\"display\":\"none\"},\"mobile\":{}}",
+                    "tag": "div"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Connect Wallet",
+                    "form_type": "button",
+                    "href": "",
+                    "id": "nav_cyb_btn",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background-color\":\"#10b981\",\"color\":\"#022c22\",\"font-size\":\"12px\",\"font-weight\":\"700\",\"padding\":\"8px 16px\",\"border-radius\":\"6px\",\"border\":\"none\",\"cursor\":\"pointer\",\"box-shadow\":\"0 0 10px rgba(16, 185, 129, 0.4)\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "button"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "nav_cyb_7",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#022c22\",\"border-bottom\":\"1px solid #10b981\",\"padding\":\"14px 32px\",\"display\":\"flex\",\"justify-content\":\"space-between\",\"align-items\":\"center\",\"box-shadow\":\"0 4px 20px rgba(16, 185, 129, 0.15)\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "NavbarCyberGlow",
+    "params": null
+}

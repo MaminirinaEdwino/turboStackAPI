@@ -1,0 +1,68 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "99.9%",
+                    "form_type": "",
+                    "href": "",
+                    "id": "fs9_stat",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"28px\",\"font-weight\":\"900\",\"color\":\"#2563eb\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                },
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Uptime Guarantee",
+                            "form_type": "",
+                            "href": "",
+                            "id": "fs9_t",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"16px\",\"font-weight\":\"700\",\"color\":\"#0f172a\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "h4"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Reliable infrastructure for peace of mind.",
+                            "form_type": "",
+                            "href": "",
+                            "id": "fs9_d",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"13px\",\"color\":\"#64748b\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "p"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "fs9_text",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "feat_stat_9",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#f8fafc\",\"border\":\"1px solid #e2e8f0\",\"border-radius\":\"16px\",\"padding\":\"24px\",\"display\":\"flex\",\"align-items\":\"center\",\"gap\":\"20px\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "FeatureStatBadge",
+    "params": null
+}

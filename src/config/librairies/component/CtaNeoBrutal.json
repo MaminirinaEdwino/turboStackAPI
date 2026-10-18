@@ -1,0 +1,43 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "WANT TO BUILD COOL SH*T?",
+                    "form_type": "",
+                    "href": "",
+                    "id": "cta_neo_h",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"22px\",\"font-weight\":\"900\",\"color\":\"#000000\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "h3"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "START NOW ⚡",
+                    "form_type": "button",
+                    "href": "",
+                    "id": "cta_neo_btn",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background-color\":\"#facc15\",\"color\":\"#000000\",\"font-size\":\"14px\",\"font-weight\":\"800\",\"padding\":\"12px 24px\",\"border\":\"3px solid #000000\",\"box-shadow\":\"3px 3px 0px #000000\",\"cursor\":\"pointer\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "button"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "cta_neo_6",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#a7f3d0\",\"border\":\"3px solid #000000\",\"box-shadow\":\"6px 6px 0px #000000\",\"border-radius\":\"8px\",\"padding\":\"32px\",\"display\":\"flex\",\"justify-content\":\"space-between\",\"align-items\":\"center\"},\"tablet\":{\"flex-direction\":\"column\",\"gap\":\"16px\",\"text-align\":\"center\"},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "CtaNeoBrutal",
+    "params": null
+}

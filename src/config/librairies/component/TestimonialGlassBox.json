@@ -1,0 +1,43 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "\"The UI flexibility is unmatched. It feels like magic when building complex layouts.\"",
+                    "form_type": "",
+                    "href": "",
+                    "id": "tg5_quote",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"15px\",\"color\":\"#ffffff\",\"line-height\":\"1.5\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "p"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "David K. — Founder @ GlassUI",
+                    "form_type": "",
+                    "href": "",
+                    "id": "tg5_author",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"12px\",\"font-weight\":\"600\",\"color\":\"#cbd5e1\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "tst_glass_5",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"rgba(255, 255, 255, 0.08)\",\"backdrop-filter\":\"blur(16px)\",\"border\":\"1px solid rgba(255, 255, 255, 0.2)\",\"border-radius\":\"20px\",\"padding\":\"32px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"16px\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "TestimonialGlassBox",
+    "params": null
+}

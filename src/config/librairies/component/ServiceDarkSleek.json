@@ -1,0 +1,55 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "01",
+                    "form_type": "",
+                    "href": "",
+                    "id": "sd3_num",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"12px\",\"font-weight\":\"800\",\"color\":\"#6366f1\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Brand Identity Design",
+                    "form_type": "",
+                    "href": "",
+                    "id": "sd3_title",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"20px\",\"font-weight\":\"700\",\"color\":\"#f4f4f5\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "h3"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Complete visual branding systems including logos, typography, and guidelines.",
+                    "form_type": "",
+                    "href": "",
+                    "id": "sd3_desc",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"14px\",\"color\":\"#a1a1aa\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "p"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "srv_dark_3",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#09090b\",\"border\":\"1px solid #27272a\",\"border-radius\":\"16px\",\"padding\":\"32px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"12px\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "ServiceDarkSleek",
+    "params": null
+}

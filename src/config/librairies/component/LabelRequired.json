@@ -1,0 +1,18 @@
+{
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "Full Name *",
+            "form_type": "",
+            "href": "",
+            "id": "lbl_req_3",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"font-size\":\"13px\",\"font-weight\":\"600\",\"color\":\"#111827\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "label"
+        }
+    ],
+    "nom": "LabelRequired",
+    "params": null
+}

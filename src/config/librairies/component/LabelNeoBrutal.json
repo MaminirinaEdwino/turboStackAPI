@@ -1,0 +1,18 @@
+{
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "SELECT PLAN",
+            "form_type": "",
+            "href": "",
+            "id": "lbl_neo_9",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"font-size\":\"12px\",\"font-weight\":\"800\",\"color\":\"#000000\",\"background-color\":\"#fde047\",\"padding\":\"4px 10px\",\"border\":\"2px solid #000000\",\"display\":\"inline-block\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "label"
+        }
+    ],
+    "nom": "LabelNeoBrutal",
+    "params": null
+}

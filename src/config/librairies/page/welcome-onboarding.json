@@ -1,0 +1,105 @@
+{
+    "assets": null,
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "Bienvenue dans l'Aventure",
+            "form_type": "",
+            "href": "",
+            "id": "ob_h1_01",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"font-size\":\"24px\",\"text-align\":\"center\",\"font-weight\":\"800\",\"color\":\"#1e1b4b\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "h1"
+        },
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Quel est votre rôle principal ?",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ob_lbl_1",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "",
+                    "tag": "label"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ob_inp_1",
+                    "input_type": "text",
+                    "placeholder": "Développeur / Designer / Lead",
+                    "styles": "",
+                    "tag": "input"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Nom de votre espace de travail",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ob_lbl_2",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "",
+                    "tag": "label"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ob_inp_2",
+                    "input_type": "text",
+                    "placeholder": "Mon Workspace",
+                    "styles": "",
+                    "tag": "input"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Terminer la configuration",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ob_btn_1",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background-color\":\"#4338ca\",\"border-radius\":\"12px\",\"border-width\":\"0px\",\"padding\":\"12px\",\"color\":\"#ffffff\",\"font-weight\":\"700\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "button"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "ob_frm_02",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"padding\":\"28px\",\"gap\":\"12px\",\"background-color\":\"#ffffff\",\"margin\":\"10px\",\"border-radius\":\"24px\",\"width\":\"34vw\",\"box-shadow\":\"0 25px 50px -12px rgba(99, 102, 241, 0.25)\"},\"tablet\":{\"width\":\"50vw\"},\"mobile\":{\"width\":\"90%\"}}",
+            "tag": "form"
+        },
+        {
+            "children": null,
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "ob_bg_03",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"position\":\"fixed\",\"top\":\"50vh\",\"background-color\":\"#e0e7ff\",\"width\":\"100%\",\"height\":\"50%\",\"z-index\":\"-1\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "welcome-onboarding",
+    "styles": "{\"desktop\":{\"body\":\"\"},\"tablet\":{\"body\":\"background-color: #e0e7ff; display: flex; flex-direction: column; align-items: center\"},\"mobile\":{\"body\":\"display: flex; flex-direction: column; align-items: center\"}}",
+    "uri": "/welcome-onboarding"
+}

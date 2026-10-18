@@ -1,0 +1,68 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Get early access to private beta",
+                    "form_type": "",
+                    "href": "",
+                    "id": "cta_em_h",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"22px\",\"font-weight\":\"700\",\"color\":\"#111827\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "h3"
+                },
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "",
+                            "form_type": "",
+                            "href": "",
+                            "id": "cta_em_inp",
+                            "input_type": "email",
+                            "placeholder": "Enter your work email",
+                            "styles": "{\"desktop\":{\"flex\":\"1\",\"padding\":\"12px 16px\",\"border-radius\":\"10px\",\"border\":\"1px solid #d1d5db\",\"font-size\":\"14px\",\"outline\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "input"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Join Waitlist",
+                            "form_type": "submit",
+                            "href": "",
+                            "id": "cta_em_btn",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"background-color\":\"#2563eb\",\"color\":\"#ffffff\",\"font-size\":\"14px\",\"font-weight\":\"600\",\"padding\":\"12px 20px\",\"border-radius\":\"10px\",\"border\":\"none\",\"cursor\":\"pointer\",\"white-space\":\"nowrap\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "button"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "cta_em_form",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"gap\":\"8px\",\"width\":\"100%\",\"max-width\":\"420px\"},\"tablet\":{},\"mobile\":{\"flex-direction\":\"column\"}}",
+                    "tag": "form"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "cta_em_4",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#ffffff\",\"border\":\"1px solid #e5e7eb\",\"border-radius\":\"20px\",\"padding\":\"36px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"align-items\":\"center\",\"text-align\":\"center\",\"gap\":\"18px\",\"box-shadow\":\"0 10px 30px rgba(0,0,0,0.05)\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "CtaEmailInput",
+    "params": null
+}

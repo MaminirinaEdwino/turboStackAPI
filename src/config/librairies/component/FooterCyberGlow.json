@@ -1,0 +1,68 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "⚡ CYBERSTACK",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ftr_cyb_logo",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"16px\",\"font-weight\":\"800\",\"color\":\"#34d399\",\"letter-spacing\":\"0.05em\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                },
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Protocol",
+                            "form_type": "",
+                            "href": "#",
+                            "id": "fcb_1",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"color\":\"#a7f3d0\",\"font-size\":\"12px\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "a"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Security Audit",
+                            "form_type": "",
+                            "href": "#",
+                            "id": "fcb_2",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"color\":\"#a7f3d0\",\"font-size\":\"12px\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "a"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ftr_cyb_links",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"gap\":\"20px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "ftr_cyb_7",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#022c22\",\"border-top\":\"1px solid #10b981\",\"padding\":\"36px 32px\",\"display\":\"flex\",\"justify-content\":\"space-between\",\"align-items\":\"center\",\"box-shadow\":\"0 -4px 20px rgba(16, 185, 129, 0.1)\"},\"tablet\":{},\"mobile\":{\"flex-direction\":\"column\",\"gap\":\"20px\"}}",
+            "tag": "footer"
+        }
+    ],
+    "nom": "FooterCyberGlow",
+    "params": null
+}

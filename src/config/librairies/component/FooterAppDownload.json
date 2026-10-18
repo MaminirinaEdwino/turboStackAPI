@@ -1,0 +1,93 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "MobileApp Co.",
+                            "form_type": "",
+                            "href": "",
+                            "id": "ftr_app_title",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"18px\",\"font-weight\":\"800\",\"color\":\"#0f172a\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "span"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "iOS App Store",
+                                    "form_type": "button",
+                                    "href": "",
+                                    "id": "fab_1",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"background-color\":\"#0f172a\",\"color\":\"#ffffff\",\"font-size\":\"12px\",\"font-weight\":\"600\",\"padding\":\"8px 14px\",\"border-radius\":\"6px\",\"border\":\"none\",\"cursor\":\"pointer\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "button"
+                                },
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "Google Play",
+                                    "form_type": "button",
+                                    "href": "",
+                                    "id": "fab_2",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"background-color\":\"#0f172a\",\"color\":\"#ffffff\",\"font-size\":\"12px\",\"font-weight\":\"600\",\"padding\":\"8px 14px\",\"border-radius\":\"6px\",\"border\":\"none\",\"cursor\":\"pointer\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "button"
+                                }
+                            ],
+                            "className": "",
+                            "content": "",
+                            "form_type": "",
+                            "href": "",
+                            "id": "ftr_app_badges",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"display\":\"flex\",\"gap\":\"12px\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "div"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ftr_app_top",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"justify-content\":\"space-between\",\"align-items\":\"center\"},\"tablet\":{\"flex-direction\":\"column\",\"gap\":\"16px\",\"align-items\":\"flex-start\"},\"mobile\":{}}",
+                    "tag": "div"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "© 2026 MobileApp Co. All rights reserved.",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ftr_app_btm",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"12px\",\"color\":\"#94a3b8\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "ftr_app_9",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#ffffff\",\"border-top\":\"1px solid #f1f5f9\",\"padding\":\"40px 32px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"24px\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "footer"
+        }
+    ],
+    "nom": "FooterAppDownload",
+    "params": null
+}

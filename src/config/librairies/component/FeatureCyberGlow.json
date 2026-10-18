@@ -1,0 +1,43 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Decentralized Sync",
+                    "form_type": "",
+                    "href": "",
+                    "id": "fc7_title",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"18px\",\"font-weight\":\"700\",\"color\":\"#ecfdf5\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "h3"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Peer-to-peer data distribution ensures maximum availability.",
+                    "form_type": "",
+                    "href": "",
+                    "id": "fc7_desc",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"13px\",\"color\":\"#6ee7b7\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "p"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "feat_cyb_7",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#022c22\",\"border\":\"1px solid #10b981\",\"border-radius\":\"16px\",\"padding\":\"28px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"10px\",\"box-shadow\":\"0 0 20px rgba(16, 185, 129, 0.15)\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "FeatureCyberGlow",
+    "params": null
+}

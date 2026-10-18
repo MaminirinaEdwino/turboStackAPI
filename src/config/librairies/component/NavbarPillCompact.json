@@ -1,0 +1,67 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Home",
+                    "form_type": "",
+                    "href": "#",
+                    "id": "pil_1",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"color\":\"#ffffff\",\"font-size\":\"13px\",\"font-weight\":\"500\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "a"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Projects",
+                    "form_type": "",
+                    "href": "#",
+                    "id": "pil_2",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"color\":\"#a1a1aa\",\"font-size\":\"13px\",\"font-weight\":\"500\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "a"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "About",
+                    "form_type": "",
+                    "href": "#",
+                    "id": "pil_3",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"color\":\"#a1a1aa\",\"font-size\":\"13px\",\"font-weight\":\"500\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "a"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Contact",
+                    "form_type": "",
+                    "href": "#",
+                    "id": "pil_4",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"color\":\"#a1a1aa\",\"font-size\":\"13px\",\"font-weight\":\"500\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "a"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "nav_pill_8",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"fit-content\",\"margin\":\"20px auto\",\"background-color\":\"#18181b\",\"border-radius\":\"9999px\",\"padding\":\"8px 24px\",\"display\":\"flex\",\"align-items\":\"center\",\"gap\":\"24px\",\"box-shadow\":\"0 10px 25px -5px rgba(0,0,0,0.3)\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "NavbarPillCompact",
+    "params": null
+}

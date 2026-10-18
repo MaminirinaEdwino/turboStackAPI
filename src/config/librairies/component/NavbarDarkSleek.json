@@ -1,0 +1,92 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "▲ DARKSTACK",
+                    "form_type": "",
+                    "href": "",
+                    "id": "nav_dark_logo",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"15px\",\"font-weight\":\"700\",\"color\":\"#f4f4f5\",\"letter-spacing\":\"0.05em\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                },
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Docs",
+                            "form_type": "",
+                            "href": "#",
+                            "id": "ndk_1",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"color\":\"#a1a1aa\",\"font-size\":\"13px\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "a"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "API",
+                            "form_type": "",
+                            "href": "#",
+                            "id": "ndk_2",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"color\":\"#a1a1aa\",\"font-size\":\"13px\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "a"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Enterprise",
+                            "form_type": "",
+                            "href": "#",
+                            "id": "ndk_3",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"color\":\"#a1a1aa\",\"font-size\":\"13px\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "a"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "nav_dark_links",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"gap\":\"20px\"},\"tablet\":{\"display\":\"none\"},\"mobile\":{}}",
+                    "tag": "div"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Sign In",
+                    "form_type": "button",
+                    "href": "",
+                    "id": "nav_dark_btn",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background-color\":\"#27272a\",\"color\":\"#f4f4f5\",\"font-size\":\"12px\",\"font-weight\":\"500\",\"padding\":\"8px 14px\",\"border-radius\":\"6px\",\"border\":\"1px solid #3f3f46\",\"cursor\":\"pointer\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "button"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "nav_dark_3",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#09090b\",\"border-bottom\":\"1px solid #27272a\",\"padding\":\"14px 32px\",\"display\":\"flex\",\"justify-content\":\"space-between\",\"align-items\":\"center\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "NavbarDarkSleek",
+    "params": null
+}

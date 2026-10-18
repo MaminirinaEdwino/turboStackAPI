@@ -1,0 +1,105 @@
+{
+    "assets": null,
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "Déploiement d'Instance Cloud",
+            "form_type": "",
+            "href": "",
+            "id": "srv_h1_01",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"font-size\":\"22px\",\"text-align\":\"center\",\"font-weight\":\"600\",\"color\":\"#334155\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "h1"
+        },
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Région du Serveur",
+                    "form_type": "",
+                    "href": "",
+                    "id": "srv_lbl_1",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "",
+                    "tag": "label"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "srv_inp_1",
+                    "input_type": "text",
+                    "placeholder": "eu-west-3 (Paris)",
+                    "styles": "",
+                    "tag": "input"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Spécifications VCPU / RAM",
+                    "form_type": "",
+                    "href": "",
+                    "id": "srv_lbl_2",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "",
+                    "tag": "label"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "srv_inp_2",
+                    "input_type": "text",
+                    "placeholder": "4 vCPU - 16 Go RAM",
+                    "styles": "",
+                    "tag": "input"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Lancer le Serveur",
+                    "form_type": "",
+                    "href": "",
+                    "id": "srv_btn_1",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background-color\":\"#0284c7\",\"border-radius\":\"6px\",\"border-width\":\"0px\",\"padding\":\"12px\",\"color\":\"#ffffff\",\"font-weight\":\"600\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "button"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "srv_frm_02",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"padding\":\"26px\",\"gap\":\"12px\",\"background-color\":\"#ffffff\",\"margin\":\"10px\",\"border-radius\":\"12px\",\"width\":\"38vw\",\"border-left\":\"6px solid #0284c7\",\"box-shadow\":\"0 4px 6px -1px rgba(0,0,0,0.1)\"},\"tablet\":{\"width\":\"55vw\"},\"mobile\":{\"width\":\"90%\"}}",
+            "tag": "form"
+        },
+        {
+            "children": null,
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "srv_bg_03",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"position\":\"fixed\",\"top\":\"50vh\",\"background-color\":\"#e0f2fe\",\"width\":\"100%\",\"height\":\"50%\",\"z-index\":\"-1\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "cloud-config",
+    "styles": "{\"desktop\":{\"body\":\"\"},\"tablet\":{\"body\":\"background-color: #f0f9ff; display: flex; flex-direction: column; align-items: center\"},\"mobile\":{\"body\":\"display: flex; flex-direction: column; align-items: center\"}}",
+    "uri": "/cloud-config"
+}

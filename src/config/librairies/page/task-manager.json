@@ -1,0 +1,105 @@
+{
+    "assets": null,
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "Créer une Nouvelle Tâche",
+            "form_type": "",
+            "href": "",
+            "id": "tsk_h1_01",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"font-size\":\"20px\",\"text-align\":\"left\",\"font-weight\":\"700\",\"color\":\"#0f172a\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "h1"
+        },
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Titre du Ticket",
+                    "form_type": "",
+                    "href": "",
+                    "id": "tsk_lbl_1",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "",
+                    "tag": "label"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "tsk_inp_1",
+                    "input_type": "text",
+                    "placeholder": "Refactoriser l'API Auth",
+                    "styles": "",
+                    "tag": "input"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Assigné à",
+                    "form_type": "",
+                    "href": "",
+                    "id": "tsk_lbl_2",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "",
+                    "tag": "label"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "tsk_inp_2",
+                    "input_type": "text",
+                    "placeholder": "edwino@dev.local",
+                    "styles": "",
+                    "tag": "input"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Ajouter au Sprint",
+                    "form_type": "",
+                    "href": "",
+                    "id": "tsk_btn_1",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background-color\":\"#0d9488\",\"border-radius\":\"8px\",\"border-width\":\"0px\",\"padding\":\"11px\",\"color\":\"#ffffff\",\"font-weight\":\"600\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "button"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "tsk_frm_02",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"padding\":\"24px\",\"gap\":\"12px\",\"background-color\":\"#ffffff\",\"margin\":\"10px\",\"border-radius\":\"14px\",\"width\":\"36vw\",\"border\":\"1px solid #f1f5f9\"},\"tablet\":{\"width\":\"52vw\"},\"mobile\":{\"width\":\"90%\"}}",
+            "tag": "form"
+        },
+        {
+            "children": null,
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "tsk_bg_03",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"position\":\"fixed\",\"top\":\"50vh\",\"background-color\":\"#ccfbf1\",\"width\":\"100%\",\"height\":\"50%\",\"z-index\":\"-1\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "task-manager",
+    "styles": "{\"desktop\":{\"body\":\"\"},\"tablet\":{\"body\":\"background-color: #f0fdfa; display: flex; flex-direction: column; align-items: center\"},\"mobile\":{\"body\":\"display: flex; flex-direction: column; align-items: center\"}}",
+    "uri": "/task-manager"
+}

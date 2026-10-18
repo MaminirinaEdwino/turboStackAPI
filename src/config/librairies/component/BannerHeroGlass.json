@@ -1,0 +1,55 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Build Websites at Turbo Speed",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ban_hero_title",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"36px\",\"font-weight\":\"800\",\"color\":\"#f8fafc\",\"letter-spacing\":\"-0.02em\"},\"tablet\":{\"font-size\":\"28px\"},\"mobile\":{}}",
+                    "tag": "h1"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Deploy fully responsive frontend stacks with zero effort using interactive JSON layouts.",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ban_hero_sub",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"16px\",\"color\":\"#94a3b8\",\"max-width\":\"540px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "p"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Start Building Free",
+                    "form_type": "button",
+                    "href": "",
+                    "id": "ban_hero_cta",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"margin-top\":\"8px\",\"background-color\":\"#6366f1\",\"color\":\"#ffffff\",\"font-size\":\"14px\",\"font-weight\":\"600\",\"padding\":\"12px 28px\",\"border-radius\":\"12px\",\"border\":\"none\",\"cursor\":\"pointer\",\"box-shadow\":\"0 10px 20px rgba(99, 102, 241, 0.3)\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "button"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "ban_hero_glass",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"rgba(15, 23, 42, 0.75)\",\"backdrop-filter\":\"blur(16px)\",\"border\":\"1px solid rgba(255, 255, 255, 0.1)\",\"border-radius\":\"20px\",\"padding\":\"48px 32px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"align-items\":\"center\",\"text-align\":\"center\",\"gap\":\"16px\",\"box-shadow\":\"0 25px 50px -12px rgba(0, 0, 0, 0.25)\"},\"tablet\":{\"padding\":\"32px 20px\"},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "BannerHeroGlass",
+    "params": null
+}

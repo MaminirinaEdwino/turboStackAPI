@@ -1,0 +1,68 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Maintenance \u0026 Support",
+                            "form_type": "",
+                            "href": "",
+                            "id": "sh5_t",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"16px\",\"font-weight\":\"700\",\"color\":\"#0f172a\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "h4"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "24/7 dedicated support and regular system updates.",
+                            "form_type": "",
+                            "href": "",
+                            "id": "sh5_d",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"13px\",\"color\":\"#64748b\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "p"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "sh5_text",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"4px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Inquire Now",
+                    "form_type": "button",
+                    "href": "",
+                    "id": "sh5_btn",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background-color\":\"#0f172a\",\"color\":\"#ffffff\",\"font-size\":\"13px\",\"font-weight\":\"600\",\"padding\":\"10px 18px\",\"border-radius\":\"8px\",\"border\":\"none\",\"cursor\":\"pointer\",\"white-space\":\"nowrap\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "button"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "srv_strip_5",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#f8fafc\",\"border\":\"1px solid #e2e8f0\",\"border-radius\":\"12px\",\"padding\":\"20px 28px\",\"display\":\"flex\",\"justify-content\":\"space-between\",\"align-items\":\"center\",\"gap\":\"20px\"},\"tablet\":{\"flex-direction\":\"column\",\"align-items\":\"flex-start\"},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "ServiceHorizontalStrip",
+    "params": null
+}

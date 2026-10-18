@@ -1,0 +1,140 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "className": "brand-logo text-purple",
+                    "content": "HACK_NATION",
+                    "id": "logo_06",
+                    "tag": "div"
+                },
+                {
+                    "className": "btn-purple-pill btn-sm",
+                    "content": "S'inscrire",
+                    "id": "btn_nav_06",
+                    "tag": "button"
+                }
+            ],
+            "className": "navbar-dark flex-between",
+            "content": "",
+            "id": "nav_06",
+            "tag": "header"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-xl text-white",
+                    "content": "LE PLUS GRAND HACKATHON WEB3 \u0026 IA",
+                    "id": "h1_06",
+                    "tag": "h1"
+                },
+                {
+                    "className": "text-lead text-muted my-md",
+                    "content": "48 heures pour coder, innover et remporter 50 000$ de prix.",
+                    "id": "p_06",
+                    "tag": "p"
+                }
+            ],
+            "className": "hero-section text-center container-md",
+            "content": "",
+            "id": "hero_06",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-md text-white mb-lg",
+                    "content": "Track \u0026 Compétitions",
+                    "id": "s_h2_06",
+                    "tag": "h2"
+                },
+                {
+                    "children": [
+                        {
+                            "className": "card-dark-rounded p-md",
+                            "content": "### Smart Contracts\nDéveloppez des dApps scalables.",
+                            "id": "sc1_6",
+                            "tag": "div"
+                        },
+                        {
+                            "className": "card-dark-rounded p-md",
+                            "content": "### Agents Autonomes\nCréez des bots intelligents sur réseau distribué.",
+                            "id": "sc2_6",
+                            "tag": "div"
+                        },
+                        {
+                            "className": "card-dark-rounded p-md",
+                            "content": "### Zero-Knowledge\nImplémentez des preuves de confidentialité.",
+                            "id": "sc3_6",
+                            "tag": "div"
+                        }
+                    ],
+                    "className": "grid-3-cols gap-md container-lg",
+                    "content": "",
+                    "id": "s_grid_06",
+                    "tag": "div"
+                }
+            ],
+            "className": "section-spacing bg-dark-card",
+            "content": "",
+            "id": "services_06",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-md text-white",
+                    "content": "À Propos de l'Événement",
+                    "id": "ab_h2_06",
+                    "tag": "h2"
+                },
+                {
+                    "className": "text-muted mt-sm",
+                    "content": "Un rassemblement mondial de développeurs, designers et visionnaires de la tech.",
+                    "id": "ab_p_06",
+                    "tag": "p"
+                }
+            ],
+            "className": "section-spacing container-sm text-center",
+            "content": "",
+            "id": "about_06",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-lg",
+                    "content": "Rejoignez l'Aventure Dès Aujourd'hui",
+                    "id": "cta_h2_06",
+                    "tag": "h2"
+                },
+                {
+                    "className": "btn-white-pill btn-lg mt-md",
+                    "content": "Réserver son Billet",
+                    "id": "cta_btn_06",
+                    "tag": "button"
+                }
+            ],
+            "className": "section-spacing bg-gradient-purple text-center text-white",
+            "content": "",
+            "id": "cta_06",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "content": "© 2026 HACK_NATION Global.",
+                    "id": "ft_06",
+                    "tag": "p"
+                }
+            ],
+            "className": "footer-container text-muted text-center",
+            "content": "",
+            "id": "footer_06",
+            "tag": "footer"
+        }
+    ],
+    "nom": "event-hackathon",
+    "styles": "{}",
+    "uri": "/event-hackathon"
+}

@@ -1,0 +1,93 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "\"The cleanest JSON-driven component system I've ever used. Integration took less than ten minutes.\"",
+                    "form_type": "",
+                    "href": "",
+                    "id": "td2_quote",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"18px\",\"font-weight\":\"500\",\"color\":\"#f4f4f5\",\"line-height\":\"1.5\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "p"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "Elena Rostova",
+                                    "form_type": "",
+                                    "href": "",
+                                    "id": "td2_name",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"font-size\":\"14px\",\"font-weight\":\"700\",\"color\":\"#ffffff\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "span"
+                                },
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "Lead Frontend Engineer",
+                                    "form_type": "",
+                                    "href": "",
+                                    "id": "td2_role",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"font-size\":\"12px\",\"color\":\"#a1a1aa\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "span"
+                                }
+                            ],
+                            "className": "",
+                            "content": "",
+                            "form_type": "",
+                            "href": "",
+                            "id": "td2_info",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"2px\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "div"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "VERCELIFIED",
+                            "form_type": "",
+                            "href": "",
+                            "id": "td2_company",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"11px\",\"font-weight\":\"800\",\"letter-spacing\":\"0.1em\",\"color\":\"#71717a\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "span"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "td2_author",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"justify-content\":\"space-between\",\"align-items\":\"center\",\"border-top\":\"1px solid #27272a\",\"padding-top\":\"20px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "tst_dark_2",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#09090b\",\"border\":\"1px solid #27272a\",\"border-radius\":\"20px\",\"padding\":\"36px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"24px\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "TestimonialDarkSleek",
+    "params": null
+}

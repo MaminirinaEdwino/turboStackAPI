@@ -10,6 +10,9 @@ import (
 	"github.com/MaminirinaEdwino/turbostackapi/src/config"
 )
 
+
+
+
 func main() {
 	// 1. Initialisation de la base de données PostgreSQL
 	config.InitDB()
@@ -19,13 +22,13 @@ func main() {
 
 	userSvc := &api.UserService{}
 	projSvc := &api.ProjectService{}
-	sysSvc := &api.SystemService{}
+	// sysSvc := &api.SystemService{}
 
 	// Routes Auth & User
 	mux.HandleFunc("POST /api/auth/register", userSvc.Register)
 	mux.HandleFunc("POST /api/auth/login", userSvc.Login)
-	// mux.HandleFunc("POST /api/user/token", userSvc.SaveToken)
-	// mux.HandleFunc("GET /api/user/token/check", userSvc.CheckToken)
+	mux.HandleFunc("POST /api/user/token", userSvc.SaveToken)
+	mux.HandleFunc("GET /api/user/token/check", userSvc.CheckToken)
 
 	// Routes Projets (Liées à l'utilisateur via JWT)
 	mux.HandleFunc("POST /api/projects", projSvc.CreateProject)
@@ -34,9 +37,11 @@ func main() {
 	mux.HandleFunc("PUT /api/projects", projSvc.SaveProject)
 	mux.HandleFunc("DELETE /api/projects/{name}", projSvc.DeleteProject)
 	mux.HandleFunc("POST /api/projects/assets", projSvc.UploadAsset)
+	mux.HandleFunc("GET /api/librairie/page", projSvc.LoadPageLib)
+	mux.HandleFunc("GET /api/librairie/component", projSvc.LoadComponentLib)
+	mux.HandleFunc("GET /api/librairie/style", projSvc.LoadStyleLib)
 
 	// Routes Système & Librairies
-	mux.HandleFunc("GET /api/system/librairie", sysSvc.LoadLibrairie)
 
 	// Middleware CORS global optionnel
 	handler := corsMiddleware(mux)

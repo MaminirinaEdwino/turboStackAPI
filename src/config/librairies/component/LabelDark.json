@@ -1,0 +1,18 @@
+{
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "Password",
+            "form_type": "",
+            "href": "",
+            "id": "lbl_dark_4",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"font-size\":\"13px\",\"font-weight\":\"500\",\"color\":\"#e4e4e7\",\"display\":\"inline-block\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "label"
+        }
+    ],
+    "nom": "LabelDark",
+    "params": null
+}

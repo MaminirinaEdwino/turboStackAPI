@@ -1,0 +1,43 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Designed with Glassify UI",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ftr_glass_txt",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"13px\",\"color\":\"#e2e8f0\",\"font-weight\":\"500\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "© 2026 Glassify",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ftr_glass_copy",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"12px\",\"color\":\"#94a3b8\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "ftr_glass_8",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"90%\",\"max-width\":\"1100px\",\"margin\":\"20px auto\",\"background-color\":\"rgba(255, 255, 255, 0.05)\",\"backdrop-filter\":\"blur(16px)\",\"border\":\"1px solid rgba(255, 255, 255, 0.15)\",\"border-radius\":\"20px\",\"padding\":\"20px 32px\",\"display\":\"flex\",\"justify-content\":\"space-between\",\"align-items\":\"center\"},\"tablet\":{},\"mobile\":{\"flex-direction\":\"column\",\"gap\":\"12px\"}}",
+            "tag": "footer"
+        }
+    ],
+    "nom": "FooterGlassFloating",
+    "params": null
+}

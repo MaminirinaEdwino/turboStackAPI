@@ -1,0 +1,47 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "content": "[ IMAGE PRODUIT MINIMALISTE ]",
+                    "id": "eco_img",
+                    "styles": "{\"desktop\":{\"background\":\"#e2ded4\",\"display\":\"flex\",\"align-items\":\"center\",\"justify-content\":\"center\"}}",
+                    "tag": "div"
+                },
+                {
+                    "children": [
+                        {
+                            "content": "Design Durable \u0026 Épuré.",
+                            "id": "e_h1",
+                            "styles": "{\"desktop\":{\"font-size\":\"48px\",\"font-weight\":\"normal\"}}",
+                            "tag": "h1"
+                        },
+                        {
+                            "content": "Fabriqué à partir de matériaux 100% recyclés avec une attention méticuleuse portée aux détails.",
+                            "id": "e_p",
+                            "styles": "{\"desktop\":{\"font-family\":\"sans-serif\",\"color\":\"#666\",\"line-height\":\"1.8\",\"margin-bottom\":\"30px\"}}",
+                            "tag": "p"
+                        },
+                        {
+                            "content": "Commander — 89€",
+                            "id": "e_btn",
+                            "styles": "{\"desktop\":{\"background\":\"#2c3531\",\"color\":\"#fff\",\"border\":\"none\",\"padding\":\"16px 32px\",\"font-size\":\"14px\",\"letter-spacing\":\"1px\",\"cursor\":\"pointer\"}}",
+                            "tag": "button"
+                        }
+                    ],
+                    "content": "",
+                    "id": "eco_details",
+                    "styles": "{\"desktop\":{\"padding\":\"80px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"justify-content\":\"center\"}}",
+                    "tag": "div"
+                }
+            ],
+            "content": "",
+            "id": "eco_hero",
+            "styles": "{\"desktop\":{\"display\":\"grid\",\"grid-template-columns\":\"1fr 1fr\",\"height\":\"100vh\"},\"mobile\":{\"grid-template-columns\":\"1fr\"}}",
+            "tag": "section"
+        }
+    ],
+    "nom": "eco-product",
+    "styles": "{\"desktop\":{\"body\":\"font-family: serif; background: #f4f1ea; color: #2c3531; margin:0;\"}}",
+    "uri": "/eco-product"
+}

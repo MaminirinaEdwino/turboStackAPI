@@ -1,0 +1,154 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "className": "brand-logo text-rose",
+                    "content": "PULSE FIT",
+                    "id": "logo_10",
+                    "tag": "div"
+                },
+                {
+                    "className": "btn-rose-pill btn-sm",
+                    "content": "Télécharger",
+                    "id": "btn_nav_10",
+                    "tag": "button"
+                }
+            ],
+            "className": "navbar-dark flex-between border-b-subtle",
+            "content": "",
+            "id": "nav_10",
+            "tag": "header"
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "className": "heading-xl text-white",
+                            "content": "Atteignez vos objectifs avec le coaching par IA",
+                            "id": "h1_10",
+                            "tag": "h1"
+                        },
+                        {
+                            "className": "text-lead text-muted my-md",
+                            "content": "Programmes d'entraînement personnalisés, suivi de nutrition et analyse de posture en temps réel.",
+                            "id": "p_10",
+                            "tag": "p"
+                        }
+                    ],
+                    "className": "hero-text-block",
+                    "content": "",
+                    "id": "h_txt_10",
+                    "tag": "div"
+                },
+                {
+                    "className": "media-placeholder bg-rose-gradient text-white shadow-lg",
+                    "content": "[ Smartphone App Interface ]",
+                    "id": "h_img_10",
+                    "tag": "div"
+                }
+            ],
+            "className": "hero-section container-lg grid-2-cols items-center gap-lg",
+            "content": "",
+            "id": "hero_10",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-md text-white mb-lg",
+                    "content": "Fonctionnalités Clés",
+                    "id": "s_h2_10",
+                    "tag": "h2"
+                },
+                {
+                    "children": [
+                        {
+                            "className": "card-zinc p-md",
+                            "content": "### Workouts Adaptatifs\nDes séances qui s'ajustent à votre niveau de fatigue.",
+                            "id": "sc1_10",
+                            "tag": "div"
+                        },
+                        {
+                            "className": "card-zinc p-md",
+                            "content": "### Plan Nutrition\nRecettes calculées selon vos besoins caloriques.",
+                            "id": "sc2_10",
+                            "tag": "div"
+                        },
+                        {
+                            "className": "card-zinc p-md",
+                            "content": "### Suivi Connecté\nSynchro automatique avec Apple Health et Garmin.",
+                            "id": "sc3_10",
+                            "tag": "div"
+                        }
+                    ],
+                    "className": "grid-3-cols gap-md container-lg",
+                    "content": "",
+                    "id": "s_grid_10",
+                    "tag": "div"
+                }
+            ],
+            "className": "section-spacing bg-zinc-dark",
+            "content": "",
+            "id": "services_10",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-md text-white",
+                    "content": "Pourquoi PULSE FIT ?",
+                    "id": "ab_h2_10",
+                    "tag": "h2"
+                },
+                {
+                    "className": "text-muted mt-sm",
+                    "content": "Conçu avec des préparateurs physiques de haut niveau pour vous offrir un suivi professionnel directement dans votre poche.",
+                    "id": "ab_p_10",
+                    "tag": "p"
+                }
+            ],
+            "className": "section-spacing container-md",
+            "content": "",
+            "id": "about_10",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-lg",
+                    "content": "Commencez vos 14 jours d'essai gratuit",
+                    "id": "cta_h2_10",
+                    "tag": "h2"
+                },
+                {
+                    "className": "btn-black-rounded btn-lg mt-md",
+                    "content": "Télécharger sur l'App Store",
+                    "id": "cta_btn_10",
+                    "tag": "button"
+                }
+            ],
+            "className": "section-spacing bg-rose text-white text-center",
+            "content": "",
+            "id": "cta_10",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "content": "© 2026 PULSE FIT Inc. Tous droits réservés.",
+                    "id": "ft_10",
+                    "tag": "p"
+                }
+            ],
+            "className": "footer-container text-muted text-center",
+            "content": "",
+            "id": "footer_10",
+            "tag": "footer"
+        }
+    ],
+    "nom": "fitness-app-landing",
+    "styles": "{}",
+    "uri": "/fitness-app-landing"
+}

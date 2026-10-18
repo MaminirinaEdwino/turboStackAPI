@@ -1,0 +1,55 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Ready to accelerate your workflow?",
+                    "form_type": "",
+                    "href": "",
+                    "id": "cta_cnt_h",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"30px\",\"font-weight\":\"800\",\"color\":\"#ffffff\",\"letter-spacing\":\"-0.02em\"},\"tablet\":{\"font-size\":\"24px\"},\"mobile\":{}}",
+                    "tag": "h2"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Join thousands of creators building high-converting interfaces in minutes.",
+                    "form_type": "",
+                    "href": "",
+                    "id": "cta_cnt_p",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"15px\",\"color\":\"#e0e7ff\",\"max-width\":\"500px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "p"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Get Started Free",
+                    "form_type": "button",
+                    "href": "",
+                    "id": "cta_cnt_btn",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"margin-top\":\"8px\",\"background-color\":\"#ffffff\",\"color\":\"#4f46e5\",\"font-size\":\"14px\",\"font-weight\":\"700\",\"padding\":\"12px 28px\",\"border-radius\":\"12px\",\"border\":\"none\",\"cursor\":\"pointer\",\"box-shadow\":\"0 4px 12px rgba(0,0,0,0.1)\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "button"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "cta_cnt_1",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#4f46e5\",\"border-radius\":\"24px\",\"padding\":\"48px 32px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"align-items\":\"center\",\"text-align\":\"center\",\"gap\":\"16px\",\"box-shadow\":\"0 20px 25px -5px rgba(79, 70, 229, 0.3)\"},\"tablet\":{\"padding\":\"36px 20px\"},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "CtaCenteredSaas",
+    "params": null
+}

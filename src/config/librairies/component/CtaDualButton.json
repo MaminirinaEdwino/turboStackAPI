@@ -1,0 +1,68 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Start your 14-day free trial",
+                    "form_type": "",
+                    "href": "",
+                    "id": "cta_dual_h",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"28px\",\"font-weight\":\"700\",\"color\":\"#f8fafc\"},\"tablet\":{\"font-size\":\"22px\"},\"mobile\":{}}",
+                    "tag": "h2"
+                },
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Create Account",
+                            "form_type": "button",
+                            "href": "",
+                            "id": "cta_dual_prm",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"background-color\":\"#6366f1\",\"color\":\"#ffffff\",\"font-size\":\"14px\",\"font-weight\":\"600\",\"padding\":\"12px 24px\",\"border-radius\":\"10px\",\"border\":\"none\",\"cursor\":\"pointer\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "button"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Talk to Sales",
+                            "form_type": "button",
+                            "href": "",
+                            "id": "cta_dual_sec",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"background-color\":\"transparent\",\"color\":\"#cbd5e1\",\"font-size\":\"14px\",\"font-weight\":\"600\",\"padding\":\"12px 24px\",\"border-radius\":\"10px\",\"border\":\"1px solid #334155\",\"cursor\":\"pointer\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "button"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "cta_dual_btns",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"gap\":\"12px\",\"margin-top\":\"8px\"},\"tablet\":{},\"mobile\":{\"flex-direction\":\"column\",\"width\":\"100%\"}}",
+                    "tag": "div"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "cta_dual_7",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#0f172a\",\"border-radius\":\"20px\",\"padding\":\"44px 32px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"align-items\":\"center\",\"text-align\":\"center\",\"gap\":\"16px\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "CtaDualButton",
+    "params": null
+}

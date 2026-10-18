@@ -1,0 +1,105 @@
+{
+    "assets": null,
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "Générateur de Prompts IA",
+            "form_type": "",
+            "href": "",
+            "id": "ai_h1_01",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"font-size\":\"26px\",\"text-align\":\"center\",\"font-weight\":\"800\",\"color\":\"#09090b\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "h1"
+        },
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Modèle d'IA",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ai_lbl_1",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "",
+                    "tag": "label"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ai_inp_1",
+                    "input_type": "text",
+                    "placeholder": "GPT-4o / Claude 3.5 Sonnet",
+                    "styles": "",
+                    "tag": "input"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Mots-clés du contexte",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ai_lbl_2",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "",
+                    "tag": "label"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ai_inp_2",
+                    "input_type": "text",
+                    "placeholder": "Code Go, WebAssembly, Optimisation",
+                    "styles": "",
+                    "tag": "input"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Générer le Prompt",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ai_btn_1",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background-color\":\"#22c55e\",\"border-radius\":\"8px\",\"border-width\":\"0px\",\"padding\":\"12px\",\"color\":\"#09090b\",\"font-weight\":\"700\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "button"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "ai_frm_02",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"padding\":\"28px\",\"gap\":\"14px\",\"background-color\":\"#18181b\",\"margin\":\"12px\",\"border-radius\":\"16px\",\"width\":\"36vw\",\"border\":\"1px solid #27272a\",\"color\":\"#f4f4f5\"},\"tablet\":{\"width\":\"55vw\"},\"mobile\":{\"width\":\"90%\"}}",
+            "tag": "form"
+        },
+        {
+            "children": null,
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "ai_bg_03",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"position\":\"fixed\",\"top\":\"50vh\",\"background-color\":\"#09090b\",\"width\":\"100%\",\"height\":\"50%\",\"z-index\":\"-1\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "ai-prompt-store",
+    "styles": "{\"desktop\":{\"body\":\"\"},\"tablet\":{\"body\":\"background-color: #09090b; color: #ffffff; display: flex; flex-direction: column; align-items: center\"},\"mobile\":{\"body\":\"display: flex; flex-direction: column; align-items: center\"}}",
+    "uri": "/ai-prompt-store"
+}

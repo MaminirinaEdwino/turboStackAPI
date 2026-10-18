@@ -1,0 +1,129 @@
+{
+    "assets": null,
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "Ouvrir un Ticket de Support",
+            "form_type": "",
+            "href": "",
+            "id": "st_h1_01",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"font-size\":\"19px\",\"text-align\":\"center\",\"font-weight\":\"bold\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "h1"
+        },
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Code d'erreur / ID de produit",
+                    "form_type": "",
+                    "href": "",
+                    "id": "st_lbl_1",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "",
+                    "tag": "label"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "st_inp_1",
+                    "input_type": "text",
+                    "placeholder": "ERR_500_DB",
+                    "styles": "",
+                    "tag": "input"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Sévérité du problème",
+                    "form_type": "",
+                    "href": "",
+                    "id": "st_lbl_2",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "",
+                    "tag": "label"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "st_inp_2",
+                    "input_type": "text",
+                    "placeholder": "Haute / Moyenne / Basse",
+                    "styles": "",
+                    "tag": "input"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Description du bug",
+                    "form_type": "",
+                    "href": "",
+                    "id": "st_lbl_3",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "",
+                    "tag": "label"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "st_inp_3",
+                    "input_type": "text",
+                    "placeholder": "Détails du problème...",
+                    "styles": "",
+                    "tag": "input"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Soumettre le Ticket",
+                    "form_type": "",
+                    "href": "",
+                    "id": "st_btn_1",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background-color\":\"#e11d48\",\"border-radius\":\"3px\",\"border-width\":\"0px\",\"padding\":\"9px\",\"color\":\"#ffffff\",\"font-weight\":\"bold\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "button"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "st_frm_02",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"padding\":\"20px\",\"gap\":\"10px\",\"background-color\":\"#ffffff\",\"margin\":\"10px\",\"border-radius\":\"10px\",\"width\":\"35vw\"},\"tablet\":{\"width\":\"50vw\"},\"mobile\":{\"width\":\"90%\"}}",
+            "tag": "form"
+        },
+        {
+            "children": null,
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "st_bg_03",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"position\":\"fixed\",\"top\":\"50vh\",\"background-color\":\"#e11d48\",\"width\":\"100%\",\"height\":\"50%\",\"z-index\":\"-1\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "support-ticket",
+    "styles": "{\"desktop\":{\"body\":\"\"},\"tablet\":{\"body\":\"background-color: #fff1f2; display: flex; flex-direction: column; align-items: center\"},\"mobile\":{\"body\":\"display: flex; flex-direction: column; align-items: center\"}}",
+    "uri": "/support-ticket"
+}

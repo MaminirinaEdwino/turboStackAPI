@@ -1,0 +1,18 @@
+{
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "Deploy Now",
+            "form_type": "button",
+            "href": "",
+            "id": "btn_glow_8",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"background-color\":\"#10b981\",\"color\":\"#022c22\",\"font-size\":\"14px\",\"font-weight\":\"700\",\"padding\":\"12px 24px\",\"border-radius\":\"10px\",\"border\":\"none\",\"box-shadow\":\"0 0 20px rgba(16, 185, 129, 0.5)\",\"cursor\":\"pointer\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "button"
+        }
+    ],
+    "nom": "BtnCyberGlow",
+    "params": null
+}

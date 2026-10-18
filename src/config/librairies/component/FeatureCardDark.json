@@ -1,0 +1,67 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "PRO FEATURE",
+                    "form_type": "",
+                    "href": "",
+                    "id": "badge_tag",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background-color\":\"rgba(99, 102, 241, 0.15)\",\"color\":\"#818cf8\",\"font-size\":\"11px\",\"font-weight\":\"700\",\"padding\":\"4px 10px\",\"border-radius\":\"20px\",\"width\":\"fit-content\",\"letter-spacing\":\"0.05em\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Automated Workflows",
+                    "form_type": "",
+                    "href": "",
+                    "id": "card_title",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"20px\",\"font-weight\":\"700\",\"color\":\"#f8fafc\",\"line-height\":\"1.3\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "h3"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Connect your database to thousands of actions with zero lines of code using our reactive event engine.",
+                    "form_type": "",
+                    "href": "",
+                    "id": "card_desc",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"14px\",\"color\":\"#94a3b8\",\"line-height\":\"1.6\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "p"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Explore Integration →",
+                    "form_type": "",
+                    "href": "",
+                    "id": "card_action_btn",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"margin-top\":\"8px\",\"background-color\":\"#1e293b\",\"color\":\"#f8fafc\",\"font-size\":\"13px\",\"font-weight\":\"600\",\"padding\":\"10px 16px\",\"border-radius\":\"8px\",\"border\":\"1px solid #334155\",\"cursor\":\"pointer\",\"text-align\":\"center\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "button"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "card_dark_root",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"background-color\":\"#0f172a\",\"border\":\"1px solid #1e293b\",\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"16px\",\"width\":\"360px\",\"border-radius\":\"16px\",\"color\":\"#f8fafc\",\"padding\":\"28px\",\"box-shadow\":\"0 20px 25px -5px rgba(0, 0, 0, 0.3)\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "FeatureCardDark",
+    "params": null
+}

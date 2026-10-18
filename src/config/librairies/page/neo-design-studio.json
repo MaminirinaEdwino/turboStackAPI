@@ -1,0 +1,134 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "className": "brand-logo-brutal",
+                    "content": "RAW STUDIO",
+                    "id": "logo_04",
+                    "tag": "div"
+                },
+                {
+                    "className": "btn-brutal btn-black",
+                    "content": "DISCUTER",
+                    "id": "btn_nav_04",
+                    "tag": "button"
+                }
+            ],
+            "className": "navbar-brutal flex-between border-b-heavy bg-yellow",
+            "content": "",
+            "id": "nav_04",
+            "tag": "header"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-brutal-xl text-uppercase",
+                    "content": "DESIGN RADICAL \u0026 IDENTITÉS VISUELLES",
+                    "id": "h1_04",
+                    "tag": "h1"
+                },
+                {
+                    "className": "text-bold text-lg my-md",
+                    "content": "Nous brisons les règles du design conventionnel pour marquer les esprits.",
+                    "id": "p_04",
+                    "tag": "p"
+                }
+            ],
+            "className": "hero-section text-center bg-yellow",
+            "content": "",
+            "id": "hero_04",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-brutal-md mb-lg",
+                    "content": "NOS SERVICES",
+                    "id": "s_h2_04",
+                    "tag": "h2"
+                },
+                {
+                    "children": [
+                        {
+                            "className": "card-brutal p-md",
+                            "content": "### BRANDING\nLogos, typographies et chartes visuelles d'impact.",
+                            "id": "sc1_4",
+                            "tag": "div"
+                        },
+                        {
+                            "className": "card-brutal p-md",
+                            "content": "### UI/UX DESIGN\nInterfaces web explosives et optimisées.",
+                            "id": "sc2_4",
+                            "tag": "div"
+                        }
+                    ],
+                    "className": "grid-2-cols gap-md container-lg",
+                    "content": "",
+                    "id": "s_grid_04",
+                    "tag": "div"
+                }
+            ],
+            "className": "section-spacing bg-white border-t-heavy",
+            "content": "",
+            "id": "services_04",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-brutal-md",
+                    "content": "MANIFESTE",
+                    "id": "ab_h2_04",
+                    "tag": "h2"
+                },
+                {
+                    "className": "text-bold text-md mt-sm",
+                    "content": "Pas de compromis. Pas de templates ennuyeux. Uniquement des créations audacieuses.",
+                    "id": "ab_p_04",
+                    "tag": "p"
+                }
+            ],
+            "className": "section-spacing bg-yellow",
+            "content": "",
+            "id": "about_04",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-brutal-lg",
+                    "content": "PRÊT À MARQUER LES ESPRITS ?",
+                    "id": "cta_h2_04",
+                    "tag": "h2"
+                },
+                {
+                    "className": "btn-brutal btn-yellow mt-md",
+                    "content": "LANCER UN PROJET",
+                    "id": "cta_btn_04",
+                    "tag": "button"
+                }
+            ],
+            "className": "section-spacing bg-black text-yellow text-center",
+            "content": "",
+            "id": "cta_04",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "content": "RAW STUDIO © 2026 — TOUS DROITS RÉSERVÉS",
+                    "id": "ft_04",
+                    "tag": "p"
+                }
+            ],
+            "className": "footer-container bg-yellow border-t-heavy text-bold",
+            "content": "",
+            "id": "footer_04",
+            "tag": "footer"
+        }
+    ],
+    "nom": "neo-design-studio",
+    "styles": "{}",
+    "uri": "/neo-design-studio"
+}

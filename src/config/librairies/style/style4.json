@@ -1,0 +1,43 @@
+{
+    "desktop": {
+        ".bg-black": "background-color: #000000;",
+        ".bg-white": "background-color: #ffffff;",
+        ".bg-yellow": "background-color: #ffe600;",
+        ".border-b-heavy": "border-bottom: 4px solid #000000;",
+        ".border-t-heavy": "border-top: 4px solid #000000;",
+        ".brand-logo-brutal": "font-weight: 900; font-size: 28px; font-family: monospace; letter-spacing: -1px;",
+        ".btn-black": "background-color: #000000; color: #ffffff;",
+        ".btn-brutal": "border: 3px solid #000000; font-weight: 900; text-transform: uppercase; padding: 12px 24px; cursor: pointer; box-shadow: 4px 4px 0px #000000;",
+        ".btn-yellow": "background-color: #ffe600; color: #000000;",
+        ".card-brutal": "background-color: #ffffff; border: 4px solid #000000; box-shadow: 8px 8px 0px #000000;",
+        ".container-lg": "max-width: 1100px; margin: 0 auto;",
+        ".footer-container": "padding: 32px; text-align: center;",
+        ".gap-md": "gap: 32px;",
+        ".grid-2-cols": "display: grid; grid-template-columns: 1fr 1fr;",
+        ".heading-brutal-lg": "font-size: 40px; font-weight: 900;",
+        ".heading-brutal-md": "font-size: 32px; font-weight: 900;",
+        ".heading-brutal-xl": "font-size: 64px; font-weight: 900; line-height: 0.95; letter-spacing: -2px;",
+        ".hero-section": "padding: 100px 24px;",
+        ".mb-lg": "margin-bottom: 32px;",
+        ".mt-md": "margin-top: 24px;",
+        ".mt-sm": "margin-top: 12px;",
+        ".my-md": "margin-top: 24px; margin-bottom: 24px;",
+        ".navbar-brutal": "display: flex; justify-content: space-between; align-items: center; padding: 24px 32px;",
+        ".p-md": "padding: 28px;",
+        ".section-spacing": "padding: 80px 24px;",
+        ".text-bold": "font-weight: 800;",
+        ".text-center": "text-align: center;",
+        ".text-lg": "font-size: 20px;",
+        ".text-md": "font-size: 16px;",
+        ".text-uppercase": "text-transform: uppercase;",
+        ".text-yellow": "color: #ffe600;"
+    },
+    "mobile": {
+        ".btn-brutal": "box-shadow: 2px 2px 0px #000000;",
+        ".heading-brutal-xl": "font-size: 32px;"
+    },
+    "tablet": {
+        ".grid-2-cols": "grid-template-columns: 1fr;",
+        ".heading-brutal-xl": "font-size: 44px;"
+    }
+}

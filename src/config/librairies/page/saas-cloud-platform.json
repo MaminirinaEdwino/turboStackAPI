@@ -1,0 +1,184 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "className": "brand-logo text-accent",
+                    "content": "CLOUDpulse",
+                    "id": "logo_01",
+                    "tag": "div"
+                },
+                {
+                    "className": "btn-primary btn-sm",
+                    "content": "Démarrer Essai",
+                    "id": "btn_nav_01",
+                    "tag": "button"
+                }
+            ],
+            "className": "navbar-sticky flex-between border-b-dark",
+            "content": "",
+            "id": "nav_01",
+            "tag": "header"
+        },
+        {
+            "children": [
+                {
+                    "className": "badge-pill badge-accent",
+                    "content": "⚡ CLOUD NATIVE INFRASTRUCTURE",
+                    "id": "badge_01",
+                    "tag": "span"
+                },
+                {
+                    "className": "heading-xl text-primary",
+                    "content": "Déployez vos microservices à la vitesse du réseau Edge",
+                    "id": "h1_01",
+                    "tag": "h1"
+                },
+                {
+                    "className": "text-muted text-lead",
+                    "content": "Orchestration automatique, zéro configuration complexe et tolérance aux pannes native.",
+                    "id": "p_01",
+                    "tag": "p"
+                },
+                {
+                    "className": "btn-primary btn-lg glow-effect",
+                    "content": "Lancer une instance",
+                    "id": "btn_hero_01",
+                    "tag": "button"
+                }
+            ],
+            "className": "hero-section text-center bg-radial-glow",
+            "content": "",
+            "id": "hero_01",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-lg text-center text-primary mb-xl",
+                    "content": "Nos Solutions Infrastructure",
+                    "id": "srv_title_01",
+                    "tag": "h2"
+                },
+                {
+                    "children": [
+                        {
+                            "className": "card-surface card-bordered p-lg",
+                            "content": "### Serverless Containers\nExécutez vos conteneurs à la demande sans gérer de serveurs sous-jacents.",
+                            "id": "s_card_1",
+                            "tag": "div"
+                        },
+                        {
+                            "className": "card-surface card-bordered p-lg",
+                            "content": "### DB Global Cluster\nBases de données SQL distribuées avec réplication multi-régions instantanée.",
+                            "id": "s_card_2",
+                            "tag": "div"
+                        },
+                        {
+                            "className": "card-surface card-bordered p-lg",
+                            "content": "### Edge API Gateway\nRoutage intelligent et protection DDoS native à l'échelle du globe.",
+                            "id": "s_card_3",
+                            "tag": "div"
+                        }
+                    ],
+                    "className": "grid-3-cols gap-md",
+                    "content": "",
+                    "id": "srv_grid_01",
+                    "tag": "div"
+                }
+            ],
+            "className": "section-spacing container-lg",
+            "content": "",
+            "id": "services_01",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "className": "heading-md text-primary",
+                            "content": "À Propos de CLOUDpulse",
+                            "id": "ab_t_01",
+                            "tag": "h2"
+                        },
+                        {
+                            "className": "text-muted",
+                            "content": "Conçu par des ingénieurs pour des ingénieurs, notre objectif est de réduire la complexité des déploiements cloud tout en garantissant une vitesse d'exécution inégalée.",
+                            "id": "ab_p_01",
+                            "tag": "p"
+                        }
+                    ],
+                    "className": "container-md grid-2-cols items-center gap-lg",
+                    "content": "",
+                    "id": "about_wrap_01",
+                    "tag": "div"
+                }
+            ],
+            "className": "section-spacing bg-dark-surface",
+            "content": "",
+            "id": "about_01",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-lg mb-md text-primary",
+                    "content": "Prêt à faire passer votre infra au niveau supérieur ?",
+                    "id": "cta_h2_01",
+                    "tag": "h2"
+                },
+                {
+                    "children": [
+                        {
+                            "attributes": {
+                                "placeholder": "Entrez votre email professionnel"
+                            },
+                            "className": "input-field",
+                            "content": "",
+                            "id": "cta_input_01",
+                            "tag": "input"
+                        },
+                        {
+                            "className": "btn-primary btn-md",
+                            "content": "Créer un Compte",
+                            "id": "cta_btn_01",
+                            "tag": "button"
+                        }
+                    ],
+                    "className": "flex-center gap-sm max-w-sm mx-auto",
+                    "content": "",
+                    "id": "cta_form_01",
+                    "tag": "div"
+                }
+            ],
+            "className": "section-spacing text-center bg-gradient-dark",
+            "content": "",
+            "id": "cta_01",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "text-sm",
+                    "content": "© 2026 CLOUDpulse Inc. Tous droits réservés.",
+                    "id": "ft_copy_01",
+                    "tag": "p"
+                },
+                {
+                    "className": "footer-links",
+                    "content": "Sécurité — CGU — Documentation",
+                    "id": "ft_links_01",
+                    "tag": "span"
+                }
+            ],
+            "className": "footer-container flex-between border-t-dark text-subtle",
+            "content": "",
+            "id": "footer_01",
+            "tag": "footer"
+        }
+    ],
+    "nom": "saas-cloud-platform",
+    "styles": "{}",
+    "uri": "/saas-cloud-platform"
+}

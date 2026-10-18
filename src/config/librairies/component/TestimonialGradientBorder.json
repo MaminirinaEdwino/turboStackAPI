@@ -1,0 +1,43 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "\"The attention to detail in these UI components is unmatched. It saved our design team weeks of effort.\"",
+                    "form_type": "",
+                    "href": "",
+                    "id": "tg10_quote",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"15px\",\"color\":\"#1e293b\",\"line-height\":\"1.6\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "p"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Nadia B. — Head of Product Design",
+                    "form_type": "",
+                    "href": "",
+                    "id": "tg10_author",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"13px\",\"font-weight\":\"700\",\"color\":\"#8b5cf6\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "tst_grad_10",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#ffffff\",\"border-top\":\"3px solid transparent\",\"border-image\":\"linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899) 1\",\"box-shadow\":\"0 10px 15px -3px rgba(0,0,0,0.05)\",\"padding\":\"32px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"16px\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "TestimonialGradientBorder",
+    "params": null
+}

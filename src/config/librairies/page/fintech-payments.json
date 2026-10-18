@@ -1,0 +1,154 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "className": "brand-logo text-blue",
+                    "content": "PAYFLOW",
+                    "id": "logo_03",
+                    "tag": "div"
+                },
+                {
+                    "className": "btn-primary btn-sm",
+                    "content": "Connexion",
+                    "id": "btn_nav_03",
+                    "tag": "button"
+                }
+            ],
+            "className": "navbar-light flex-between shadow-sm",
+            "content": "",
+            "id": "nav_03",
+            "tag": "header"
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "className": "heading-xl text-slate",
+                            "content": "Paiements sans frontières pour entreprises modernes",
+                            "id": "h1_03",
+                            "tag": "h1"
+                        },
+                        {
+                            "className": "text-lead text-subtle my-md",
+                            "content": "Envoyez et recevez des fonds dans plus de 50 devises avec des taux de change en temps réel.",
+                            "id": "p_03",
+                            "tag": "p"
+                        }
+                    ],
+                    "className": "hero-text-block",
+                    "content": "",
+                    "id": "hero_txt_03",
+                    "tag": "div"
+                },
+                {
+                    "className": "media-placeholder bg-blue-gradient text-white shadow-lg",
+                    "content": "[ Carte Business Virtuelle ]",
+                    "id": "hero_img_03",
+                    "tag": "div"
+                }
+            ],
+            "className": "hero-section container-lg grid-2-cols items-center gap-lg",
+            "content": "",
+            "id": "hero_03",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-md text-center mb-lg",
+                    "content": "Services Financiers",
+                    "id": "s_h2_03",
+                    "tag": "h2"
+                },
+                {
+                    "children": [
+                        {
+                            "className": "card-surface card-flat p-md",
+                            "content": "### Comptes Multi-Devises\nGérez USD, EUR, GBP et plus sur une seule plateforme.",
+                            "id": "sc1_3",
+                            "tag": "div"
+                        },
+                        {
+                            "className": "card-surface card-flat p-md",
+                            "content": "### Cartes Corporatives\nÉmettez des cartes virtuelles à vos équipes instantanément.",
+                            "id": "sc2_3",
+                            "tag": "div"
+                        },
+                        {
+                            "className": "card-surface card-flat p-md",
+                            "content": "### API de Paiement\nIntégrez les encaissements directement dans vos applications.",
+                            "id": "sc3_3",
+                            "tag": "div"
+                        }
+                    ],
+                    "className": "grid-3-cols gap-md container-lg",
+                    "content": "",
+                    "id": "s_grid_03",
+                    "tag": "div"
+                }
+            ],
+            "className": "section-spacing bg-white",
+            "content": "",
+            "id": "services_03",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-md",
+                    "content": "Qui sommes-nous ?",
+                    "id": "ab_h2_03",
+                    "tag": "h2"
+                },
+                {
+                    "className": "text-subtle mt-sm",
+                    "content": "PAYFLOW est un établissement de paiement agréé qui simplifie les flux de trésorerie des entreprises en pleine croissance internationale.",
+                    "id": "ab_p_03",
+                    "tag": "p"
+                }
+            ],
+            "className": "section-spacing container-sm text-center",
+            "content": "",
+            "id": "about_03",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-md mb-md",
+                    "content": "Ouvrez votre compte professionnel en 5 minutes",
+                    "id": "cta_h2_03",
+                    "tag": "h2"
+                },
+                {
+                    "className": "btn-primary btn-lg",
+                    "content": "Commencer Dès Maintenant",
+                    "id": "cta_btn_03",
+                    "tag": "button"
+                }
+            ],
+            "className": "section-spacing bg-slate text-white text-center",
+            "content": "",
+            "id": "cta_03",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "content": "© 2026 PAYFLOW. Regulé par les autorités financières compétentes.",
+                    "id": "ft_03",
+                    "tag": "p"
+                }
+            ],
+            "className": "footer-container bg-slate-dark text-subtle text-center",
+            "content": "",
+            "id": "footer_03",
+            "tag": "footer"
+        }
+    ],
+    "nom": "fintech-payments",
+    "styles": "{}",
+    "uri": "/fintech-payments"
+}

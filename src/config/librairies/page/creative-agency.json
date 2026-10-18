@@ -1,0 +1,69 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "content": "[ STUDIO DE DESIGN BRUTALISTE \u0026 DIGITAL ]",
+                    "id": "sub_title",
+                    "styles": "{\"desktop\":{\"color\":\"#888888\",\"font-size\":\"14px\",\"letter-spacing\":\"3px\",\"margin-bottom\":\"20px\"}}",
+                    "tag": "p"
+                },
+                {
+                    "content": "NOUS CRÉONS DES EXPÉRIENCES MEMORABLES.",
+                    "id": "main_title",
+                    "styles": "{\"desktop\":{\"font-size\":\"72px\",\"font-weight\":\"900\",\"text-transform\":\"uppercase\",\"line-height\":\"0.95\",\"margin-bottom\":\"40px\"},\"mobile\":{\"font-size\":\"38px\"}}",
+                    "tag": "h1"
+                },
+                {
+                    "content": "DÉCOUVRIR LES PROJETS ↓",
+                    "id": "agency_cta",
+                    "styles": "{\"desktop\":{\"color\":\"#ffffff\",\"font-size\":\"18px\",\"font-weight\":\"700\",\"text-decoration\":\"underline\",\"cursor\":\"pointer\"}}",
+                    "tag": "a"
+                }
+            ],
+            "content": "",
+            "id": "hero_agency",
+            "styles": "{\"desktop\":{\"height\":\"90vh\",\"display\":\"flex\",\"flex-direction\":\"column\",\"justify-content\":\"center\",\"padding\":\"0 10%\"}}",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "content": "01 / FINTECH REBRAND",
+                            "id": "p1_txt",
+                            "styles": "{\"desktop\":{\"font-size\":\"20px\"}}",
+                            "tag": "h3"
+                        }
+                    ],
+                    "content": "",
+                    "id": "proj_1",
+                    "styles": "{\"desktop\":{\"height\":\"400px\",\"background\":\"#111111\",\"border\":\"1px solid #222222\",\"display\":\"flex\",\"align-items\":\"flex-end\",\"padding\":\"24px\"}",
+                    "tag": "div"
+                },
+                {
+                    "children": [
+                        {
+                            "content": "02 / CYBERPUNK GAME UI",
+                            "id": "p2_txt",
+                            "styles": "{\"desktop\":{\"font-size\":\"20px\"}}",
+                            "tag": "h3"
+                        }
+                    ],
+                    "content": "",
+                    "id": "proj_2",
+                    "styles": "{\"desktop\":{\"height\":\"400px\",\"background\":\"#111111\",\"border\":\"1px solid #222222\",\"display\":\"flex\",\"align-items\":\"flex-end\",\"padding\":\"24px\"}",
+                    "tag": "div"
+                }
+            ],
+            "content": "",
+            "id": "portfolio_grid",
+            "styles": "{\"desktop\":{\"display\":\"grid\",\"grid-template-columns\":\"1fr 1fr\",\"gap\":\"40px\",\"padding\":\"0 10% 100px 10%\"},\"mobile\":{\"grid-template-columns\":\"1fr\"}}",
+            "tag": "section"
+        }
+    ],
+    "nom": "creative-agency",
+    "styles": "{\"desktop\":{\"body\":\"font-family: 'Helvetica Neue', sans-serif; background-color: #000000; color: #ffffff; margin: 0;\"}}",
+    "uri": "/creative-agency"
+}

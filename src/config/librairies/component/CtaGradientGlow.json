@@ -1,0 +1,43 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Supercharge your website today",
+                    "form_type": "",
+                    "href": "",
+                    "id": "cta_glow_h",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"26px\",\"font-weight\":\"800\",\"color\":\"#ffffff\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "h3"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Claim Special Offer",
+                    "form_type": "button",
+                    "href": "",
+                    "id": "cta_glow_btn",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background-color\":\"#ffffff\",\"color\":\"#8b5cf6\",\"font-size\":\"14px\",\"font-weight\":\"700\",\"padding\":\"12px 26px\",\"border-radius\":\"9999px\",\"border\":\"none\",\"cursor\":\"pointer\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "button"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "cta_glow_5",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-image\":\"linear-gradient(135deg, #ec4899 0%, #8b5cf6 50%, #3b82f6 100%)\",\"border-radius\":\"20px\",\"padding\":\"40px 32px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"align-items\":\"center\",\"text-align\":\"center\",\"gap\":\"16px\",\"box-shadow\":\"0 15px 30px rgba(139, 92, 246, 0.35)\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "CtaGradientGlow",
+    "params": null
+}

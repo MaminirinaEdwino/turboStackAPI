@@ -1,0 +1,18 @@
+{
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "inp_neon_6",
+            "input_type": "text",
+            "placeholder": "0x... wallet address",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"padding\":\"10px 14px\",\"border-radius\":\"8px\",\"border\":\"1px solid #10b981\",\"background-color\":\"#022c22\",\"color\":\"#34d399\",\"font-size\":\"14px\",\"outline\":\"none\",\"box-shadow\":\"0 0 10px rgba(16, 185, 129, 0.3)\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "input"
+        }
+    ],
+    "nom": "InputNeon",
+    "params": null
+}

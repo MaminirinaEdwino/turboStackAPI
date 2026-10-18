@@ -1,0 +1,68 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Deploy your smart contract stack",
+                            "form_type": "",
+                            "href": "",
+                            "id": "cta_cyber_h",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"20px\",\"font-weight\":\"700\",\"color\":\"#ecfdf5\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "h3"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Instant deployment with zero gas optimization required.",
+                            "form_type": "",
+                            "href": "",
+                            "id": "cta_cyber_p",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"13px\",\"color\":\"#6ee7b7\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "p"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "cta_cyber_txt",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"4px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Launch App",
+                    "form_type": "button",
+                    "href": "",
+                    "id": "cta_cyber_btn",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background-color\":\"#10b981\",\"color\":\"#022c22\",\"font-size\":\"14px\",\"font-weight\":\"700\",\"padding\":\"12px 24px\",\"border-radius\":\"8px\",\"border\":\"none\",\"cursor\":\"pointer\",\"box-shadow\":\"0 0 15px rgba(16, 185, 129, 0.4)\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "button"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "cta_cyber_10",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#022c22\",\"border\":\"1px solid #10b981\",\"border-radius\":\"16px\",\"padding\":\"36px\",\"display\":\"flex\",\"justify-content\":\"space-between\",\"align-items\":\"center\",\"box-shadow\":\"0 0 25px rgba(16, 185, 129, 0.2)\"},\"tablet\":{\"flex-direction\":\"column\",\"gap\":\"20px\",\"text-align\":\"center\"},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "CtaCyberGlow",
+    "params": null
+}

@@ -1,0 +1,18 @@
+{
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "Delete Account",
+            "form_type": "button",
+            "href": "",
+            "id": "btn_danger_7",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"background-color\":\"#fef2f2\",\"color\":\"#ef4444\",\"font-size\":\"13px\",\"font-weight\":\"600\",\"padding\":\"10px 18px\",\"border-radius\":\"8px\",\"border\":\"1px solid #fecaca\",\"cursor\":\"pointer\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "button"
+        }
+    ],
+    "nom": "BtnDangerSoft",
+    "params": null
+}

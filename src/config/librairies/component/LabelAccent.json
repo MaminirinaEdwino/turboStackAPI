@@ -1,0 +1,18 @@
+{
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "Security Settings",
+            "form_type": "",
+            "href": "",
+            "id": "lbl_acc_8",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"font-size\":\"15px\",\"font-weight\":\"700\",\"color\":\"#4f46e5\",\"display\":\"inline-block\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "label"
+        }
+    ],
+    "nom": "LabelAccent",
+    "params": null
+}

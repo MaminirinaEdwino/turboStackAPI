@@ -1,0 +1,43 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "\"10/10 EXCELLENT TOOL! SHIPPED MY ENTIRE SAAS IN LESS THAN A WEEK!!\"",
+                    "form_type": "",
+                    "href": "",
+                    "id": "tn6_quote",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"18px\",\"font-weight\":\"900\",\"color\":\"#000000\",\"line-height\":\"1.3\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "p"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "— TOM B., INDIE HACKER",
+                    "form_type": "",
+                    "href": "",
+                    "id": "tn6_author",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"12px\",\"font-weight\":\"900\",\"background-color\":\"#ffffff\",\"padding\":\"6px 12px\",\"border\":\"2px solid #000000\",\"width\":\"fit-content\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "tst_neo_6",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#fde047\",\"border\":\"3px solid #000000\",\"box-shadow\":\"6px 6px 0px #000000\",\"padding\":\"32px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"16px\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "TestimonialNeoBrutal",
+    "params": null
+}

@@ -1,0 +1,31 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "⚠️ Scheduled maintenance will occur tonight at 02:00 UTC. Expect minor downtime.",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ban_soft_text",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"color\":\"#b45309\",\"font-size\":\"13px\",\"font-weight\":\"500\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "p"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "ban_soft_1",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#fffbebe6\",\"border\":\"1px solid #fef3c7\",\"border-radius\":\"12px\",\"padding\":\"14px 18px\",\"display\":\"flex\",\"align-items\":\"center\",\"gap\":\"12px\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "BannerSoftAlert",
+    "params": null
+}

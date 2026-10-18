@@ -1,0 +1,18 @@
+{
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "Documentation",
+            "form_type": "button",
+            "href": "",
+            "id": "btn_dark_4",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"background-color\":\"#09090b\",\"color\":\"#f4f4f5\",\"font-size\":\"13px\",\"font-weight\":\"600\",\"padding\":\"10px 20px\",\"border-radius\":\"8px\",\"border\":\"1px solid #27272a\",\"cursor\":\"pointer\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "button"
+        }
+    ],
+    "nom": "BtnDarkSleek",
+    "params": null
+}

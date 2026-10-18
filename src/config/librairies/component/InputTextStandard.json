@@ -1,0 +1,18 @@
+{
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "inp_text_1",
+            "input_type": "text",
+            "placeholder": "Enter your name...",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"padding\":\"10px 14px\",\"border-radius\":\"10px\",\"border\":\"1px solid #e5e7eb\",\"background-color\":\"#ffffff\",\"color\":\"#111827\",\"font-size\":\"14px\",\"outline\":\"none\",\"box-shadow\":\"0 1px 2px rgba(0, 0, 0, 0.05)\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "input"
+        }
+    ],
+    "nom": "InputTextStandard",
+    "params": null
+}

@@ -1,0 +1,43 @@
+{
+    "desktop": {
+        ".bg-emerald-dark": "background-color: #064e3b;",
+        ".bg-emerald-light": "background-color: #ecfdf5;",
+        ".border-b-subtle": "border-bottom: 1px solid #ecfdf5;",
+        ".brand-logo": "font-weight: 800; font-size: 22px;",
+        ".btn-emerald": "background-color: #047857; color: #ffffff; border: none; font-weight: 600; cursor: pointer; border-radius: 9999px;",
+        ".btn-emerald-bright": "background-color: #10b981; color: #047857; border: none; font-weight: 800; cursor: pointer; border-radius: 9999px;",
+        ".btn-lg": "padding: 16px 32px; font-size: 16px;",
+        ".btn-sm": "padding: 8px 20px; font-size: 14px;",
+        ".card-white": "background-color: #ffffff; border-radius: 12px;",
+        ".container-lg": "max-width: 1140px; margin: 0 auto;",
+        ".container-md": "max-width: 760px; margin: 0 auto;",
+        ".footer-container": "padding: 32px; text-align: center; background-color: #ffffff;",
+        ".gap-md": "gap: 24px;",
+        ".grid-3-cols": "display: grid; grid-template-columns: repeat(3, 1fr);",
+        ".heading-lg": "font-size: 34px; font-weight: 700;",
+        ".heading-md": "font-size: 26px; font-weight: 700;",
+        ".heading-xl": "font-size: 46px; font-weight: 800; line-height: 1.2;",
+        ".hero-section": "padding: 90px 24px; background-color: #ffffff;",
+        ".mb-lg": "margin-bottom: 32px;",
+        ".mt-md": "margin-top: 24px;",
+        ".mt-sm": "margin-top: 12px;",
+        ".my-md": "margin-top: 20px; margin-bottom: 20px;",
+        ".navbar-light": "display: flex; justify-content: space-between; align-items: center; padding: 20px 48px; background-color: #ffffff;",
+        ".p-md": "padding: 28px;",
+        ".section-spacing": "padding: 80px 24px;",
+        ".shadow-xs": "box-shadow: 0 2px 4px rgba(0,0,0,0.02);",
+        ".text-center": "text-align: center;",
+        ".text-emerald-dark": "color: #064e3b;",
+        ".text-lead": "font-size: 19px; line-height: 1.6;",
+        ".text-muted": "color: #374151;",
+        ".text-white": "color: #ffffff;"
+    },
+    "mobile": {
+        ".grid-3-cols": "grid-template-columns: 1fr;",
+        ".heading-xl": "font-size: 28px;"
+    },
+    "tablet": {
+        ".grid-3-cols": "grid-template-columns: repeat(2, 1fr);",
+        ".heading-xl": "font-size: 34px;"
+    }
+}

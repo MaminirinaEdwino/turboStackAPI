@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "“",
+                    "form_type": "",
+                    "href": "",
+                    "id": "tc3_mark",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"72px\",\"font-family\":\"serif\",\"color\":\"#6366f1\",\"line-height\":\"0.5\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "We reduced our website build time by 70% in the first quarter of adoption. It is easily the best investment we made this year.",
+                    "form_type": "",
+                    "href": "",
+                    "id": "tc3_quote",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"24px\",\"font-weight\":\"700\",\"color\":\"#0f172a\",\"line-height\":\"1.4\"},\"tablet\":{\"font-size\":\"20px\"},\"mobile\":{}}",
+                    "tag": "p"
+                },
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Sarah Jenkins",
+                            "form_type": "",
+                            "href": "",
+                            "id": "tc3_name",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"16px\",\"font-weight\":\"700\",\"color\":\"#0f172a\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "span"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "VP of Product, ScaleUp",
+                            "form_type": "",
+                            "href": "",
+                            "id": "tc3_role",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"13px\",\"color\":\"#64748b\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "span"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "tc3_author",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"4px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "tst_cnt_3",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"padding\":\"60px 24px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"align-items\":\"center\",\"text-align\":\"center\",\"gap\":\"24px\",\"max-width\":\"800px\",\"margin\":\"0 auto\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "TestimonialLargeCentered",
+    "params": null
+}

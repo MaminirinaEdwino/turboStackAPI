@@ -1,0 +1,47 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "content": "Jouez sans frontières.",
+                            "id": "a_title",
+                            "styles": "{\"desktop\":{\"font-size\":\"48px\",\"font-weight\":\"800\",\"color\":\"#a855f7\"}}",
+                            "tag": "h1"
+                        },
+                        {
+                            "content": "Téléchargez l'application mobile de cloud gaming la plus rapide au monde. Profitez de vos jeux AAA où que vous soyez.",
+                            "id": "a_desc",
+                            "styles": "{\"desktop\":{\"font-size\":\"18px\",\"color\":\"#94a3b8\",\"margin-bottom\":\"30px\"}}",
+                            "tag": "p"
+                        },
+                        {
+                            "content": "📱 Disponible sur iOS et Android",
+                            "id": "store_btns",
+                            "styles": "{\"desktop\":{\"background\":\"#1e293b\",\"padding\":\"16px 24px\",\"border-radius\":\"12px\",\"display\":\"inline-block\",\"font-weight\":\"600\"}}",
+                            "tag": "div"
+                        }
+                    ],
+                    "content": "",
+                    "id": "app_left",
+                    "styles": "{\"desktop\":{\"flex\":\"1\"}}",
+                    "tag": "div"
+                },
+                {
+                    "content": "[ Mockup Smartphone App ]",
+                    "id": "app_right",
+                    "styles": "{\"desktop\":{\"flex\":\"1\",\"height\":\"500px\",\"background\":\"linear-gradient(135deg, #a855f7 0%, #6366f1 100%)\",\"border-radius\":\"40px\",\"display\":\"flex\",\"align-items\":\"center\",\"justify-content\":\"center\",\"font-weight\":\"bold\"}}",
+                    "tag": "div"
+                }
+            ],
+            "content": "",
+            "id": "app_hero",
+            "styles": "{\"desktop\":{\"display\":\"flex\",\"align-items\":\"center\",\"justify-content\":\"space-between\",\"padding\":\"100px 10%\",\"gap\":\"60px\"},\"mobile\":{\"flex-direction\":\"column\",\"padding\":\"40px 20px\"}}",
+            "tag": "section"
+        }
+    ],
+    "nom": "mobile-app-launch",
+    "styles": "{\"desktop\":{\"body\":\"font-family: system-ui; background: #0f172a; color: #fff; margin:0;\"}}",
+    "uri": "/mobile-app-launch"
+}

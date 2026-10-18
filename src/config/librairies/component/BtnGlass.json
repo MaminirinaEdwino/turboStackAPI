@@ -1,0 +1,18 @@
+{
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "Explore Platform",
+            "form_type": "button",
+            "href": "",
+            "id": "btn_g_2",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"background-color\":\"rgba(255, 255, 255, 0.1)\",\"color\":\"#ffffff\",\"font-size\":\"14px\",\"font-weight\":\"500\",\"padding\":\"12px 22px\",\"border-radius\":\"12px\",\"border\":\"1px solid rgba(255, 255, 255, 0.2)\",\"backdrop-filter\":\"blur(10px)\",\"cursor\":\"pointer\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "button"
+        }
+    ],
+    "nom": "BtnGlass",
+    "params": null
+}

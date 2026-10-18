@@ -1,0 +1,48 @@
+{
+    "desktop": {
+        ".bg-rose": "background-color: #f43f5e;",
+        ".bg-rose-gradient": "background: linear-gradient(135deg, #f43f5e 0%, #be123c 100%);",
+        ".bg-zinc-dark": "background-color: #18181b;",
+        ".border-b-subtle": "border-bottom: 1px solid #27272a;",
+        ".brand-logo": "font-weight: 900; font-size: 22px; italic;",
+        ".btn-black-rounded": "background-color: #000000; color: #ffffff; border: none; font-weight: 800; border-radius: 12px; cursor: pointer;",
+        ".btn-lg": "padding: 16px 32px; font-size: 16px;",
+        ".btn-rose-pill": "background-color: #f43f5e; color: #ffffff; border: none; font-weight: 700; border-radius: 9999px; cursor: pointer;",
+        ".btn-sm": "padding: 8px 18px; font-size: 14px;",
+        ".card-zinc": "background-color: #09090b; border-radius: 16px; border: 1px solid #27272a;",
+        ".container-lg": "max-width: 1140px; margin: 0 auto;",
+        ".container-md": "max-width: 720px; margin: 0 auto;",
+        ".footer-container": "padding: 32px; background-color: #09090b;",
+        ".gap-lg": "gap: 40px;",
+        ".gap-md": "gap: 24px;",
+        ".grid-2-cols": "display: grid; grid-template-columns: 1fr 1fr;",
+        ".grid-3-cols": "display: grid; grid-template-columns: repeat(3, 1fr);",
+        ".heading-lg": "font-size: 36px; font-weight: 800;",
+        ".heading-md": "font-size: 26px; font-weight: 700;",
+        ".heading-xl": "font-size: 48px; font-weight: 900; line-height: 1.1; letter-spacing: -0.5px;",
+        ".hero-section": "padding: 80px 24px; background-color: #09090b;",
+        ".hero-text-block": "padding-right: 24px;",
+        ".items-center": "align-items: center;",
+        ".mb-lg": "margin-bottom: 32px;",
+        ".media-placeholder": "height: 380px; border-radius: 24px; display: flex; align-items: center; justify-content: center; font-weight: 700;",
+        ".mt-md": "margin-top: 24px;",
+        ".mt-sm": "margin-top: 12px;",
+        ".my-md": "margin-top: 20px; margin-bottom: 20px;",
+        ".navbar-dark": "display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; background-color: #09090b;",
+        ".p-md": "padding: 28px;",
+        ".section-spacing": "padding: 80px 24px;",
+        ".text-center": "text-align: center;",
+        ".text-lead": "font-size: 18px; line-height: 1.5;",
+        ".text-muted": "color: #a1a1aa;",
+        ".text-rose": "color: #f43f5e;",
+        ".text-white": "color: #ffffff;"
+    },
+    "mobile": {
+        ".grid-3-cols": "grid-template-columns: 1fr;",
+        ".heading-xl": "font-size: 30px;"
+    },
+    "tablet": {
+        ".grid-2-cols": "grid-template-columns: 1fr;",
+        ".grid-3-cols": "grid-template-columns: repeat(2, 1fr);"
+    }
+}

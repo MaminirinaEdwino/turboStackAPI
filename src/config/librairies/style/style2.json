@@ -1,0 +1,47 @@
+{
+    "desktop": {
+        ".bg-black": "background-color: #000000;",
+        ".bg-emerald": "background-color: #10b981;",
+        ".bg-surface-dark": "background-color: #0a0a0a;",
+        ".border-b-subtle": "border-bottom: 1px solid #1a1a1a;",
+        ".border-t-subtle": "border-top: 1px solid #1a1a1a;",
+        ".brand-logo": "font-weight: 800; font-size: 22px; letter-spacing: 1px;",
+        ".btn-dark": "background-color: #000000; color: #ffffff; border: none; font-weight: 700; cursor: pointer; border-radius: 4px;",
+        ".btn-emerald": "background-color: #10b981; color: #000000; border: none; font-weight: 700; cursor: pointer; border-radius: 4px;",
+        ".btn-lg": "padding: 16px 32px; font-size: 18px;",
+        ".btn-sm": "padding: 8px 16px; font-size: 14px;",
+        ".card-dark": "background-color: #121215;",
+        ".card-outlined": "border: 1px solid #27272a; border-radius: 8px;",
+        ".container-lg": "max-width: 1200px; margin: 0 auto;",
+        ".container-md": "max-width: 800px; margin: 0 auto;",
+        ".footer-container": "padding: 40px; text-align: center;",
+        ".gap-md": "gap: 24px;",
+        ".grid-3-cols": "display: grid; grid-template-columns: repeat(3, 1fr);",
+        ".heading-lg": "font-size: 36px; font-weight: 800;",
+        ".heading-md": "font-size: 28px; font-weight: 700;",
+        ".heading-xl": "font-size: 52px; font-weight: 900; line-height: 1.1; letter-spacing: -1px;",
+        ".hero-section": "padding: 100px 24px; text-align: left;",
+        ".mb-lg": "margin-bottom: 32px;",
+        ".mt-md": "margin-top: 24px;",
+        ".mt-sm": "margin-top: 12px;",
+        ".my-md": "margin-top: 24px; margin-bottom: 24px;",
+        ".navbar-dark": "display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; background-color: #050505;",
+        ".p-md": "padding: 24px;",
+        ".section-spacing": "padding: 80px 24px;",
+        ".text-center": "text-align: center;",
+        ".text-emerald": "color: #10b981;",
+        ".text-inverse": "color: #000000;",
+        ".text-lead": "font-size: 20px; line-height: 1.5;",
+        ".text-muted": "color: #a1a1aa;",
+        ".text-primary": "color: #ffffff;",
+        ".text-subtle": "color: #52525b;"
+    },
+    "mobile": {
+        ".grid-3-cols": "grid-template-columns: 1fr;",
+        ".heading-xl": "font-size: 30px;"
+    },
+    "tablet": {
+        ".grid-3-cols": "grid-template-columns: repeat(2, 1fr);",
+        ".heading-xl": "font-size: 38px;"
+    }
+}

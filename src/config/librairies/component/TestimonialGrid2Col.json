@@ -1,0 +1,93 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "\"Incredible modularity. Adding custom styling via JSON has never been this straightforward.\"",
+                            "form_type": "",
+                            "href": "",
+                            "id": "tg4_q1",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"14px\",\"color\":\"#334155\",\"line-height\":\"1.6\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "p"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "— Marc V., Product Designer",
+                            "form_type": "",
+                            "href": "",
+                            "id": "tg4_n1",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"12px\",\"font-weight\":\"700\",\"color\":\"#0f172a\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "span"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "tg4_item1",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background-color\":\"#f8fafc\",\"border\":\"1px solid #e2e8f0\",\"border-radius\":\"16px\",\"padding\":\"28px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"16px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                },
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "\"Our conversion rate went up by 35% after redesigning our landing page components.\"",
+                            "form_type": "",
+                            "href": "",
+                            "id": "tg4_q2",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"14px\",\"color\":\"#334155\",\"line-height\":\"1.6\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "p"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "— Sophie L., Marketing Director",
+                            "form_type": "",
+                            "href": "",
+                            "id": "tg4_n2",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"12px\",\"font-weight\":\"700\",\"color\":\"#0f172a\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "span"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "tg4_item2",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background-color\":\"#f8fafc\",\"border\":\"1px solid #e2e8f0\",\"border-radius\":\"16px\",\"padding\":\"28px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"16px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "tst_grid_4",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"display\":\"grid\",\"grid-template-columns\":\"repeat(2, 1fr)\",\"gap\":\"24px\",\"padding\":\"40px 0\"},\"tablet\":{\"grid-template-columns\":\"repeat(1, 1fr)\"},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "TestimonialGrid2Col",
+    "params": null
+}

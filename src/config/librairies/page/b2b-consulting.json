@@ -1,0 +1,70 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "content": "Optimisez vos architectures serveurs complexes.",
+                            "id": "b_h1",
+                            "styles": "{\"desktop\":{\"font-size\":\"48px\",\"font-weight\":\"700\",\"line-height\":\"1.2\"}}",
+                            "tag": "h1"
+                        },
+                        {
+                            "content": "Nous accompagnons les entreprises dans le refactoring de leurs infrastructures critiques et l'implémentation de pipelines haute performance.",
+                            "id": "b_p",
+                            "styles": "{\"desktop\":{\"color\":\"#8d99ae\",\"font-size\":\"18px\",\"margin\":\"20px 0 30px 0\"}}",
+                            "tag": "p"
+                        }
+                    ],
+                    "content": "",
+                    "id": "b2b_left",
+                    "tag": "div"
+                },
+                {
+                    "children": [
+                        {
+                            "content": "Demander un Audit Technique",
+                            "id": "f_title",
+                            "styles": "{\"desktop\":{\"margin\":\"0 0 10px 0\"}}",
+                            "tag": "h3"
+                        },
+                        {
+                            "content": "",
+                            "id": "f_i1",
+                            "input_type": "text",
+                            "placeholder": "Nom de l'entreprise",
+                            "styles": "{\"desktop\":{\"padding\":\"12px\",\"border-radius\":\"6px\",\"border\":\"none\",\"background\":\"#0b132b\",\"color\":\"#fff\"}}",
+                            "tag": "input"
+                        },
+                        {
+                            "content": "",
+                            "id": "f_i2",
+                            "input_type": "email",
+                            "placeholder": "Email professionnel",
+                            "styles": "{\"desktop\":{\"padding\":\"12px\",\"border-radius\":\"6px\",\"border\":\"none\",\"background\":\"#0b132b\",\"color\":\"#fff\"}}",
+                            "tag": "input"
+                        },
+                        {
+                            "content": "Envoyer la Demande",
+                            "id": "f_sub",
+                            "styles": "{\"desktop\":{\"background\":\"#48cae4\",\"color\":\"#0b132b\",\"border\":\"none\",\"padding\":\"14px\",\"border-radius\":\"6px\",\"font-weight\":\"bold\",\"cursor\":\"pointer\"}}",
+                            "tag": "button"
+                        }
+                    ],
+                    "content": "",
+                    "id": "b2b_right_form",
+                    "styles": "{\"desktop\":{\"background\":\"#1c2541\",\"padding\":\"32px\",\"border-radius\":\"12px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"16px\"}}",
+                    "tag": "form"
+                }
+            ],
+            "content": "",
+            "id": "b2b_hero",
+            "styles": "{\"desktop\":{\"padding\":\"100px 10%\",\"display\":\"grid\",\"grid-template-columns\":\"1.2fr 0.8fr\",\"gap\":\"40px\",\"align-items\":\"center\"},\"mobile\":{\"grid-template-columns\":\"1fr\"}}",
+            "tag": "section"
+        }
+    ],
+    "nom": "b2b-consulting",
+    "styles": "{\"desktop\":{\"body\":\"font-family: sans-serif; background: #0b132b; color: #ffffff; margin:0;\"}}",
+    "uri": "/b2b-consulting"
+}

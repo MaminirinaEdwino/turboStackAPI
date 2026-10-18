@@ -1,0 +1,93 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "\"Migrating our design system to TurboStack gave us an immediate boost in site speed.\"",
+                            "form_type": "",
+                            "href": "",
+                            "id": "ts9_q",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"15px\",\"color\":\"#166534\",\"line-height\":\"1.5\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "p"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Julian R., VP of Engineering",
+                            "form_type": "",
+                            "href": "",
+                            "id": "ts9_a",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"12px\",\"font-weight\":\"700\",\"color\":\"#15803d\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "span"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ts9_text",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"8px\",\"max-width\":\"500px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                },
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "+240%",
+                            "form_type": "",
+                            "href": "",
+                            "id": "ts9_num",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"28px\",\"font-weight\":\"900\",\"color\":\"#15803d\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "span"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Lighthouse Score",
+                            "form_type": "",
+                            "href": "",
+                            "id": "ts9_lbl",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"11px\",\"color\":\"#166534\",\"font-weight\":\"600\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "span"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ts9_badge",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"align-items\":\"center\",\"background-color\":\"#ffffff\",\"padding\":\"16px 24px\",\"border-radius\":\"12px\",\"border\":\"1px solid #86efac\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "tst_stat_9",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#f0fdf4\",\"border\":\"1px solid #bbf7d0\",\"border-radius\":\"16px\",\"padding\":\"32px\",\"display\":\"flex\",\"justify-content\":\"space-between\",\"align-items\":\"center\",\"gap\":\"24px\"},\"tablet\":{\"flex-direction\":\"column\",\"align-items\":\"flex-start\"},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "TestimonialStatMetrics",
+    "params": null
+}

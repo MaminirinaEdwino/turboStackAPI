@@ -1,0 +1,105 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Shop",
+                            "form_type": "",
+                            "href": "#",
+                            "id": "ncn_1",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"color\":\"#111827\",\"font-size\":\"13px\",\"font-weight\":\"600\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "a"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Collections",
+                            "form_type": "",
+                            "href": "#",
+                            "id": "ncn_2",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"color\":\"#111827\",\"font-size\":\"13px\",\"font-weight\":\"600\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "a"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "nav_cnt_left",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"gap\":\"20px\"},\"tablet\":{\"display\":\"none\"},\"mobile\":{}}",
+                    "tag": "div"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "MAISON",
+                    "form_type": "",
+                    "href": "",
+                    "id": "nav_cnt_logo",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"22px\",\"font-weight\":\"900\",\"letter-spacing\":\"0.15em\",\"color\":\"#000000\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                },
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "About",
+                            "form_type": "",
+                            "href": "#",
+                            "id": "ncn_3",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"color\":\"#111827\",\"font-size\":\"13px\",\"font-weight\":\"600\",\"text-decoration\":\"none\"},\"tablet\":{\"display\":\"none\"},\"mobile\":{}}",
+                            "tag": "a"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Cart (0)",
+                            "form_type": "",
+                            "href": "#",
+                            "id": "ncn_4",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"color\":\"#111827\",\"font-size\":\"13px\",\"font-weight\":\"600\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "a"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "nav_cnt_right",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"gap\":\"20px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "nav_cnt_4",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#ffffff\",\"border-bottom\":\"1px solid #e5e7eb\",\"padding\":\"16px 40px\",\"display\":\"flex\",\"justify-content\":\"space-between\",\"align-items\":\"center\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "NavbarCenteredLogo",
+    "params": null
+}

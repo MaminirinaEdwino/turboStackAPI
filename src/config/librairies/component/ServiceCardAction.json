@@ -1,0 +1,67 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "DEVELOPMENT",
+                    "form_type": "",
+                    "href": "",
+                    "id": "sc1_tag",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"11px\",\"font-weight\":\"700\",\"color\":\"#2563eb\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Custom Web Engineering",
+                    "form_type": "",
+                    "href": "",
+                    "id": "sc1_h3",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"20px\",\"font-weight\":\"700\",\"color\":\"#111827\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "h3"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Tailor-made web applications built with performance and scaling in mind.",
+                    "form_type": "",
+                    "href": "",
+                    "id": "sc1_p",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"14px\",\"color\":\"#4b5563\",\"line-height\":\"1.5\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "p"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Explore Service →",
+                    "form_type": "",
+                    "href": "#",
+                    "id": "sc1_a",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"13px\",\"font-weight\":\"600\",\"color\":\"#2563eb\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "a"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "srv_card_1",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#ffffff\",\"border\":\"1px solid #e5e7eb\",\"border-radius\":\"16px\",\"padding\":\"32px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"16px\",\"box-shadow\":\"0 4px 6px -1px rgba(0,0,0,0.03)\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "ServiceCardAction",
+    "params": null
+}

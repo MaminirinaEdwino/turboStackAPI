@@ -1,0 +1,93 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "AUTOMATION",
+                            "form_type": "",
+                            "href": "",
+                            "id": "fbl_tag",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"11px\",\"font-weight\":\"700\",\"color\":\"#0284c7\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "span"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Automate routine actions seamlessly",
+                            "form_type": "",
+                            "href": "",
+                            "id": "fbl_title",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"22px\",\"font-weight\":\"800\",\"color\":\"#0f172a\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "h3"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "fb_large",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background-color\":\"#f1f5f9\",\"border-radius\":\"20px\",\"padding\":\"32px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"justify-content\":\"space-between\",\"min-height\":\"220px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                },
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "AI READY",
+                            "form_type": "",
+                            "href": "",
+                            "id": "fbs_tag",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"11px\",\"font-weight\":\"700\",\"color\":\"#c7d2fe\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "span"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Smart suggestions",
+                            "form_type": "",
+                            "href": "",
+                            "id": "fbs_title",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"20px\",\"font-weight\":\"700\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "h3"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "fb_small",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background-color\":\"#4f46e5\",\"color\":\"#ffffff\",\"border-radius\":\"20px\",\"padding\":\"32px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"justify-content\":\"space-between\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "feat_bento_4",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"display\":\"grid\",\"grid-template-columns\":\"2fr 1fr\",\"gap\":\"16px\",\"padding\":\"20px 0\"},\"tablet\":{\"grid-template-columns\":\"1fr\"},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "FeatureBentoGrid",
+    "params": null
+}

@@ -1,0 +1,18 @@
+{
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "inp_search_2",
+            "input_type": "search",
+            "placeholder": "Search anything...",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"padding\":\"12px 18px\",\"border-radius\":\"9999px\",\"border\":\"1px solid #f3f4f6\",\"background-color\":\"#f9fafb\",\"color\":\"#1f2937\",\"font-size\":\"14px\",\"outline\":\"none\",\"box-shadow\":\"0 4px 6px -1px rgba(0, 0, 0, 0.05)\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "input"
+        }
+    ],
+    "nom": "InputSearch",
+    "params": null
+}

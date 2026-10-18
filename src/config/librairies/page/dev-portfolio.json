@@ -1,0 +1,33 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "content": "const developer = { name: 'Maminirina Edwino', role: 'Full-Stack \u0026 Systems' };",
+                    "id": "code_line1",
+                    "styles": "{\"desktop\":{\"color\":\"#ff7b72\"}}",
+                    "tag": "p"
+                },
+                {
+                    "content": "Building high-performance backends \u0026 modern web solutions.",
+                    "id": "dev_h1",
+                    "styles": "{\"desktop\":{\"font-size\":\"40px\",\"color\":\"#58a6ff\",\"margin\":\"20px 0\"}}",
+                    "tag": "h1"
+                },
+                {
+                    "content": "$ go run main.go\n\u003e Server running on :8080 [OK]\n\u003e WebAssembly module initialized [OK]",
+                    "id": "terminal_box",
+                    "styles": "{\"desktop\":{\"background\":\"#161b22\",\"border\":\"1px solid #30363d\",\"padding\":\"20px\",\"border-radius\":\"8px\",\"color\":\"#7ee787\",\"white-space\":\"pre-wrap\"}}",
+                    "tag": "div"
+                }
+            ],
+            "content": "",
+            "id": "dev_hero",
+            "styles": "{\"desktop\":{\"padding\":\"100px 15%\"}}",
+            "tag": "section"
+        }
+    ],
+    "nom": "dev-portfolio",
+    "styles": "{\"desktop\":{\"body\":\"font-family: 'Fira Code', monospace; background-color: #0d1117; color: #c9d1d9; margin:0;\"}}",
+    "uri": "/dev-portfolio"
+}

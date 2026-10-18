@@ -1,0 +1,140 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "className": "brand-logo text-emerald",
+                    "content": "NEURAL LABS",
+                    "id": "logo_02",
+                    "tag": "div"
+                },
+                {
+                    "className": "btn-emerald btn-sm",
+                    "content": "Contacter un Expert",
+                    "id": "btn_nav_02",
+                    "tag": "button"
+                }
+            ],
+            "className": "navbar-dark flex-between border-b-subtle",
+            "content": "",
+            "id": "nav_02",
+            "tag": "header"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-xl text-emerald",
+                    "content": "L'Intelligence Artificielle sur-mesure pour votre entreprise",
+                    "id": "h1_02",
+                    "tag": "h1"
+                },
+                {
+                    "className": "text-lead text-muted my-md",
+                    "content": "Nous concevons, entraînons et déployons des modèles LLM et prédictifs adaptés à vos données métiers.",
+                    "id": "p_02",
+                    "tag": "p"
+                }
+            ],
+            "className": "hero-section container-md",
+            "content": "",
+            "id": "hero_02",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-md text-primary mb-lg",
+                    "content": "Nos Pôles d'Expertise",
+                    "id": "srv_h2_02",
+                    "tag": "h2"
+                },
+                {
+                    "children": [
+                        {
+                            "className": "card-outlined card-dark p-md",
+                            "content": "### LLMs Privés\nFine-tuning de modèles open-source sur vos serveurs locaux.",
+                            "id": "sc_1",
+                            "tag": "div"
+                        },
+                        {
+                            "className": "card-outlined card-dark p-md",
+                            "content": "### Pipelines RAG\nSearch vectoriel avancé couplé à vos bases de connaissances.",
+                            "id": "sc_2",
+                            "tag": "div"
+                        },
+                        {
+                            "className": "card-outlined card-dark p-md",
+                            "content": "### MLOps \u0026 Monitoring\nSupervision continue des dérives de modèles en production.",
+                            "id": "sc_3",
+                            "tag": "div"
+                        }
+                    ],
+                    "className": "grid-3-cols gap-md container-lg",
+                    "content": "",
+                    "id": "srv_grid_02",
+                    "tag": "div"
+                }
+            ],
+            "className": "section-spacing bg-surface-dark",
+            "content": "",
+            "id": "services_02",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-md text-primary",
+                    "content": "Notre Mission",
+                    "id": "ab_h2_02",
+                    "tag": "h2"
+                },
+                {
+                    "className": "text-muted text-lead mt-sm",
+                    "content": "Garantir une souveraineté totale de vos données tout en tirant parti des avancées les plus récentes en apprentissage automatique.",
+                    "id": "ab_p_02",
+                    "tag": "p"
+                }
+            ],
+            "className": "section-spacing container-md",
+            "content": "",
+            "id": "about_02",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-lg",
+                    "content": "Transformez votre Data en Actif Stratégique",
+                    "id": "cta_h2_02",
+                    "tag": "h2"
+                },
+                {
+                    "className": "btn-dark btn-lg mt-md",
+                    "content": "Planifier un Audit",
+                    "id": "cta_btn_02",
+                    "tag": "button"
+                }
+            ],
+            "className": "section-spacing text-center bg-emerald text-inverse",
+            "content": "",
+            "id": "cta_02",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "content": "© 2026 NEURAL LABS. Confidentialité \u0026 Conformité RGPD.",
+                    "id": "ft_02",
+                    "tag": "p"
+                }
+            ],
+            "className": "footer-container bg-black border-t-subtle text-subtle",
+            "content": "",
+            "id": "footer_02",
+            "tag": "footer"
+        }
+    ],
+    "nom": "ai-data-agency",
+    "styles": "{}",
+    "uri": "/ai-data-agency"
+}

@@ -1,0 +1,55 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Ready to transform your workflow?",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ban_dark_h",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"28px\",\"font-weight\":\"700\",\"color\":\"#f4f4f5\"},\"tablet\":{\"font-size\":\"22px\"},\"mobile\":{}}",
+                    "tag": "h2"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Join over 10,000 developers building with TurboStack.",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ban_dark_p",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"14px\",\"color\":\"#a1a1aa\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "p"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Create Free Account",
+                    "form_type": "button",
+                    "href": "",
+                    "id": "ban_dark_btn",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"margin-top\":\"4px\",\"background-color\":\"#ffffff\",\"color\":\"#09090b\",\"font-size\":\"14px\",\"font-weight\":\"700\",\"padding\":\"12px 24px\",\"border-radius\":\"10px\",\"border\":\"none\",\"cursor\":\"pointer\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "button"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "ban_dark_cta",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#09090b\",\"border\":\"1px solid #27272a\",\"border-radius\":\"20px\",\"padding\":\"40px 32px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"align-items\":\"center\",\"text-align\":\"center\",\"gap\":\"16px\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "BannerDarkCTA",
+    "params": null
+}

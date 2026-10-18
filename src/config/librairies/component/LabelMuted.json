@@ -1,0 +1,18 @@
+{
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "Will be displayed publicly on your profile",
+            "form_type": "",
+            "href": "",
+            "id": "lbl_muted_7",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"font-size\":\"12px\",\"font-weight\":\"400\",\"color\":\"#9ca3af\",\"display\":\"block\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "label"
+        }
+    ],
+    "nom": "LabelMuted",
+    "params": null
+}

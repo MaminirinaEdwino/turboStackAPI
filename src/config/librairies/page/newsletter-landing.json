@@ -1,0 +1,49 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "content": "Comprendre le Futur du Software.",
+                    "id": "n_h1",
+                    "styles": "{\"desktop\":{\"font-size\":\"40px\",\"font-weight\":\"800\"}}",
+                    "tag": "h1"
+                },
+                {
+                    "content": "Chaque dimanche, recevez une analyse approfondie des systèmes distribués, de WebAssembly et des architectures modernes.",
+                    "id": "n_p",
+                    "styles": "{\"desktop\":{\"font-size\":\"18px\",\"color\":\"#44403c\",\"margin-bottom\":\"32px\"}}",
+                    "tag": "p"
+                },
+                {
+                    "children": [
+                        {
+                            "content": "",
+                            "id": "n_inp",
+                            "input_type": "email",
+                            "placeholder": "votre@email.com",
+                            "styles": "{\"desktop\":{\"flex\":\"1\",\"padding\":\"14px\",\"border\":\"1px solid #d6d3d1\",\"border-radius\":\"8px\"}}",
+                            "tag": "input"
+                        },
+                        {
+                            "content": "S'abonner",
+                            "id": "n_btn",
+                            "styles": "{\"desktop\":{\"background\":\"#ea580c\",\"color\":\"#fff\",\"border\":\"none\",\"padding\":\"14px 28px\",\"border-radius\":\"8px\",\"font-weight\":\"bold\"}}",
+                            "tag": "button"
+                        }
+                    ],
+                    "content": "",
+                    "id": "n_form",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"gap\":\"10px\"},\"mobile\":{\"flex-direction\":\"column\"}}",
+                    "tag": "form"
+                }
+            ],
+            "content": "",
+            "id": "news_hero",
+            "styles": "{\"desktop\":{\"max-width\":\"650px\",\"margin\":\"120px auto 0 auto\",\"padding\":\"0 20px\",\"text-align\":\"center\"}}",
+            "tag": "section"
+        }
+    ],
+    "nom": "newsletter-landing",
+    "styles": "{\"desktop\":{\"body\":\"font-family: sans-serif; background: #fff8f0; color: #1c1917; margin:0;\"}}",
+    "uri": "/newsletter-landing"
+}

@@ -1,0 +1,43 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "🚀 TurboStack v2.0 is out! Experience 3x faster builds.",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ban_ann_txt",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"color\":\"#ffffff\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Read Docs →",
+                    "form_type": "",
+                    "href": "#docs",
+                    "id": "ban_ann_link",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"color\":\"#ffffff\",\"font-weight\":\"700\",\"text-decoration\":\"underline\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "a"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "ban_ann_1",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#4f46e5\",\"color\":\"#ffffff\",\"display\":\"flex\",\"justify-content\":\"center\",\"align-items\":\"center\",\"gap\":\"12px\",\"padding\":\"10px 16px\",\"font-size\":\"13px\",\"font-weight\":\"500\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "BannerAnnouncement",
+    "params": null
+}

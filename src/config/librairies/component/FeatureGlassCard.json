@@ -1,0 +1,68 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "💎",
+                    "form_type": "",
+                    "href": "",
+                    "id": "fg5_icon",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"36px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                },
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Premium Quality UI",
+                            "form_type": "",
+                            "href": "",
+                            "id": "fg5_title",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"18px\",\"font-weight\":\"700\",\"color\":\"#ffffff\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "h4"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Crafted with attention to detail and modern web standards.",
+                            "form_type": "",
+                            "href": "",
+                            "id": "fg5_desc",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"13px\",\"color\":\"#cbd5e1\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "p"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "fg5_content",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"6px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "feat_glass_5",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"rgba(255, 255, 255, 0.08)\",\"backdrop-filter\":\"blur(16px)\",\"border\":\"1px solid rgba(255, 255, 255, 0.2)\",\"border-radius\":\"20px\",\"padding\":\"32px\",\"display\":\"flex\",\"align-items\":\"center\",\"gap\":\"20px\"},\"tablet\":{\"flex-direction\":\"column\",\"text-align\":\"center\"},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "FeatureGlassCard",
+    "params": null
+}

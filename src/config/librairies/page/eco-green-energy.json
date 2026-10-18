@@ -1,0 +1,140 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "className": "brand-logo text-emerald-dark",
+                    "content": "GREEN GRID",
+                    "id": "logo_08",
+                    "tag": "div"
+                },
+                {
+                    "className": "btn-emerald btn-sm",
+                    "content": "Simuler l'Impact",
+                    "id": "btn_nav_08",
+                    "tag": "button"
+                }
+            ],
+            "className": "navbar-light flex-between border-b-subtle",
+            "content": "",
+            "id": "nav_08",
+            "tag": "header"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-xl text-emerald-dark",
+                    "content": "Passez à une énergie 100% renouvelable",
+                    "id": "h1_08",
+                    "tag": "h1"
+                },
+                {
+                    "className": "text-lead text-muted my-md",
+                    "content": "Solutions solaires et éoliennes intelligentes pour particuliers et entreprises.",
+                    "id": "p_08",
+                    "tag": "p"
+                }
+            ],
+            "className": "hero-section text-center container-md",
+            "content": "",
+            "id": "hero_08",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-md text-emerald-dark mb-lg",
+                    "content": "Solutions Énergétiques",
+                    "id": "s_h2_08",
+                    "tag": "h2"
+                },
+                {
+                    "children": [
+                        {
+                            "className": "card-white p-md shadow-xs",
+                            "content": "### Panneaux Solaires\nInstallation et maintenance haute efficacité.",
+                            "id": "sc1_8",
+                            "tag": "div"
+                        },
+                        {
+                            "className": "card-white p-md shadow-xs",
+                            "content": "### Stockage Batterie\nConservez votre surplus d'énergie pour la nuit.",
+                            "id": "sc2_8",
+                            "tag": "div"
+                        },
+                        {
+                            "className": "card-white p-md shadow-xs",
+                            "content": "### Pilotage Intelligent\nOptimisez votre consommation en temps réel.",
+                            "id": "sc3_8",
+                            "tag": "div"
+                        }
+                    ],
+                    "className": "grid-3-cols gap-md container-lg",
+                    "content": "",
+                    "id": "s_grid_08",
+                    "tag": "div"
+                }
+            ],
+            "className": "section-spacing bg-emerald-light",
+            "content": "",
+            "id": "services_08",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-md",
+                    "content": "Notre Vision",
+                    "id": "ab_h2_08",
+                    "tag": "h2"
+                },
+                {
+                    "className": "text-muted mt-sm",
+                    "content": "Accélérer la transition vers une autonomie énergétique locale et décarbonée.",
+                    "id": "ab_p_08",
+                    "tag": "p"
+                }
+            ],
+            "className": "section-spacing container-md",
+            "content": "",
+            "id": "about_08",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-lg",
+                    "content": "Réduisez votre empreinte carbone dès aujourd'hui",
+                    "id": "cta_h2_08",
+                    "tag": "h2"
+                },
+                {
+                    "className": "btn-emerald-bright btn-lg mt-md",
+                    "content": "Obtenir un Devis",
+                    "id": "cta_btn_08",
+                    "tag": "button"
+                }
+            ],
+            "className": "section-spacing bg-emerald-dark text-white text-center",
+            "content": "",
+            "id": "cta_08",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "content": "© 2026 GREEN GRID Transition Énergétique.",
+                    "id": "ft_08",
+                    "tag": "p"
+                }
+            ],
+            "className": "footer-container text-muted",
+            "content": "",
+            "id": "footer_08",
+            "tag": "footer"
+        }
+    ],
+    "nom": "eco-green-energy",
+    "styles": "{}",
+    "uri": "/eco-green-energy"
+}

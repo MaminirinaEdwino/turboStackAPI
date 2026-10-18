@@ -1,0 +1,18 @@
+{
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "inp_num_10",
+            "input_type": "number",
+            "placeholder": "0.00",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"padding\":\"14px 18px\",\"border-radius\":\"12px\",\"border\":\"2px solid #e0e7ff\",\"background-color\":\"#f5f3ff\",\"color\":\"#4338ca\",\"font-size\":\"20px\",\"font-weight\":\"700\",\"outline\":\"none\",\"text-align\":\"center\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "input"
+        }
+    ],
+    "nom": "InputNumberLarge",
+    "params": null
+}

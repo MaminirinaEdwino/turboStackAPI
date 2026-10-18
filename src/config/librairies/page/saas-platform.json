@@ -1,0 +1,99 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "content": "NEXUS.AI",
+                    "id": "logo_01",
+                    "styles": "{\"desktop\":{\"font-weight\":\"900\",\"font-size\":\"20px\",\"letter-spacing\":\"2px\",\"color\":\"#38bdf8\"}}",
+                    "tag": "div"
+                },
+                {
+                    "content": "Essai Gratuit",
+                    "id": "btn_nav_01",
+                    "styles": "{\"desktop\":{\"background\":\"#38bdf8\",\"color\":\"#090d16\",\"border\":\"none\",\"padding\":\"10px 20px\",\"border-radius\":\"8px\",\"font-weight\":\"700\",\"cursor\":\"pointer\"}}",
+                    "tag": "button"
+                }
+            ],
+            "content": "",
+            "id": "nav_01",
+            "styles": "{\"desktop\":{\"display\":\"flex\",\"justify-content\":\"space-between\",\"align-items\":\"center\",\"padding\":\"20px 80px\",\"background\":\"rgba(15, 23, 42, 0.6)\",\"backdrop-filter\":\"blur(12px)\",\"position\":\"sticky\",\"top\":\"0\",\"z-index\":\"100\",\"border-bottom\":\"1px solid rgba(255,255,255,0.05)\"},\"mobile\":{\"padding\":\"15px 20px\"}}",
+            "tag": "header"
+        },
+        {
+            "children": [
+                {
+                    "content": "⚡ VERSION 2.0 DISPONIBLE",
+                    "id": "badge_01",
+                    "styles": "{\"desktop\":{\"background\":\"rgba(56, 189, 248, 0.1)\",\"color\":\"#38bdf8\",\"border\":\"1px solid rgba(56, 189, 248, 0.3)\",\"padding\":\"6px 16px\",\"border-radius\":\"20px\",\"font-size\":\"12px\",\"font-weight\":\"700\",\"margin-bottom\":\"24px\"}}",
+                    "tag": "span"
+                },
+                {
+                    "content": "Automatisez vos flux de données en temps réel",
+                    "id": "h1_01",
+                    "styles": "{\"desktop\":{\"font-size\":\"56px\",\"font-weight\":\"800\",\"line-height\":\"1.1\",\"max-width\":\"800px\",\"margin-bottom\":\"20px\",\"background\":\"linear-gradient(180deg, #FFFFFF 0%, #94A3B8 100%)\",\"-webkit-background-clip\":\"text\",\"-webkit-text-fill-color\":\"transparent\"},\"mobile\":{\"font-size\":\"32px\"}}",
+                    "tag": "h1"
+                },
+                {
+                    "content": "Une infrastructure cloud ultra-rapide conçue pour les équipes modernes. Connectez vos APIs, analysez et déployez en un clic.",
+                    "id": "p_01",
+                    "styles": "{\"desktop\":{\"font-size\":\"18px\",\"color\":\"#94a3b8\",\"max-width\":\"600px\",\"margin-bottom\":\"40px\",\"line-height\":\"1.6\"}}",
+                    "tag": "p"
+                },
+                {
+                    "children": [
+                        {
+                            "content": "Démarrer Maintenant",
+                            "id": "btn_cta_1",
+                            "styles": "{\"desktop\":{\"background\":\"#38bdf8\",\"color\":\"#0f172a\",\"border\":\"none\",\"padding\":\"16px 32px\",\"border-radius\":\"12px\",\"font-size\":\"16px\",\"font-weight\":\"700\",\"cursor\":\"pointer\",\"box-shadow\":\"0 0 25px rgba(56, 189, 248, 0.4)\"}}",
+                            "tag": "button"
+                        },
+                        {
+                            "content": "Voir la Démo",
+                            "id": "btn_cta_2",
+                            "styles": "{\"desktop\":{\"background\":\"rgba(255,255,255,0.05)\",\"color\":\"#ffffff\",\"border\":\"1px solid rgba(255,255,255,0.1)\",\"padding\":\"16px 32px\",\"border-radius\":\"12px\",\"font-size\":\"16px\",\"font-weight\":\"600\",\"cursor\":\"pointer\"}}",
+                            "tag": "button"
+                        }
+                    ],
+                    "content": "",
+                    "id": "cta_group_01",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"gap\":\"16px\"},\"mobile\":{\"flex-direction\":\"column\",\"width\":\"100%\"}}",
+                    "tag": "div"
+                }
+            ],
+            "content": "",
+            "id": "hero_01",
+            "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"align-items\":\"center\",\"text-align\":\"center\",\"padding\":\"120px 20px 80px 20px\",\"background\":\"radial-gradient(circle at 50% 20%, rgba(56, 189, 248, 0.15) 0%, transparent 60%)\"},\"mobile\":{\"padding\":\"60px 15px\"}}",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "content": "### Latence Minimale\nExécution sous les 10ms à travers le monde entier grâce à notre réseau Edge.",
+                    "id": "card_1",
+                    "styles": "{\"desktop\":{\"background\":\"#131c2e\",\"padding\":\"32px\",\"border-radius\":\"16px\",\"border\":\"1px solid rgba(255,255,255,0.05)\"}}",
+                    "tag": "div"
+                },
+                {
+                    "content": "### Sécurité End-to-End\nChiffrement natif AES-256 pour toutes vos données au repos et en transit.",
+                    "id": "card_2",
+                    "styles": "{\"desktop\":{\"background\":\"#131c2e\",\"padding\":\"32px\",\"border-radius\":\"16px\",\"border\":\"1px solid rgba(255,255,255,0.05)\"}}",
+                    "tag": "div"
+                },
+                {
+                    "content": "### Scale Automatique\nPassez de 100 à 1 000 000 de requêtes sans aucune reconfiguration.",
+                    "id": "card_3",
+                    "styles": "{\"desktop\":{\"background\":\"#131c2e\",\"padding\":\"32px\",\"border-radius\":\"16px\",\"border\":\"1px solid rgba(255,255,255,0.05)\"}}",
+                    "tag": "div"
+                }
+            ],
+            "content": "",
+            "id": "features_01",
+            "styles": "{\"desktop\":{\"display\":\"grid\",\"grid-template-columns\":\"repeat(3, 1fr)\",\"gap\":\"30px\",\"max-width\":\"1200px\",\"margin\":\"0 auto\",\"padding\":\"80px 20px\"},\"tablet\":{\"grid-template-columns\":\"repeat(2, 1fr)\"},\"mobile\":{\"grid-template-columns\":\"1fr\"}}",
+            "tag": "section"
+        }
+    ],
+    "nom": "saas-platform",
+    "styles": "{\"desktop\":{\"body\":\"font-family: 'Inter', sans-serif; background-color: #090d16; color: #f8fafc; margin: 0; padding: 0;\"},\"tablet\":{},\"mobile\":{}}",
+    "uri": "/saas-platform"
+}

@@ -1,0 +1,92 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "CREATIVE HUB",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ftr_cnt_brand",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"16px\",\"font-weight\":\"800\",\"letter-spacing\":\"0.1em\",\"color\":\"#0f172a\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                },
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Twitter / X",
+                            "form_type": "",
+                            "href": "#",
+                            "id": "fsc_1",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"color\":\"#64748b\",\"font-size\":\"13px\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "a"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "GitHub",
+                            "form_type": "",
+                            "href": "#",
+                            "id": "fsc_2",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"color\":\"#64748b\",\"font-size\":\"13px\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "a"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "LinkedIn",
+                            "form_type": "",
+                            "href": "#",
+                            "id": "fsc_3",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"color\":\"#64748b\",\"font-size\":\"13px\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "a"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ftr_cnt_soc",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"gap\":\"24px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "© 2026 Creative Hub. Built with TurboStack.",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ftr_cnt_copy",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"12px\",\"color\":\"#94a3b8\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "ftr_cnt_5",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#f8fafc\",\"border-top\":\"1px solid #e2e8f0\",\"padding\":\"40px 20px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"align-items\":\"center\",\"text-align\":\"center\",\"gap\":\"20px\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "footer"
+        }
+    ],
+    "nom": "FooterCenteredSocial",
+    "params": null
+}

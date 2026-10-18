@@ -1,0 +1,18 @@
+{
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "+",
+            "form_type": "button",
+            "href": "",
+            "id": "btn_fab_10",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"background-color\":\"#6366f1\",\"color\":\"#ffffff\",\"font-size\":\"24px\",\"font-weight\":\"400\",\"width\":\"52px\",\"height\":\"52px\",\"border-radius\":\"50%\",\"border\":\"none\",\"cursor\":\"pointer\",\"display\":\"flex\",\"justify-content\":\"center\",\"align-items\":\"center\",\"box-shadow\":\"0 10px 25px rgba(99, 102, 241, 0.4)\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "button"
+        }
+    ],
+    "nom": "BtnFAB",
+    "params": null
+}

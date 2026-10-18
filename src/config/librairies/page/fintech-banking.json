@@ -1,0 +1,47 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "content": "La finance professionnelle sans frais cachés.",
+                            "id": "f_h1",
+                            "styles": "{\"desktop\":{\"font-size\":\"44px\",\"font-weight\":\"800\"}}",
+                            "tag": "h1"
+                        },
+                        {
+                            "content": "Gérez vos comptes d'entreprise, émettez des cartes virtuelles et automatisez votre comptabilité.",
+                            "id": "f_p",
+                            "styles": "{\"desktop\":{\"color\":\"#64748b\",\"margin-bottom\":\"24px\"}}",
+                            "tag": "p"
+                        },
+                        {
+                            "content": "Ouvrir un Compte",
+                            "id": "f_btn",
+                            "styles": "{\"desktop\":{\"background\":\"#2563eb\",\"color\":\"#fff\",\"border\":\"none\",\"padding\":\"14px 28px\",\"border-radius\":\"8px\",\"font-weight\":\"600\"}}",
+                            "tag": "button"
+                        }
+                    ],
+                    "content": "",
+                    "id": "fin_text",
+                    "styles": "{\"desktop\":{\"max-width\":\"500px\"}}",
+                    "tag": "div"
+                },
+                {
+                    "content": "💳 VISA BUSINESS",
+                    "id": "fin_card",
+                    "styles": "{\"desktop\":{\"width\":\"320px\",\"height\":\"200px\",\"background\":\"linear-gradient(135deg, #1e293b 0%, #0f172a 100%)\",\"color\":\"#fff\",\"border-radius\":\"16px\",\"padding\":\"24px\",\"box-shadow\":\"0 20px 25px -5px rgba(0,0,0,0.1)\"}}",
+                    "tag": "div"
+                }
+            ],
+            "content": "",
+            "id": "fin_hero",
+            "styles": "{\"desktop\":{\"display\":\"flex\",\"padding\":\"100px 10%\",\"align-items\":\"center\",\"justify-content\":\"space-between\"},\"mobile\":{\"flex-direction\":\"column\"}}",
+            "tag": "section"
+        }
+    ],
+    "nom": "fintech-banking",
+    "styles": "{\"desktop\":{\"body\":\"font-family: sans-serif; background: #ffffff; color: #0f172a; margin:0;\"}}",
+    "uri": "/fintech-banking"
+}

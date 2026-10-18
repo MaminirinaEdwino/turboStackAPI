@@ -1,0 +1,68 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "CloudApp",
+                    "form_type": "",
+                    "href": "",
+                    "id": "nav_multi_logo",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"18px\",\"font-weight\":\"800\",\"color\":\"#1e293b\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                },
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Log In",
+                            "form_type": "button",
+                            "href": "",
+                            "id": "nav_m_login",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"background-color\":\"transparent\",\"color\":\"#475569\",\"font-size\":\"13px\",\"font-weight\":\"600\",\"padding\":\"8px 14px\",\"border\":\"none\",\"cursor\":\"pointer\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "button"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Free Trial",
+                            "form_type": "button",
+                            "href": "",
+                            "id": "nav_m_signup",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"background-color\":\"#0ea5e9\",\"color\":\"#ffffff\",\"font-size\":\"13px\",\"font-weight\":\"600\",\"padding\":\"8px 16px\",\"border-radius\":\"8px\",\"border\":\"none\",\"cursor\":\"pointer\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "button"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "nav_multi_btns",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"gap\":\"10px\",\"align-items\":\"center\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "nav_multi_9",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#ffffff\",\"border-bottom\":\"1px solid #e5e7eb\",\"padding\":\"12px 32px\",\"display\":\"flex\",\"justify-content\":\"space-between\",\"align-items\":\"center\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "NavbarMultiAction",
+    "params": null
+}

@@ -1,0 +1,68 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "🔥 Black Friday Deal: 50% OFF",
+                            "form_type": "",
+                            "href": "",
+                            "id": "ban_sale_h",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"20px\",\"font-weight\":\"800\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "h3"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Get lifetime access to all premium components today.",
+                            "form_type": "",
+                            "href": "",
+                            "id": "ban_sale_p",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"14px\",\"opacity\":\"0.9\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "p"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ban_sale_info",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"4px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Claim Discount",
+                    "form_type": "button",
+                    "href": "",
+                    "id": "ban_sale_btn",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background-color\":\"#ffffff\",\"color\":\"#8b5cf6\",\"font-size\":\"14px\",\"font-weight\":\"700\",\"padding\":\"12px 24px\",\"border-radius\":\"10px\",\"border\":\"none\",\"cursor\":\"pointer\",\"box-shadow\":\"0 4px 12px rgba(0,0,0,0.15)\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "button"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "ban_sale_root",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-image\":\"linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%)\",\"border-radius\":\"16px\",\"padding\":\"24px 32px\",\"display\":\"flex\",\"justify-content\":\"space-between\",\"align-items\":\"center\",\"color\":\"#ffffff\"},\"tablet\":{\"flex-direction\":\"column\",\"gap\":\"16px\",\"text-align\":\"center\"},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "BannerGradientSale",
+    "params": null
+}

@@ -1,0 +1,18 @@
+{
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "inp_und_5",
+            "input_type": "text",
+            "placeholder": "Your company email...",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"padding\":\"8px 4px\",\"border\":\"none\",\"border-bottom\":\"2px solid #6366f1\",\"background-color\":\"transparent\",\"color\":\"#111827\",\"font-size\":\"15px\",\"outline\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "input"
+        }
+    ],
+    "nom": "InputUnderline",
+    "params": null
+}

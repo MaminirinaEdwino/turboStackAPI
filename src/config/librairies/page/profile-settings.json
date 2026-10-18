@@ -1,0 +1,129 @@
+{
+    "assets": null,
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "Paramètres du Profil",
+            "form_type": "",
+            "href": "",
+            "id": "ps_h1_01",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"font-size\":\"20px\",\"text-align\":\"center\",\"font-weight\":\"600\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "h1"
+        },
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Nom d'utilisateur",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ps_lbl_1",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "",
+                    "tag": "label"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ps_inp_1",
+                    "input_type": "text",
+                    "placeholder": "dev_user",
+                    "styles": "",
+                    "tag": "input"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Bio",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ps_lbl_2",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "",
+                    "tag": "label"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ps_inp_2",
+                    "input_type": "text",
+                    "placeholder": "Développeur Fullstack...",
+                    "styles": "",
+                    "tag": "input"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Site Web / Portfolio",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ps_lbl_3",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "",
+                    "tag": "label"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ps_inp_3",
+                    "input_type": "url",
+                    "placeholder": "https://mon-site.com",
+                    "styles": "",
+                    "tag": "input"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Mettre à jour",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ps_btn_1",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background-color\":\"#4f46e5\",\"border-radius\":\"6px\",\"border-width\":\"0px\",\"padding\":\"10px\",\"color\":\"#ffffff\",\"font-weight\":\"bold\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "button"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "ps_frm_02",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"padding\":\"24px\",\"gap\":\"12px\",\"background-color\":\"#ffffff\",\"margin\":\"10px\",\"border-radius\":\"10px\",\"width\":\"40vw\"},\"tablet\":{\"width\":\"60vw\"},\"mobile\":{\"width\":\"92%\"}}",
+            "tag": "form"
+        },
+        {
+            "children": null,
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "ps_bg_03",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"position\":\"fixed\",\"top\":\"50vh\",\"background-color\":\"#4f46e5\",\"width\":\"100%\",\"height\":\"50%\",\"z-index\":\"-1\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "profile-settings",
+    "styles": "{\"desktop\":{\"body\":\"\"},\"tablet\":{\"body\":\"background-color: #f5f3ff; display: flex; flex-direction: column; align-items: center\"},\"mobile\":{\"body\":\"display: flex; flex-direction: column; align-items: center\"}}",
+    "uri": "/profile-settings"
+}

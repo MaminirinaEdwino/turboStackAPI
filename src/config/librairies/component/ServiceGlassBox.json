@@ -1,0 +1,43 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Mobile App Consulting",
+                    "form_type": "",
+                    "href": "",
+                    "id": "sg7_title",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"20px\",\"font-weight\":\"700\",\"color\":\"#ffffff\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "h3"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Expert advice on mobile architecture, React Native, and native deployments.",
+                    "form_type": "",
+                    "href": "",
+                    "id": "sg7_desc",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"13px\",\"color\":\"#cbd5e1\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "p"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "srv_glass_7",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"rgba(255, 255, 255, 0.06)\",\"backdrop-filter\":\"blur(12px)\",\"border\":\"1px solid rgba(255, 255, 255, 0.15)\",\"border-radius\":\"20px\",\"padding\":\"32px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"14px\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "ServiceGlassBox",
+    "params": null
+}

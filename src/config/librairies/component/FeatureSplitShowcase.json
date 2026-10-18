@@ -1,0 +1,93 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "ANALYTICS",
+                            "form_type": "",
+                            "href": "",
+                            "id": "fsl_badge",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"11px\",\"font-weight\":\"700\",\"color\":\"#4f46e5\",\"background-color\":\"#eeef2ff\",\"padding\":\"4px 10px\",\"border-radius\":\"9999px\",\"width\":\"fit-content\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "span"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Real-time metrics at your fingertips",
+                            "form_type": "",
+                            "href": "",
+                            "id": "fsl_h3",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"28px\",\"font-weight\":\"800\",\"color\":\"#0f172a\",\"line-height\":\"1.2\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "h3"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Monitor user interactions, conversion rates, and performance live without delay.",
+                            "form_type": "",
+                            "href": "",
+                            "id": "fsl_p",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"14px\",\"color\":\"#64748b\",\"line-height\":\"1.6\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "p"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "feat_split_left",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"flex\":\"1\",\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"16px\",\"max-width\":\"500px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                },
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "📊 Interactive Chart Preview",
+                            "form_type": "",
+                            "href": "",
+                            "id": "fsl_prev",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"14px\",\"font-weight\":\"600\",\"color\":\"#94a3b8\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "span"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "feat_split_right",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"flex\":\"1\",\"background-color\":\"#f8fafc\",\"border\":\"1px solid #e2e8f0\",\"border-radius\":\"20px\",\"height\":\"260px\",\"display\":\"flex\",\"align-items\":\"center\",\"justify-content\":\"center\"},\"tablet\":{\"width\":\"100%\"},\"mobile\":{}}",
+                    "tag": "div"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "feat_split_2",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"padding\":\"48px 32px\",\"display\":\"flex\",\"align-items\":\"center\",\"justify-content\":\"space-between\",\"gap\":\"40px\"},\"tablet\":{\"flex-direction\":\"column\"},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "FeatureSplitShowcase",
+    "params": null
+}

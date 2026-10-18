@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Engineered for speed",
+                    "form_type": "",
+                    "href": "",
+                    "id": "fd3_h2",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"22px\",\"font-weight\":\"700\",\"color\":\"#f4f4f5\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "h3"
+                },
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "✓ Sub-millisecond render times with zero latency",
+                            "form_type": "",
+                            "href": "",
+                            "id": "fd3_i1",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"color\":\"#a1a1aa\",\"font-size\":\"14px\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "div"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "✓ Native TypeScript support out of the box",
+                            "form_type": "",
+                            "href": "",
+                            "id": "fd3_i2",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"color\":\"#a1a1aa\",\"font-size\":\"14px\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "div"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "✓ Automatic image and asset compression",
+                            "form_type": "",
+                            "href": "",
+                            "id": "fd3_i3",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"color\":\"#a1a1aa\",\"font-size\":\"14px\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "div"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "fd3_list",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"16px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "feat_dark_3",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#09090b\",\"border\":\"1px solid #27272a\",\"border-radius\":\"20px\",\"padding\":\"40px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"24px\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "FeatureDarkMinimalList",
+    "params": null
+}

@@ -1,0 +1,105 @@
+{
+    "assets": null,
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "Réserver un Créneau",
+            "form_type": "",
+            "href": "",
+            "id": "bk_h1_01",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"font-size\":\"22px\",\"text-align\":\"center\",\"font-weight\":\"700\",\"color\":\"#1e293b\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "h1"
+        },
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Date souhaitée",
+                    "form_type": "",
+                    "href": "",
+                    "id": "bk_lbl_1",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "",
+                    "tag": "label"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "bk_inp_1",
+                    "input_type": "text",
+                    "placeholder": "YYYY-MM-DD",
+                    "styles": "",
+                    "tag": "input"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Heure disponible",
+                    "form_type": "",
+                    "href": "",
+                    "id": "bk_lbl_2",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "",
+                    "tag": "label"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "bk_inp_2",
+                    "input_type": "text",
+                    "placeholder": "14:00 EAT",
+                    "styles": "",
+                    "tag": "input"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Confirmer le Rendez-vous",
+                    "form_type": "",
+                    "href": "",
+                    "id": "bk_btn_1",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background-color\":\"#ec4899\",\"border-radius\":\"10px\",\"border-width\":\"0px\",\"padding\":\"12px\",\"color\":\"#ffffff\",\"font-weight\":\"700\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "button"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "bk_frm_02",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"padding\":\"26px\",\"gap\":\"12px\",\"background-color\":\"#ffffff\",\"margin\":\"10px\",\"border-radius\":\"16px\",\"width\":\"36vw\",\"box-shadow\":\"0 10px 30px rgba(0,0,0,0.06)\"},\"tablet\":{\"width\":\"52vw\"},\"mobile\":{\"width\":\"90%\"}}",
+            "tag": "form"
+        },
+        {
+            "children": null,
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "bk_bg_03",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"position\":\"fixed\",\"top\":\"50vh\",\"background-color\":\"#fbcfe8\",\"width\":\"100%\",\"height\":\"50%\",\"z-index\":\"-1\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "booking-calendar",
+    "styles": "{\"desktop\":{\"body\":\"\"},\"tablet\":{\"body\":\"background-color: #fdf2f8; display: flex; flex-direction: column; align-items: center\"},\"mobile\":{\"body\":\"display: flex; flex-direction: column; align-items: center\"}}",
+    "uri": "/booking-calendar"
+}

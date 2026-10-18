@@ -1,0 +1,140 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "className": "brand-code text-cyan",
+                    "content": "[ SEC_SHIELD ]",
+                    "id": "logo_05",
+                    "tag": "div"
+                },
+                {
+                    "className": "btn-cyan btn-sm",
+                    "content": "AUDIT NOW",
+                    "id": "btn_nav_05",
+                    "tag": "button"
+                }
+            ],
+            "className": "navbar-dark flex-between border-b-cyan",
+            "content": "",
+            "id": "nav_05",
+            "tag": "header"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-code-xl text-white",
+                    "content": "PROTECTION MAXIMALE DES SI CRITIQUES",
+                    "id": "h1_05",
+                    "tag": "h1"
+                },
+                {
+                    "className": "text-code-muted my-md",
+                    "content": "Détection d'intrusions par IA, tests d'intrusion automatiques et surveillance H24.",
+                    "id": "p_05",
+                    "tag": "p"
+                }
+            ],
+            "className": "hero-section text-center bg-terminal-dark",
+            "content": "",
+            "id": "hero_05",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-code-md text-white mb-lg",
+                    "content": "\u003e SERVICES DE SÉCURITÉ",
+                    "id": "s_h2_05",
+                    "tag": "h2"
+                },
+                {
+                    "children": [
+                        {
+                            "className": "card-code p-md",
+                            "content": "### Pentesting\nIdentification proactive des vulnérabilités applicatives.",
+                            "id": "sc1_5",
+                            "tag": "div"
+                        },
+                        {
+                            "className": "card-code p-md",
+                            "content": "### SOC Managé\nEquipe d'experts dédiée à la réponse aux incidents.",
+                            "id": "sc2_5",
+                            "tag": "div"
+                        },
+                        {
+                            "className": "card-code p-md",
+                            "content": "### Zero Trust Architecture\nImplémentation du principe de moindre privilège.",
+                            "id": "sc3_5",
+                            "tag": "div"
+                        }
+                    ],
+                    "className": "grid-3-cols gap-md container-lg",
+                    "content": "",
+                    "id": "s_grid_05",
+                    "tag": "div"
+                }
+            ],
+            "className": "section-spacing bg-dark-slate",
+            "content": "",
+            "id": "services_05",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-code-md text-white",
+                    "content": "\u003e ABOUT SEC_SHIELD",
+                    "id": "ab_h2_05",
+                    "tag": "h2"
+                },
+                {
+                    "className": "text-code-muted mt-sm",
+                    "content": "Une équipe de spécialistes en cybersécurité engagée dans la défense des données des entreprises.",
+                    "id": "ab_p_05",
+                    "tag": "p"
+                }
+            ],
+            "className": "section-spacing container-md",
+            "content": "",
+            "id": "about_05",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-code-lg text-white mb-md",
+                    "content": "Évaluez votre niveau de vulnérabilité",
+                    "id": "cta_h2_05",
+                    "tag": "h2"
+                },
+                {
+                    "className": "btn-success btn-lg",
+                    "content": "Lancer le Scan",
+                    "id": "cta_btn_05",
+                    "tag": "button"
+                }
+            ],
+            "className": "section-spacing text-center border-t-cyan",
+            "content": "",
+            "id": "cta_05",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "content": "[ SEC_SHIELD SYSTEM v4.2 ]",
+                    "id": "ft_05",
+                    "tag": "p"
+                }
+            ],
+            "className": "footer-container text-code-subtle",
+            "content": "",
+            "id": "footer_05",
+            "tag": "footer"
+        }
+    ],
+    "nom": "cyber-security-hub",
+    "styles": "{}",
+    "uri": "/cyber-security-hub"
+}

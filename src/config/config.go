@@ -1,21 +1,25 @@
 package config
 
 import (
+	"embed"
 	"errors"
 	"fmt"
 	"os"
 	"path/filepath"
 )
 
+//go:embed librairies
+var LIB_DIR embed.FS
+
 var UserHomeDir, _ = os.UserHomeDir()
 
 // var TURBO_STACK_DIR = UserHomeDir + "/.turbo_stack"
-var TURBO_STACK_DIR =filepath.Join(UserHomeDir, ".turbo_stack")
+var TURBO_STACK_DIR = filepath.Join(UserHomeDir, ".turbo_stack")
 var PROJECT_DIR = filepath.Join(UserHomeDir, ".turbo_stack", "turbo_projects")
-var LIBRAIRIE_PATH = TURBO_STACK_DIR + "/librairie.json"
-var PAGE_LIB_DIR = TURBO_STACK_DIR + "/librairies/page"
-var COMPONENT_LIB_DIR = TURBO_STACK_DIR + "/librairies/component"
-var STYLE_LIB_DIR = TURBO_STACK_DIR + "/librairies/style"
+var LIBRAIRIE_PATH = "/librairie.json"
+var PAGE_LIB_DIR = "librairies/page"
+var COMPONENT_LIB_DIR = "librairies/component"
+var STYLE_LIB_DIR = "librairies/style"
 
 func CheckIfExist(chemin string) bool {
 	info, err := os.Stat(chemin)

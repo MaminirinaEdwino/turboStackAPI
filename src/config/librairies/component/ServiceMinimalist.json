@@ -1,0 +1,43 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Digital Strategy Consulting",
+                    "form_type": "",
+                    "href": "",
+                    "id": "sm9_title",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"18px\",\"font-weight\":\"700\",\"color\":\"#0f172a\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "h3"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Transform your online presence with data-driven insights.",
+                    "form_type": "",
+                    "href": "",
+                    "id": "sm9_desc",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"14px\",\"color\":\"#64748b\",\"max-width\":\"400px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "p"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "srv_min_9",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"border-bottom\":\"1px solid #e2e8f0\",\"padding\":\"24px 0\",\"display\":\"flex\",\"justify-content\":\"space-between\",\"align-items\":\"center\"},\"tablet\":{\"flex-direction\":\"column\",\"align-items\":\"flex-start\",\"gap\":\"12px\"},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "ServiceMinimalist",
+    "params": null
+}

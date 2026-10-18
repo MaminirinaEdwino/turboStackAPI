@@ -1,0 +1,43 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "\"Security and performance are built-in natively. Our dev ops team approves 100%.\"",
+                    "form_type": "",
+                    "href": "",
+                    "id": "tc7_quote",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"14px\",\"color\":\"#ecfdf5\",\"line-height\":\"1.6\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "p"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "CryptoDev_0x // Principal Architect",
+                    "form_type": "",
+                    "href": "",
+                    "id": "tc7_author",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"12px\",\"font-weight\":\"700\",\"color\":\"#34d399\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "tst_cyb_7",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#022c22\",\"border\":\"1px solid #10b981\",\"border-radius\":\"16px\",\"padding\":\"28px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"16px\",\"box-shadow\":\"0 0 20px rgba(16, 185, 129, 0.15)\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "TestimonialCyberGlow",
+    "params": null
+}

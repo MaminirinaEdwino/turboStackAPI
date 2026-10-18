@@ -1,0 +1,155 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Our Services",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ss2_h2",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"28px\",\"font-weight\":\"800\",\"color\":\"#0f172a\",\"text-align\":\"center\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "h2"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "UI/UX Design",
+                                    "form_type": "",
+                                    "href": "",
+                                    "id": "ss2_s1_t",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"font-size\":\"16px\",\"font-weight\":\"700\",\"color\":\"#0f172a\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "h4"
+                                },
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "Intuitive interfaces designed to convert visitors.",
+                                    "form_type": "",
+                                    "href": "",
+                                    "id": "ss2_s1_p",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"font-size\":\"13px\",\"color\":\"#64748b\",\"margin-top\":\"8px\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "p"
+                                }
+                            ],
+                            "className": "",
+                            "content": "",
+                            "form_type": "",
+                            "href": "",
+                            "id": "ss2_s1",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"background-color\":\"#f8fafc\",\"padding\":\"24px\",\"border-radius\":\"12px\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "div"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "SEO Optimization",
+                                    "form_type": "",
+                                    "href": "",
+                                    "id": "ss2_s2_t",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"font-size\":\"16px\",\"font-weight\":\"700\",\"color\":\"#0f172a\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "h4"
+                                },
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "Improve search rankings and drive organic traffic.",
+                                    "form_type": "",
+                                    "href": "",
+                                    "id": "ss2_s2_p",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"font-size\":\"13px\",\"color\":\"#64748b\",\"margin-top\":\"8px\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "p"
+                                }
+                            ],
+                            "className": "",
+                            "content": "",
+                            "form_type": "",
+                            "href": "",
+                            "id": "ss2_s2",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"background-color\":\"#f8fafc\",\"padding\":\"24px\",\"border-radius\":\"12px\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "div"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "Cloud Hosting",
+                                    "form_type": "",
+                                    "href": "",
+                                    "id": "ss2_s3_t",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"font-size\":\"16px\",\"font-weight\":\"700\",\"color\":\"#0f172a\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "h4"
+                                },
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "Fast and secure cloud infrastructure deployment.",
+                                    "form_type": "",
+                                    "href": "",
+                                    "id": "ss2_s3_p",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"font-size\":\"13px\",\"color\":\"#64748b\",\"margin-top\":\"8px\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "p"
+                                }
+                            ],
+                            "className": "",
+                            "content": "",
+                            "form_type": "",
+                            "href": "",
+                            "id": "ss2_s3",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"background-color\":\"#f8fafc\",\"padding\":\"24px\",\"border-radius\":\"12px\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "div"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ss2_grid",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"grid\",\"grid-template-columns\":\"repeat(3, 1fr)\",\"gap\":\"24px\"},\"tablet\":{\"grid-template-columns\":\"repeat(1, 1fr)\"},\"mobile\":{}}",
+                    "tag": "div"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "srv_sec_2",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"padding\":\"50px 32px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"36px\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "ServiceList3Col",
+    "params": null
+}

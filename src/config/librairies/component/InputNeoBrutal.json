@@ -1,0 +1,18 @@
+{
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "inp_neo_9",
+            "input_type": "text",
+            "placeholder": "Enter promo code",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"padding\":\"12px 16px\",\"border-radius\":\"6px\",\"border\":\"3px solid #000000\",\"background-color\":\"#ffffff\",\"color\":\"#000000\",\"font-size\":\"14px\",\"font-weight\":\"600\",\"box-shadow\":\"3px 3px 0px #000000\",\"outline\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "input"
+        }
+    ],
+    "nom": "InputNeoBrutal",
+    "params": null
+}

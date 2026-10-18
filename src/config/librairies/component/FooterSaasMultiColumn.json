@@ -1,0 +1,216 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "TurboStack",
+                                    "form_type": "",
+                                    "href": "",
+                                    "id": "ftr_saas_logo",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"font-size\":\"20px\",\"font-weight\":\"800\",\"color\":\"#ffffff\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "span"
+                                },
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "Empowering modern web development with ultra-fast modular stack components.",
+                                    "form_type": "",
+                                    "href": "",
+                                    "id": "ftr_saas_desc",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"font-size\":\"13px\",\"color\":\"#94a3b8\",\"line-height\":\"1.5\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "p"
+                                }
+                            ],
+                            "className": "",
+                            "content": "",
+                            "form_type": "",
+                            "href": "",
+                            "id": "ftr_saas_brand",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"12px\",\"max-width\":\"280px\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "div"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "Product",
+                                    "form_type": "",
+                                    "href": "",
+                                    "id": "f_c1_title",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"font-size\":\"14px\",\"font-weight\":\"700\",\"color\":\"#ffffff\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "span"
+                                },
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "Features",
+                                    "form_type": "",
+                                    "href": "#",
+                                    "id": "f_c1_l1",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"font-size\":\"13px\",\"color\":\"#94a3b8\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "a"
+                                },
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "Pricing",
+                                    "form_type": "",
+                                    "href": "#",
+                                    "id": "f_c1_l2",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"font-size\":\"13px\",\"color\":\"#94a3b8\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "a"
+                                },
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "Changelog",
+                                    "form_type": "",
+                                    "href": "#",
+                                    "id": "f_c1_l3",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"font-size\":\"13px\",\"color\":\"#94a3b8\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "a"
+                                }
+                            ],
+                            "className": "",
+                            "content": "",
+                            "form_type": "",
+                            "href": "",
+                            "id": "ftr_saas_col1",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"10px\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "div"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "Resources",
+                                    "form_type": "",
+                                    "href": "",
+                                    "id": "f_c2_title",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"font-size\":\"14px\",\"font-weight\":\"700\",\"color\":\"#ffffff\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "span"
+                                },
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "Documentation",
+                                    "form_type": "",
+                                    "href": "#",
+                                    "id": "f_c2_l1",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"font-size\":\"13px\",\"color\":\"#94a3b8\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "a"
+                                },
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "API Reference",
+                                    "form_type": "",
+                                    "href": "#",
+                                    "id": "f_c2_l2",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"font-size\":\"13px\",\"color\":\"#94a3b8\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "a"
+                                },
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "Community",
+                                    "form_type": "",
+                                    "href": "#",
+                                    "id": "f_c2_l3",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"font-size\":\"13px\",\"color\":\"#94a3b8\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "a"
+                                }
+                            ],
+                            "className": "",
+                            "content": "",
+                            "form_type": "",
+                            "href": "",
+                            "id": "ftr_saas_col2",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"10px\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "div"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ftr_saas_grid",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"justify-content\":\"space-between\",\"gap\":\"32px\"},\"tablet\":{\"flex-wrap\":\"wrap\"},\"mobile\":{\"flex-direction\":\"column\"}}",
+                    "tag": "div"
+                },
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "© 2026 TurboStack Inc. All rights reserved.",
+                            "form_type": "",
+                            "href": "",
+                            "id": "ftr_saas_copy",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"12px\",\"color\":\"#64748b\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "span"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ftr_saas_btm",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"border-top\":\"1px solid #1e293b\",\"padding-top\":\"20px\",\"display\":\"flex\",\"justify-content\":\"space-between\",\"align-items\":\"center\"},\"tablet\":{},\"mobile\":{\"flex-direction\":\"column\",\"gap\":\"12px\"}}",
+                    "tag": "div"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "ftr_saas_1",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#0f172a\",\"color\":\"#f8fafc\",\"padding\":\"48px 40px 24px 40px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"40px\"},\"tablet\":{\"padding\":\"36px 24px\"},\"mobile\":{}}",
+            "tag": "footer"
+        }
+    ],
+    "nom": "FooterSaasMultiColumn",
+    "params": null
+}

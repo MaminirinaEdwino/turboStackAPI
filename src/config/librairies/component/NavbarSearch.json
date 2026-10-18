@@ -1,0 +1,55 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "DocuHub",
+                    "form_type": "",
+                    "href": "",
+                    "id": "nav_srch_logo",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"18px\",\"font-weight\":\"700\",\"color\":\"#0f172a\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "nav_srch_input",
+                    "input_type": "search",
+                    "placeholder": "Search documentation...",
+                    "styles": "{\"desktop\":{\"width\":\"320px\",\"padding\":\"8px 14px\",\"border-radius\":\"8px\",\"border\":\"1px solid #cbd5e1\",\"background-color\":\"#f8fafc\",\"font-size\":\"13px\",\"outline\":\"none\"},\"tablet\":{\"width\":\"180px\"},\"mobile\":{\"display\":\"none\"}}",
+                    "tag": "input"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Sign Up",
+                    "form_type": "button",
+                    "href": "",
+                    "id": "nav_srch_btn",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background-color\":\"#2563eb\",\"color\":\"#ffffff\",\"font-size\":\"12px\",\"font-weight\":\"600\",\"padding\":\"8px 16px\",\"border-radius\":\"6px\",\"border\":\"none\",\"cursor\":\"pointer\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "button"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "nav_srch_6",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#ffffff\",\"border-bottom\":\"1px solid #e2e8f0\",\"padding\":\"12px 32px\",\"display\":\"flex\",\"justify-content\":\"space-between\",\"align-items\":\"center\",\"gap\":\"20px\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "NavbarSearch",
+    "params": null
+}

@@ -1,0 +1,43 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "\"Simple, reliable, and ridiculously fast to deploy.\"",
+                    "form_type": "",
+                    "href": "",
+                    "id": "tm8_quote",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"16px\",\"font-weight\":\"600\",\"color\":\"#1e293b\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "p"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Claire M., Fullstack Developer",
+                    "form_type": "",
+                    "href": "",
+                    "id": "tm8_author",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"13px\",\"color\":\"#64748b\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "tst_min_8",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"border-left\":\"4px solid #3b82f6\",\"padding\":\"16px 0 16px 24px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"8px\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "TestimonialMinimalistLine",
+    "params": null
+}

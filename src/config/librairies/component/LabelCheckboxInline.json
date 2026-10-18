@@ -1,0 +1,18 @@
+{
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "I agree to the Terms of Service and Privacy Policy",
+            "form_type": "",
+            "href": "",
+            "id": "lbl_check_10",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"font-size\":\"13px\",\"font-weight\":\"500\",\"color\":\"#4b5563\",\"cursor\":\"pointer\",\"margin-left\":\"8px\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "label"
+        }
+    ],
+    "nom": "LabelCheckboxInline",
+    "params": null
+}

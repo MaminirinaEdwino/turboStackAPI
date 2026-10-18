@@ -1,0 +1,140 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "className": "brand-serif text-gold",
+                    "content": "AURA ESTATES",
+                    "id": "logo_09",
+                    "tag": "div"
+                },
+                {
+                    "className": "btn-gold-outline btn-sm",
+                    "content": "PRENDRE RDV",
+                    "id": "btn_nav_09",
+                    "tag": "button"
+                }
+            ],
+            "className": "navbar-dark flex-between border-b-gold",
+            "content": "",
+            "id": "nav_09",
+            "tag": "header"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-serif-xl text-white",
+                    "content": "PROPRIÉTÉS D'EXCEPTION \u0026 ARCHITECTURE UNIQUE",
+                    "id": "h1_09",
+                    "tag": "h1"
+                },
+                {
+                    "className": "text-muted text-serif my-md",
+                    "content": "Une sélection exclusive de résidences haut de gamme à travers le monde.",
+                    "id": "p_09",
+                    "tag": "p"
+                }
+            ],
+            "className": "hero-section text-center container-md",
+            "content": "",
+            "id": "hero_09",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-serif-md text-gold mb-lg",
+                    "content": "NOS SERVICES EXCLUSIFS",
+                    "id": "s_h2_09",
+                    "tag": "h2"
+                },
+                {
+                    "children": [
+                        {
+                            "className": "card-gold-border p-lg",
+                            "content": "### Vente Prestige\nAccompagnement privé pour transactions d'exception.",
+                            "id": "sc1_9",
+                            "tag": "div"
+                        },
+                        {
+                            "className": "card-gold-border p-lg",
+                            "content": "### Chasse Immobilière\nRecherche sur-mesure hors marché (Off-Market).",
+                            "id": "sc2_9",
+                            "tag": "div"
+                        },
+                        {
+                            "className": "card-gold-border p-lg",
+                            "content": "### Management Privé\nGestion complète de votre patrimoine immobilier.",
+                            "id": "sc3_9",
+                            "tag": "div"
+                        }
+                    ],
+                    "className": "grid-3-cols gap-md container-lg",
+                    "content": "",
+                    "id": "s_grid_09",
+                    "tag": "div"
+                }
+            ],
+            "className": "section-spacing bg-dark-stone",
+            "content": "",
+            "id": "services_09",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-serif-md text-white",
+                    "content": "L'EXCELLENCE DEPUIS 2010",
+                    "id": "ab_h2_09",
+                    "tag": "h2"
+                },
+                {
+                    "className": "text-muted mt-sm",
+                    "content": "AURA ESTATES allie discrétion, expertise du marché mondial et passion pour l'architecture remarquable.",
+                    "id": "ab_p_09",
+                    "tag": "p"
+                }
+            ],
+            "className": "section-spacing container-sm text-center",
+            "content": "",
+            "id": "about_09",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-serif-lg",
+                    "content": "Confiez-nous votre projet immobilier",
+                    "id": "cta_h2_09",
+                    "tag": "h2"
+                },
+                {
+                    "className": "btn-dark-solid btn-lg mt-md",
+                    "content": "CONTACTER UN CONSEILLER",
+                    "id": "cta_btn_09",
+                    "tag": "button"
+                }
+            ],
+            "className": "section-spacing bg-gold text-dark text-center",
+            "content": "",
+            "id": "cta_09",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "content": "© 2026 AURA ESTATES. Tous droits réservés.",
+                    "id": "ft_09",
+                    "tag": "p"
+                }
+            ],
+            "className": "footer-container text-subtle text-serif text-center",
+            "content": "",
+            "id": "footer_09",
+            "tag": "footer"
+        }
+    ],
+    "nom": "luxury-real-estate",
+    "styles": "{}",
+    "uri": "/luxury-real-estate"
+}

@@ -1,0 +1,43 @@
+{
+    "desktop": {
+        ".bg-dark-slate": "background-color: #0f172a;",
+        ".bg-terminal-dark": "background-color: #07090e;",
+        ".border-b-cyan": "border-bottom: 1px solid #06b6d4;",
+        ".border-t-cyan": "border-top: 1px solid #06b6d4;",
+        ".brand-code": "font-family: monospace; font-weight: 700; font-size: 20px;",
+        ".btn-cyan": "background-color: transparent; color: #06b6d4; border: 1px solid #06b6d4; font-family: monospace; font-weight: 700; cursor: pointer;",
+        ".btn-lg": "padding: 14px 28px; font-size: 16px;",
+        ".btn-sm": "padding: 6px 12px; font-size: 13px;",
+        ".btn-success": "background-color: #10b981; color: #000000; border: none; font-family: monospace; font-weight: 700; cursor: pointer;",
+        ".card-code": "background-color: #07090e; border: 1px solid #1e293b; border-left: 3px solid #06b6d4;",
+        ".container-lg": "max-width: 1200px; margin: 0 auto;",
+        ".container-md": "max-width: 800px; margin: 0 auto;",
+        ".footer-container": "padding: 32px; background-color: #07090e; text-align: center;",
+        ".gap-md": "gap: 24px;",
+        ".grid-3-cols": "display: grid; grid-template-columns: repeat(3, 1fr);",
+        ".heading-code-lg": "font-family: monospace; font-size: 32px; font-weight: 700;",
+        ".heading-code-md": "font-family: monospace; font-size: 22px; font-weight: 700;",
+        ".heading-code-xl": "font-family: monospace; font-size: 42px; font-weight: 700; letter-spacing: -1px;",
+        ".hero-section": "padding: 90px 24px;",
+        ".mb-lg": "margin-bottom: 32px;",
+        ".mb-md": "margin-bottom: 24px;",
+        ".mt-sm": "margin-top: 12px;",
+        ".my-md": "margin-top: 20px; margin-bottom: 20px;",
+        ".navbar-dark": "display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; background-color: #07090e;",
+        ".p-md": "padding: 24px;",
+        ".section-spacing": "padding: 80px 24px;",
+        ".text-center": "text-align: center;",
+        ".text-code-muted": "color: #64748b; font-family: monospace;",
+        ".text-code-subtle": "color: #334155; font-family: monospace; font-size: 13px;",
+        ".text-cyan": "color: #06b6d4;",
+        ".text-white": "color: #f8fafc;"
+    },
+    "mobile": {
+        ".grid-3-cols": "grid-template-columns: 1fr;",
+        ".heading-code-xl": "font-size: 24px;"
+    },
+    "tablet": {
+        ".grid-3-cols": "grid-template-columns: repeat(2, 1fr);",
+        ".heading-code-xl": "font-size: 32px;"
+    }
+}

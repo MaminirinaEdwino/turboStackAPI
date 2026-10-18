@@ -1,0 +1,45 @@
+{
+    "desktop": {
+        ".bg-dark-stone": "background-color: #1c1917;",
+        ".bg-gold": "background-color: #d97706;",
+        ".border-b-gold": "border-bottom: 1px solid #d97706;",
+        ".brand-serif": "font-family: serif; font-weight: 700; font-size: 24px; letter-spacing: 2px;",
+        ".btn-dark-solid": "background-color: #0c0a09; color: #ffffff; border: none; font-weight: 700; letter-spacing: 1px; cursor: pointer;",
+        ".btn-gold-outline": "background-color: transparent; color: #d97706; border: 1px solid #d97706; font-weight: 600; letter-spacing: 1px; cursor: pointer;",
+        ".btn-lg": "padding: 16px 36px; font-size: 14px;",
+        ".btn-sm": "padding: 8px 18px; font-size: 12px;",
+        ".card-gold-border": "background-color: #0c0a09; border: 1px solid #292524; border-top: 2px solid #d97706;",
+        ".container-lg": "max-width: 1200px; margin: 0 auto;",
+        ".container-md": "max-width: 800px; margin: 0 auto;",
+        ".container-sm": "max-width: 600px; margin: 0 auto;",
+        ".footer-container": "padding: 40px; background-color: #0c0a09;",
+        ".gap-md": "gap: 32px;",
+        ".grid-3-cols": "display: grid; grid-template-columns: repeat(3, 1fr);",
+        ".heading-serif-lg": "font-family: serif; font-size: 34px; font-weight: 400;",
+        ".heading-serif-md": "font-family: serif; font-size: 24px; font-weight: 600; letter-spacing: 1px;",
+        ".heading-serif-xl": "font-family: serif; font-size: 46px; font-weight: 400; letter-spacing: 1px; line-height: 1.2;",
+        ".hero-section": "padding: 110px 24px; background-color: #0c0a09;",
+        ".mb-lg": "margin-bottom: 40px;",
+        ".mt-md": "margin-top: 24px;",
+        ".mt-sm": "margin-top: 12px;",
+        ".my-md": "margin-top: 24px; margin-bottom: 24px;",
+        ".navbar-dark": "display: flex; justify-content: space-between; align-items: center; padding: 24px 60px; background-color: #0c0a09;",
+        ".p-lg": "padding: 36px;",
+        ".section-spacing": "padding: 90px 24px;",
+        ".text-center": "text-align: center;",
+        ".text-dark": "color: #0c0a09;",
+        ".text-gold": "color: #d97706;",
+        ".text-muted": "color: #a8a29e;",
+        ".text-serif": "font-family: serif; font-style: italic;",
+        ".text-subtle": "color: #78716c;",
+        ".text-white": "color: #fafaf9;"
+    },
+    "mobile": {
+        ".heading-serif-xl": "font-size: 26px;",
+        ".navbar-dark": "padding: 20px;"
+    },
+    "tablet": {
+        ".grid-3-cols": "grid-template-columns: 1fr;",
+        ".heading-serif-xl": "font-size: 34px;"
+    }
+}

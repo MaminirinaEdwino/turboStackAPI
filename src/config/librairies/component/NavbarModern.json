@@ -1,0 +1,105 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "TurboStack",
+                            "form_type": "",
+                            "href": "",
+                            "id": "nav_logo_text",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"20px\",\"font-weight\":\"800\",\"color\":\"#111827\",\"letter-spacing\":\"-0.5px\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "h2"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "nav_logo_div",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"align-items\":\"center\",\"gap\":\"10px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                },
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Features",
+                            "form_type": "",
+                            "href": "#features",
+                            "id": "link_1",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"14px\",\"font-weight\":\"500\",\"color\":\"#4b5563\",\"text-decoration\":\"none\",\"transition\":\"color 0.2s\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "a"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Pricing",
+                            "form_type": "",
+                            "href": "#pricing",
+                            "id": "link_2",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"14px\",\"font-weight\":\"500\",\"color\":\"#4b5563\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "a"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "About",
+                            "form_type": "",
+                            "href": "#about",
+                            "id": "link_3",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"14px\",\"font-weight\":\"500\",\"color\":\"#4b5563\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "a"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "nav_links_div",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"align-items\":\"center\",\"gap\":\"28px\"},\"tablet\":{\"gap\":\"16px\"},\"mobile\":{\"display\":\"none\"}}",
+                    "tag": "div"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Get Started",
+                    "form_type": "",
+                    "href": "",
+                    "id": "nav_cta_btn",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background-color\":\"#4f46e5\",\"color\":\"#ffffff\",\"font-size\":\"14px\",\"font-weight\":\"600\",\"padding\":\"10px 20px\",\"border-radius\":\"10px\",\"border\":\"none\",\"cursor\":\"pointer\",\"box-shadow\":\"0 4px 6px -1px rgba(79, 70, 229, 0.2)\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "button"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "nav_root_1",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"display\":\"flex\",\"justify-content\":\"space-between\",\"align-items\":\"center\",\"width\":\"100%\",\"padding\":\"16px 32px\",\"background-color\":\"rgba(255, 255, 255, 0.8)\",\"backdrop-filter\":\"blur(12px)\",\"border-bottom\":\"1px solid rgba(229, 231, 235, 0.8)\",\"position\":\"sticky\",\"top\":\"0px\",\"z-index\":\"50\"},\"tablet\":{\"padding\":\"12px 20px\"},\"mobile\":{}}",
+            "tag": "nav"
+        }
+    ],
+    "nom": "NavbarModern",
+    "params": null
+}

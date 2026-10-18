@@ -1,0 +1,105 @@
+{
+    "assets": null,
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "Transfert Sécurisé On-Chain",
+            "form_type": "",
+            "href": "",
+            "id": "w3_h1_01",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"font-size\":\"20px\",\"text-align\":\"center\",\"font-weight\":\"700\",\"color\":\"#f8fafc\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "h1"
+        },
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Adresse Destinataire (0x...)",
+                    "form_type": "",
+                    "href": "",
+                    "id": "w3_lbl_1",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "",
+                    "tag": "label"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "w3_inp_1",
+                    "input_type": "text",
+                    "placeholder": "0x71C...39A",
+                    "styles": "",
+                    "tag": "input"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Montant (ETH)",
+                    "form_type": "",
+                    "href": "",
+                    "id": "w3_lbl_2",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "",
+                    "tag": "label"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "w3_inp_2",
+                    "input_type": "number",
+                    "placeholder": "0.5",
+                    "styles": "",
+                    "tag": "input"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Confirmer la Transaction",
+                    "form_type": "",
+                    "href": "",
+                    "id": "w3_btn_1",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background\": \"linear-gradient(90deg, #3b82f6 0%, #8b5cf6 100%)\",\"border-radius\":\"12px\",\"border-width\":\"0px\",\"padding\":\"12px\",\"color\":\"#ffffff\",\"font-weight\":\"700\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "button"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "w3_frm_02",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"padding\":\"24px\",\"gap\":\"12px\",\"background-color\":\"#0f172a\",\"margin\":\"10px\",\"border-radius\":\"20px\",\"width\":\"35vw\",\"border\":\"1px solid #1e293b\",\"box-shadow\":\"0 0 20px rgba(59, 130, 246, 0.15)\"},\"tablet\":{\"width\":\"50vw\"},\"mobile\":{\"width\":\"90%\"}}",
+            "tag": "form"
+        },
+        {
+            "children": null,
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "w3_bg_03",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"position\":\"fixed\",\"top\":\"50vh\",\"background-color\":\"#020617\",\"width\":\"100%\",\"height\":\"50%\",\"z-index\":\"-1\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "crypto-transfer",
+    "styles": "{\"desktop\":{\"body\":\"\"},\"tablet\":{\"body\":\"background-color: #020617; display: flex; flex-direction: column; align-items: center\"},\"mobile\":{\"body\":\"display: flex; flex-direction: column; align-items: center\"}}",
+    "uri": "/crypto-transfer"
+}

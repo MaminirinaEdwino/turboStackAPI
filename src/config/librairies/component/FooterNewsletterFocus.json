@@ -1,0 +1,118 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "Subscribe to our newsletter",
+                                    "form_type": "",
+                                    "href": "",
+                                    "id": "fn_h",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"font-size\":\"18px\",\"font-weight\":\"700\",\"color\":\"#ffffff\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "h4"
+                                },
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "The latest news, articles, and resources, sent to your inbox weekly.",
+                                    "form_type": "",
+                                    "href": "",
+                                    "id": "fn_p",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"font-size\":\"13px\",\"color\":\"#a1a1aa\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "p"
+                                }
+                            ],
+                            "className": "",
+                            "content": "",
+                            "form_type": "",
+                            "href": "",
+                            "id": "ftr_news_text",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"6px\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "div"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "",
+                                    "form_type": "",
+                                    "href": "",
+                                    "id": "fn_inp",
+                                    "input_type": "email",
+                                    "placeholder": "Enter your email",
+                                    "styles": "{\"desktop\":{\"padding\":\"10px 14px\",\"border-radius\":\"8px\",\"border\":\"1px solid #3f3f46\",\"background-color\":\"#09090b\",\"color\":\"#ffffff\",\"font-size\":\"13px\",\"width\":\"240px\"},\"tablet\":{\"flex\":\"1\"},\"mobile\":{}}",
+                                    "tag": "input"
+                                },
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "Subscribe",
+                                    "form_type": "submit",
+                                    "href": "",
+                                    "id": "fn_btn",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"background-color\":\"#2563eb\",\"color\":\"#ffffff\",\"font-size\":\"13px\",\"font-weight\":\"600\",\"padding\":\"10px 18px\",\"border-radius\":\"8px\",\"border\":\"none\",\"cursor\":\"pointer\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "button"
+                                }
+                            ],
+                            "className": "",
+                            "content": "",
+                            "form_type": "",
+                            "href": "",
+                            "id": "ftr_news_form",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"display\":\"flex\",\"gap\":\"8px\"},\"tablet\":{\"width\":\"100%\"},\"mobile\":{\"flex-direction\":\"column\"}}",
+                            "tag": "form"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ftr_news_top",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"justify-content\":\"space-between\",\"align-items\":\"center\",\"border-bottom\":\"1px solid #27272a\",\"padding-bottom\":\"36px\"},\"tablet\":{\"flex-direction\":\"column\",\"align-items\":\"flex-start\",\"gap\":\"20px\"},\"mobile\":{}}",
+                    "tag": "div"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "© 2026 Platform, Inc. All rights reserved.",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ftr_news_btm",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"12px\",\"color\":\"#71717a\",\"text-align\":\"center\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "ftr_news_2",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#18181b\",\"color\":\"#f4f4f5\",\"padding\":\"48px 32px 24px 32px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"36px\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "footer"
+        }
+    ],
+    "nom": "FooterNewsletterFocus",
+    "params": null
+}

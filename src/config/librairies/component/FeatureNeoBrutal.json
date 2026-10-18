@@ -1,0 +1,55 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "⚡ ULTRA FAST",
+                    "form_type": "",
+                    "href": "",
+                    "id": "fn6_badge",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"12px\",\"font-weight\":\"900\",\"color\":\"#000000\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "ZERO LOAD TIME",
+                    "form_type": "",
+                    "href": "",
+                    "id": "fn6_title",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"22px\",\"font-weight\":\"900\",\"color\":\"#000000\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "h3"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "Static rendering ensures immediate response for all your site visitors.",
+                    "form_type": "",
+                    "href": "",
+                    "id": "fn6_desc",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"14px\",\"font-weight\":\"600\",\"color\":\"#000000\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "p"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "feat_neo_6",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#a7f3d0\",\"border\":\"3px solid #000000\",\"box-shadow\":\"6px 6px 0px #000000\",\"padding\":\"28px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"12px\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "FeatureNeoBrutal",
+    "params": null
+}

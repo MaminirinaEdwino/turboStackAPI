@@ -1,0 +1,68 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "BRUTAL.UI",
+                            "form_type": "",
+                            "href": "",
+                            "id": "fn_title",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"22px\",\"font-weight\":\"900\",\"color\":\"#000000\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "span"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "No nonsense, pure performance.",
+                            "form_type": "",
+                            "href": "",
+                            "id": "fn_sub",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"13px\",\"font-weight\":\"700\",\"color\":\"#000000\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "span"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ftr_neo_left",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"6px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "© 2026 BRUTAL STACK - ALL RIGHTS RESERVED",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ftr_neo_right",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"12px\",\"font-weight\":\"800\",\"color\":\"#000000\",\"background-color\":\"#ffffff\",\"padding\":\"8px 14px\",\"border\":\"2px solid #000000\",\"box-shadow\":\"2px 2px 0px #000000\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "ftr_neo_6",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#facc15\",\"border-top\":\"3px solid #000000\",\"padding\":\"40px 32px\",\"display\":\"flex\",\"justify-content\":\"space-between\",\"align-items\":\"center\"},\"tablet\":{\"flex-direction\":\"column\",\"gap\":\"24px\",\"text-align\":\"center\"},\"mobile\":{}}",
+            "tag": "footer"
+        }
+    ],
+    "nom": "FooterNeoBrutal",
+    "params": null
+}

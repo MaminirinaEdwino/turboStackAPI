@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "© 2026 Studio. All rights reserved.",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ftr_cln_copy",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"13px\",\"color\":\"#6b7280\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                },
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "About",
+                            "form_type": "",
+                            "href": "#",
+                            "id": "fcn_1",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"color\":\"#374151\",\"font-size\":\"13px\",\"font-weight\":\"500\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "a"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Work",
+                            "form_type": "",
+                            "href": "#",
+                            "id": "fcn_2",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"color\":\"#374151\",\"font-size\":\"13px\",\"font-weight\":\"500\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "a"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Contact",
+                            "form_type": "",
+                            "href": "#",
+                            "id": "fcn_3",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"color\":\"#374151\",\"font-size\":\"13px\",\"font-weight\":\"500\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "a"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ftr_cln_nav",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"gap\":\"24px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "ftr_cln_4",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#ffffff\",\"border-top\":\"1px solid #e5e7eb\",\"padding\":\"32px 40px\",\"display\":\"flex\",\"justify-content\":\"space-between\",\"align-items\":\"center\"},\"tablet\":{},\"mobile\":{\"flex-direction\":\"column\",\"gap\":\"20px\",\"text-align\":\"center\"}}",
+            "tag": "footer"
+        }
+    ],
+    "nom": "FooterCleanLight",
+    "params": null
+}

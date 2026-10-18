@@ -1,0 +1,68 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Automated Deployment Active",
+                            "form_type": "",
+                            "href": "",
+                            "id": "ban_split_h",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"18px\",\"font-weight\":\"700\",\"color\":\"#166534\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "h3"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "Your changes are instantly published and synced across all CDN edge nodes worldwide.",
+                            "form_type": "",
+                            "href": "",
+                            "id": "ban_split_p",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"13px\",\"color\":\"#15803d\",\"line-height\":\"1.5\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "p"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ban_split_left",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"6px\",\"max-width\":\"500px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "View Deployment",
+                    "form_type": "button",
+                    "href": "",
+                    "id": "ban_split_btn",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background-color\":\"#16a34a\",\"color\":\"#ffffff\",\"font-size\":\"13px\",\"font-weight\":\"600\",\"padding\":\"10px 20px\",\"border-radius\":\"8px\",\"border\":\"none\",\"cursor\":\"pointer\",\"box-shadow\":\"0 4px 6px -1px rgba(22, 163, 74, 0.2)\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "button"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "ban_split_root",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#f0fdf4\",\"border\":\"1px solid #bbf7d0\",\"border-radius\":\"16px\",\"padding\":\"28px 36px\",\"display\":\"flex\",\"justify-content\":\"space-between\",\"align-items\":\"center\",\"gap\":\"24px\"},\"tablet\":{\"flex-direction\":\"column\",\"text-align\":\"center\"},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "BannerSplitFeature",
+    "params": null
+}

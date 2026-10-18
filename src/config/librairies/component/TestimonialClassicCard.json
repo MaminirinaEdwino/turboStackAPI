@@ -1,0 +1,105 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "★★★★★",
+                    "form_type": "",
+                    "href": "",
+                    "id": "tc1_stars",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"color\":\"#f59e0b\",\"font-size\":\"18px\",\"letter-spacing\":\"2px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "\"TurboStack completely transformed how our engineering team builds web applications. The speed and modularity are unparalleled.\"",
+                    "form_type": "",
+                    "href": "",
+                    "id": "tc1_quote",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"15px\",\"color\":\"#334155\",\"line-height\":\"1.6\",\"font-style\":\"italic\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "p"
+                },
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "👤",
+                            "form_type": "",
+                            "href": "",
+                            "id": "tc1_avatar",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"font-size\":\"32px\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "span"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "Alexandre Dupont",
+                                    "form_type": "",
+                                    "href": "",
+                                    "id": "tc1_name",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"font-size\":\"14px\",\"font-weight\":\"700\",\"color\":\"#0f172a\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "span"
+                                },
+                                {
+                                    "children": null,
+                                    "className": "",
+                                    "content": "CTO at TechCorp",
+                                    "form_type": "",
+                                    "href": "",
+                                    "id": "tc1_role",
+                                    "input_type": "",
+                                    "placeholder": "",
+                                    "styles": "{\"desktop\":{\"font-size\":\"12px\",\"color\":\"#64748b\"},\"tablet\":{},\"mobile\":{}}",
+                                    "tag": "span"
+                                }
+                            ],
+                            "className": "",
+                            "content": "",
+                            "form_type": "",
+                            "href": "",
+                            "id": "tc1_meta",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"display\":\"flex\",\"flex-direction\":\"column\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "div"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "tc1_author",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"align-items\":\"center\",\"gap\":\"12px\",\"margin-top\":\"8px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "div"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "tst_clsc_1",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#ffffff\",\"border\":\"1px solid #e2e8f0\",\"border-radius\":\"16px\",\"padding\":\"32px\",\"display\":\"flex\",\"flex-direction\":\"column\",\"gap\":\"20px\",\"box-shadow\":\"0 4px 6px -1px rgba(0,0,0,0.05)\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "TestimonialClassicCard",
+    "params": null
+}

@@ -1,0 +1,18 @@
+{
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "Email Address",
+            "form_type": "",
+            "href": "",
+            "id": "lbl_std_1",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"font-size\":\"13px\",\"font-weight\":\"600\",\"color\":\"#374151\",\"display\":\"inline-block\",\"margin-bottom\":\"4px\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "label"
+        }
+    ],
+    "nom": "LabelStandard",
+    "params": null
+}

@@ -1,0 +1,80 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "BRUTAL.UI",
+                    "form_type": "",
+                    "href": "",
+                    "id": "nav_neo_logo",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"20px\",\"font-weight\":\"900\",\"color\":\"#000000\",\"letter-spacing\":\"-0.02em\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                },
+                {
+                    "children": [
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "WORK",
+                            "form_type": "",
+                            "href": "#",
+                            "id": "neo_l1",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"color\":\"#000000\",\"font-weight\":\"800\",\"font-size\":\"13px\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "a"
+                        },
+                        {
+                            "children": null,
+                            "className": "",
+                            "content": "MANIFESTO",
+                            "form_type": "",
+                            "href": "#",
+                            "id": "neo_l2",
+                            "input_type": "",
+                            "placeholder": "",
+                            "styles": "{\"desktop\":{\"color\":\"#000000\",\"font-weight\":\"800\",\"font-size\":\"13px\",\"text-decoration\":\"none\"},\"tablet\":{},\"mobile\":{}}",
+                            "tag": "a"
+                        }
+                    ],
+                    "className": "",
+                    "content": "",
+                    "form_type": "",
+                    "href": "",
+                    "id": "nav_neo_links",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"display\":\"flex\",\"gap\":\"20px\"},\"tablet\":{\"display\":\"none\"},\"mobile\":{}}",
+                    "tag": "div"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "HIRE US",
+                    "form_type": "button",
+                    "href": "",
+                    "id": "nav_neo_btn",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"background-color\":\"#000000\",\"color\":\"#ffffff\",\"font-size\":\"12px\",\"font-weight\":\"800\",\"padding\":\"8px 16px\",\"border\":\"2px solid #000000\",\"box-shadow\":\"2px 2px 0px #000000\",\"cursor\":\"pointer\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "button"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "nav_neo_5",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#facc15\",\"border-bottom\":\"3px solid #000000\",\"padding\":\"14px 28px\",\"display\":\"flex\",\"justify-content\":\"space-between\",\"align-items\":\"center\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "NavbarNeoBrutal",
+    "params": null
+}

@@ -15,6 +15,39 @@ import (
 
 type ProjectService struct{}
 
+func (s *ProjectService) LoadPageLib(w http.ResponseWriter, r *http.Request) {
+	var res []string
+	dirContent, _ := config.LIB_DIR.ReadDir(config.PAGE_LIB_DIR)
+	for _, val := range dirContent {
+		fileContent, _ := config.LIB_DIR.ReadFile(config.PAGE_LIB_DIR + "/" + val.Name())
+		res = append(res, string(fileContent))
+	}
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(res)
+}
+
+func (s *ProjectService) LoadComponentLib(w http.ResponseWriter, r *http.Request) {
+	var res []string
+	dirContent, _ := config.LIB_DIR.ReadDir(config.COMPONENT_LIB_DIR)
+	for _, val := range dirContent {
+		fileContent, _ := config.LIB_DIR.ReadFile(config.COMPONENT_LIB_DIR + "/" + val.Name())
+		res = append(res, string(fileContent))
+	}
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(res)
+}
+
+func (s *ProjectService) LoadStyleLib(w http.ResponseWriter, r *http.Request) {
+	var res []string
+	dirContent, _ := config.LIB_DIR.ReadDir(config.STYLE_LIB_DIR)
+	for _, val := range dirContent {
+		fileContent, _ := config.LIB_DIR.ReadFile(config.STYLE_LIB_DIR + "/" + val.Name())
+		res = append(res, string(fileContent))
+	}
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(res)
+}
+
 // Middleware d'authentification pour extraire le user_id du JWT
 func getUserIdFromRequest(r *http.Request) (int, error) {
 	authHeader := r.Header.Get("Authorization")

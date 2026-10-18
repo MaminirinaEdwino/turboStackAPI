@@ -1,0 +1,18 @@
+{
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "Learn More",
+            "form_type": "button",
+            "href": "",
+            "id": "btn_out_6",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"background-color\":\"transparent\",\"color\":\"#374151\",\"font-size\":\"14px\",\"font-weight\":\"500\",\"padding\":\"10px 20px\",\"border-radius\":\"8px\",\"border\":\"1px solid #d1d5db\",\"cursor\":\"pointer\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "button"
+        }
+    ],
+    "nom": "BtnOutline",
+    "params": null
+}

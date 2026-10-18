@@ -1,0 +1,33 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "content": "[ 24-26 OCTOBRE 2026 ]",
+                    "id": "h_date",
+                    "styles": "{\"desktop\":{\"font-size\":\"20px\",\"letter-spacing\":\"4px\"}}",
+                    "tag": "span"
+                },
+                {
+                    "content": "GLOBAL DEV HACKATHON",
+                    "id": "h_title",
+                    "styles": "{\"desktop\":{\"font-size\":\"64px\",\"margin\":\"20px 0\",\"text-shadow\":\"0 0 10px #00ff66\"}}",
+                    "tag": "h1"
+                },
+                {
+                    "content": "RÉSERVER VOTRE PLACE",
+                    "id": "h_btn",
+                    "styles": "{\"desktop\":{\"background\":\"#00ff66\",\"color\":\"#000000\",\"border\":\"none\",\"padding\":\"18px 36px\",\"font-weight\":\"900\",\"cursor\":\"pointer\"}}",
+                    "tag": "button"
+                }
+            ],
+            "content": "",
+            "id": "hack_hero",
+            "styles": "{\"desktop\":{\"height\":\"100vh\",\"display\":\"flex\",\"flex-direction\":\"column\",\"justify-content\":\"center\",\"align-items\":\"center\",\"text-align\":\"center\",\"border\":\"2px solid #00ff66\",\"margin\":\"20px\"}}",
+            "tag": "section"
+        }
+    ],
+    "nom": "hackathon-event",
+    "styles": "{\"desktop\":{\"body\":\"font-family: sans-serif; background-color: #050505; color: #00ff66; margin:0;\"}}",
+    "uri": "/hackathon-event"
+}

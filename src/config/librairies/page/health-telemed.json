@@ -1,0 +1,154 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "className": "brand-logo text-green",
+                    "content": "PULSE HEALTH",
+                    "id": "logo_07",
+                    "tag": "div"
+                },
+                {
+                    "className": "btn-green btn-sm",
+                    "content": "Espace Patient",
+                    "id": "btn_nav_07",
+                    "tag": "button"
+                }
+            ],
+            "className": "navbar-light flex-between bg-white shadow-xs",
+            "content": "",
+            "id": "nav_07",
+            "tag": "header"
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "className": "heading-xl text-green-dark",
+                            "content": "Vos consultations médicales en ligne, simplement.",
+                            "id": "h1_07",
+                            "tag": "h1"
+                        },
+                        {
+                            "className": "text-lead text-muted my-md",
+                            "content": "Accédez à des médecins certifiés 7j/7 sans vous déplacer.",
+                            "id": "p_07",
+                            "tag": "p"
+                        }
+                    ],
+                    "className": "hero-text-block",
+                    "content": "",
+                    "id": "h_txt_07",
+                    "tag": "div"
+                },
+                {
+                    "className": "media-placeholder bg-green-light text-green-dark shadow-sm",
+                    "content": "[ Visio Médicale 24/7 ]",
+                    "id": "h_img_07",
+                    "tag": "div"
+                }
+            ],
+            "className": "hero-section container-lg grid-2-cols items-center gap-lg",
+            "content": "",
+            "id": "hero_07",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-md mb-lg",
+                    "content": "Services de Santé",
+                    "id": "s_h2_07",
+                    "tag": "h2"
+                },
+                {
+                    "children": [
+                        {
+                            "className": "card-green-soft p-md",
+                            "content": "### Téléconsultation\nRendez-vous visio sécurisé sous 15 minutes.",
+                            "id": "sc1_7",
+                            "tag": "div"
+                        },
+                        {
+                            "className": "card-green-soft p-md",
+                            "content": "### Ordonnance en Ligne\nRéception directe sur votre smartphone.",
+                            "id": "sc2_7",
+                            "tag": "div"
+                        },
+                        {
+                            "className": "card-green-soft p-md",
+                            "content": "### Suivi Chronique\nSupervision continue de vos constantes.",
+                            "id": "sc3_7",
+                            "tag": "div"
+                        }
+                    ],
+                    "className": "grid-3-cols gap-md container-lg",
+                    "content": "",
+                    "id": "s_grid_07",
+                    "tag": "div"
+                }
+            ],
+            "className": "section-spacing bg-white",
+            "content": "",
+            "id": "services_07",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-md text-green-dark",
+                    "content": "Engagement Sécurité \u0026 Santé",
+                    "id": "ab_h2_07",
+                    "tag": "h2"
+                },
+                {
+                    "className": "text-muted mt-sm",
+                    "content": "Toutes vos données de santé sont chiffrées et hébergées sur des serveurs agréés HDS.",
+                    "id": "ab_p_07",
+                    "tag": "p"
+                }
+            ],
+            "className": "section-spacing container-md",
+            "content": "",
+            "id": "about_07",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "className": "heading-lg",
+                    "content": "Besoin d'un avis médical immédiat ?",
+                    "id": "cta_h2_07",
+                    "tag": "h2"
+                },
+                {
+                    "className": "btn-white text-green btn-lg mt-md",
+                    "content": "Consulter un Médecin",
+                    "id": "cta_btn_07",
+                    "tag": "button"
+                }
+            ],
+            "className": "section-spacing bg-green text-white text-center",
+            "content": "",
+            "id": "cta_07",
+            "tag": "section"
+        },
+        {
+            "children": [
+                {
+                    "content": "© 2026 PULSE HEALTH. Service agréé.",
+                    "id": "ft_07",
+                    "tag": "p"
+                }
+            ],
+            "className": "footer-container bg-white text-muted text-center border-t-subtle",
+            "content": "",
+            "id": "footer_07",
+            "tag": "footer"
+        }
+    ],
+    "nom": "health-telemed",
+    "styles": "{}",
+    "uri": "/health-telemed"
+}

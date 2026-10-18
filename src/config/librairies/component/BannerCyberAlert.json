@@ -1,0 +1,43 @@
+{
+    "content": [
+        {
+            "children": [
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "⚡",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ban_cyber_icon",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"font-size\":\"20px\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "span"
+                },
+                {
+                    "children": null,
+                    "className": "",
+                    "content": "SYSTEM STATUS: All servers operating at optimal speeds.",
+                    "form_type": "",
+                    "href": "",
+                    "id": "ban_cyber_text",
+                    "input_type": "",
+                    "placeholder": "",
+                    "styles": "{\"desktop\":{\"color\":\"#34d399\",\"font-size\":\"13px\",\"font-weight\":\"700\",\"letter-spacing\":\"0.05em\"},\"tablet\":{},\"mobile\":{}}",
+                    "tag": "p"
+                }
+            ],
+            "className": "",
+            "content": "",
+            "form_type": "",
+            "href": "",
+            "id": "ban_cyber_1",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"width\":\"100%\",\"background-color\":\"#022c22\",\"border\":\"1px solid #10b981\",\"border-radius\":\"12px\",\"padding\":\"16px 20px\",\"display\":\"flex\",\"align-items\":\"center\",\"gap\":\"14px\",\"box-shadow\":\"0 0 15px rgba(16, 185, 129, 0.2)\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "div"
+        }
+    ],
+    "nom": "BannerCyberAlert",
+    "params": null
+}

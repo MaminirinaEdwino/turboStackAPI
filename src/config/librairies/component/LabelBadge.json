@@ -1,0 +1,18 @@
+{
+    "content": [
+        {
+            "children": null,
+            "className": "",
+            "content": "OPTIONAL",
+            "form_type": "",
+            "href": "",
+            "id": "lbl_badge_5",
+            "input_type": "",
+            "placeholder": "",
+            "styles": "{\"desktop\":{\"font-size\":\"10px\",\"font-weight\":\"700\",\"color\":\"#4f46e5\",\"background-color\":\"#e0e7ff\",\"padding\":\"2px 8px\",\"border-radius\":\"12px\",\"display\":\"inline-block\"},\"tablet\":{},\"mobile\":{}}",
+            "tag": "label"
+        }
+    ],
+    "nom": "LabelBadge",
+    "params": null
+}
