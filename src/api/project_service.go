@@ -69,6 +69,30 @@ func getUserIdFromRequest(r *http.Request) (int, error) {
 	return int(uidFloat), nil
 }
 
+// Middleware d'authentification pour extraire le user_id du JWT
+func checkIfAdmin(r *http.Request) (int, error) {
+	authHeader := r.Header.Get("Authorization")
+	if authHeader == "" {
+		return 0, fmt.Errorf("missing token")
+	}
+	tokenParts := strings.Split(authHeader, " ")
+	if len(tokenParts) != 2 {
+		return 0, fmt.Errorf("invalid token format")
+	}
+	payload, err := turbojwt.Verify(JwtSecret, tokenParts[1], 0)
+	if err != nil {
+		return 0, err
+	}
+	uidFloat, ok := payload["user_id"].(float64)
+	if !ok {
+		return 0, fmt.Errorf("invalid token payload")
+	}
+	role, ok := payload["role"].(string)
+	if !ok || role != "admin" {
+		return 0, fmt.Errorf("Unauthorized")
+	}
+	return int(uidFloat), nil
+}
 func (s *ProjectService) CreateProject(w http.ResponseWriter, r *http.Request) {
 	userId, err := getUserIdFromRequest(r)
 	if err != nil {
@@ -135,6 +159,64 @@ func (s *ProjectService) FetchProjects(w http.ResponseWriter, r *http.Request) {
 
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(projects)
+}
+func (s *ProjectService) FetchProjectsAll(w http.ResponseWriter, r *http.Request) {
+	userId, err := checkIfAdmin(r)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusUnauthorized)
+		return
+	}
+
+	rows, err := config.DB.Query("SELECT id, data FROM projects ORDER BY update_at DESC", userId)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+	defer rows.Close()
+
+	type result struct {
+		Id      int                `json:"id"`
+		Project entity.ProjectJSON `json:"project"`
+	}
+	var projects []result
+	for rows.Next() {
+		var data []byte
+		if err := rows.Scan(&data); err == nil {
+			var p result
+			json.Unmarshal(data, &p)
+			projects = append(projects, p)
+		}
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(projects)
+}
+
+func (s *ProjectService) FetchUsers(w http.ResponseWriter, r *http.Request) {
+	_, err := checkIfAdmin(r)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusUnauthorized)
+		return
+	}
+	rows, err := config.DB.Query("SELECT id, username FROM users WHERE role != 'admin")
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+	defer rows.Close()
+	type user struct {
+		Id       int    `json:"id"`
+		Username string `json:"username"`
+	}
+	var res []user
+	for rows.Next() {
+		var data user
+		if err := rows.Scan(&data.Id, &data.Username); err == nil {
+			res = append(res, data)
+		}
+	}
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(res)
 }
 
 func (s *ProjectService) FetchProjectByName(w http.ResponseWriter, r *http.Request) {
