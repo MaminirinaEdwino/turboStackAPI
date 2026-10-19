@@ -29,6 +29,7 @@ func main() {
 	mux.HandleFunc("POST /api/auth/login", userSvc.Login)
 	mux.HandleFunc("POST /api/user/token", userSvc.SaveToken)
 	mux.HandleFunc("GET /api/user/token/check", userSvc.CheckToken)
+	mux.HandleFunc("POST /api/auth/admin", userSvc.LoginAdmin)
 
 	// Routes Projets (Liées à l'utilisateur via JWT)
 	mux.HandleFunc("POST /api/projects", projSvc.CreateProject)
@@ -40,6 +41,11 @@ func main() {
 	mux.HandleFunc("GET /api/librairie/page", projSvc.LoadPageLib)
 	mux.HandleFunc("GET /api/librairie/component", projSvc.LoadComponentLib)
 	mux.HandleFunc("GET /api/librairie/style", projSvc.LoadStyleLib)
+	mux.HandleFunc("GET /api/all/projects", projSvc.FetchProjectsAll)
+	mux.HandleFunc("GET /api/project/{id}", projSvc.FetchProjectsById)
+	mux.HandleFunc("GET /api/users/{id}", projSvc.FetchUsersById)
+	mux.HandleFunc("GET /api/users", projSvc.FetchUsers)
+	
 
 	// Routes Système & Librairies
 

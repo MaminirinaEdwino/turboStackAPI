@@ -191,19 +191,19 @@ func (s *ProjectService) FetchProjectsById(w http.ResponseWriter, r *http.Reques
 }
 
 func (s *ProjectService) FetchProjectsAll(w http.ResponseWriter, r *http.Request) {
-	userId, err := checkIfAdmin(r)
+	_, err := checkIfAdmin(r)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusUnauthorized)
 		return
 	}
 
-	rows, err := config.DB.Query("SELECT id, data FROM projects ORDER BY update_at DESC", userId)
+	rows, err := config.DB.Query("SELECT id, data FROM projects ORDER BY update_at DESC")
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
 	defer rows.Close()
-
+	fmt.Println(rows)
 	type result struct {
 		Id      int                `json:"id"`
 		Project entity.ProjectJSON `json:"project"`
@@ -211,10 +211,10 @@ func (s *ProjectService) FetchProjectsAll(w http.ResponseWriter, r *http.Request
 	var projects []result
 	for rows.Next() {
 		var data []byte
-		if err := rows.Scan(&data); err == nil {
-			var p result
-			json.Unmarshal(data, &p)
-			projects = append(projects, p)
+		var res result
+		if err := rows.Scan(&res.Id, &data); err == nil {
+			json.Unmarshal(data, &res.Project)
+			projects = append(projects, res)
 		}
 	}
 
@@ -228,12 +228,13 @@ func (s *ProjectService) FetchUsers(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), http.StatusUnauthorized)
 		return
 	}
-	rows, err := config.DB.Query("SELECT id, username FROM users WHERE role != 'admin")
+	rows, err := config.DB.Query("SELECT id, username FROM users WHERE role != 'admin'")
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
 	defer rows.Close()
+	fmt.Println(rows, err)
 	type user struct {
 		Id       int    `json:"id"`
 		Username string `json:"username"`
@@ -243,6 +244,7 @@ func (s *ProjectService) FetchUsers(w http.ResponseWriter, r *http.Request) {
 		var data user
 		if err := rows.Scan(&data.Id, &data.Username); err == nil {
 			res = append(res, data)
+			fmt.Println(data)
 		}
 	}
 	w.Header().Set("Content-Type", "application/json")
