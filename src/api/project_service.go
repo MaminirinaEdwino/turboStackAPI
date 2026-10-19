@@ -160,6 +160,36 @@ func (s *ProjectService) FetchProjects(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(projects)
 }
+
+func (s *ProjectService) FetchProjectsById(w http.ResponseWriter, r *http.Request) {
+	_, err := getUserIdFromRequest(r)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusUnauthorized)
+		return
+	}
+	id := r.PathValue("id")
+
+	rows, err := config.DB.Query("SELECT data FROM projects WHERE id = $1 ORDER BY update_at DESC", id)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+	defer rows.Close()
+
+	var projects []entity.ProjectJSON
+	for rows.Next() {
+		var data []byte
+		if err := rows.Scan(&data); err == nil {
+			var p entity.ProjectJSON
+			json.Unmarshal(data, &p)
+			projects = append(projects, p)
+		}
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(projects[0])
+}
+
 func (s *ProjectService) FetchProjectsAll(w http.ResponseWriter, r *http.Request) {
 	userId, err := checkIfAdmin(r)
 	if err != nil {
@@ -199,6 +229,33 @@ func (s *ProjectService) FetchUsers(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	rows, err := config.DB.Query("SELECT id, username FROM users WHERE role != 'admin")
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+	defer rows.Close()
+	type user struct {
+		Id       int    `json:"id"`
+		Username string `json:"username"`
+	}
+	var res []user
+	for rows.Next() {
+		var data user
+		if err := rows.Scan(&data.Id, &data.Username); err == nil {
+			res = append(res, data)
+		}
+	}
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(res)
+}
+func (s *ProjectService) FetchUsersById(w http.ResponseWriter, r *http.Request) {
+	_, err := checkIfAdmin(r)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusUnauthorized)
+		return
+	}
+	id := r.PathValue("id")
+	rows, err := config.DB.Query("SELECT id, username FROM users WHERE role != 'admin' AND id = $1", id)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
