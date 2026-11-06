@@ -14,8 +14,8 @@ var LIB_DIR embed.FS
 var UserHomeDir, _ = os.UserHomeDir()
 
 // var TURBO_STACK_DIR = UserHomeDir + "/.turbo_stack"
-var TURBO_STACK_DIR = filepath.Join(UserHomeDir, ".turbo_stack")
-var PROJECT_DIR = filepath.Join(UserHomeDir, ".turbo_stack", "turbo_projects")
+var TURBO_STACK_DIR = "turbo_stack"
+var PROJECT_DIR = filepath.Join("turbo_stack", "turbo_projects")
 var LIBRAIRIE_PATH = "/librairie.json"
 var PAGE_LIB_DIR = "librairies/page"
 var COMPONENT_LIB_DIR = "librairies/component"

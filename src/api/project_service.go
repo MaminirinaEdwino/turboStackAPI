@@ -4,11 +4,13 @@ import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
+	"math/rand"
 	"net/http"
 	"strings"
 	"time"
 
 	turbojwt "github.com/MaminirinaEdwino/turbostackapi/src/TurboJwt"
+	"github.com/MaminirinaEdwino/turbostackapi/src/chatbot"
 	"github.com/MaminirinaEdwino/turbostackapi/src/config"
 	"github.com/MaminirinaEdwino/turbostackapi/src/entity"
 )
@@ -324,6 +326,17 @@ func (s *ProjectService) SaveProject(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
+	manager := entity.ProjectManager{}
+	switch pJson.Type {
+	case "bdd":
+		manager.ExporterDB(pJson.ToModel())
+	case "static":
+		manager.ExporterStaticSite(pJson.ToModel())
+	case "api":
+		manager.ExporterAPI(pJson.ToModel())
+	case "webapp":
+		manager.ExporterWebApp(pJson.ToModel())
+	}
 
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(map[string]string{"message": "Success"})
@@ -381,4 +394,14 @@ func (s *ProjectService) UploadAsset(w http.ResponseWriter, r *http.Request) {
 
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(map[string]string{"message": "success"})
+}
+
+func (s *ProjectService) Chat(w http.ResponseWriter, r *http.Request) {
+	rand.Seed(time.Now().UnixNano())
+	var bodyContent map[string]string
+
+	json.NewDecoder(r.Body).Decode(&bodyContent)
+	intents := chatbot.ChargerIntents()
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(map[string]string{"message": chatbot.ObtenirIntention(chatbot.Reseaux, bodyContent["message"], intents)})
 }

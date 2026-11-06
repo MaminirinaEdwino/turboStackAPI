@@ -8,17 +8,15 @@ import (
 
 	"github.com/MaminirinaEdwino/turbostackapi/src/activation"
 	"github.com/MaminirinaEdwino/turbostackapi/src/api"
+	"github.com/MaminirinaEdwino/turbostackapi/src/chatbot"
 	"github.com/MaminirinaEdwino/turbostackapi/src/config"
 )
-
-
-
 
 func main() {
 	// 1. Initialisation de la base de données PostgreSQL
 	config.InitDB()
 	activation.CheckActivationToken()
-
+	chatbot.Reseaux, chatbot.MotsUniques, chatbot.TagsIntents, _ = chatbot.ChargerModele()
 	mux := http.NewServeMux()
 
 	userSvc := &api.UserService{}
@@ -46,7 +44,7 @@ func main() {
 	mux.HandleFunc("GET /api/project/{id}", projSvc.FetchProjectsById)
 	mux.HandleFunc("GET /api/users/{id}", projSvc.FetchUsersById)
 	mux.HandleFunc("GET /api/users", projSvc.FetchUsers)
-	
+	mux.HandleFunc("POST /api/chat", projSvc.Chat)
 
 	// Routes Système & Librairies
 
@@ -61,7 +59,7 @@ func RequestLoggerMiddleware(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		start := time.Now()
 
-		// Récupération de l'adresse IP du client 
+		// Récupération de l'adresse IP du client
 		// (gère également les cas où l'application est derrière un reverse proxy comme Nginx via X-Forwarded-For)
 		clientIP := r.Header.Get("X-Forwarded-For")
 		if clientIP == "" {
