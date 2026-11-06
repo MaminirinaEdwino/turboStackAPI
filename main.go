@@ -45,6 +45,9 @@ func main() {
 	mux.HandleFunc("GET /api/users/{id}", projSvc.FetchUsersById)
 	mux.HandleFunc("GET /api/users", projSvc.FetchUsers)
 	mux.HandleFunc("POST /api/chat", projSvc.Chat)
+	mux.HandleFunc("POST /api/fetchprojectfile", projSvc.FetchProjectFiles)
+	mux.HandleFunc("POST /api/getfilecontent", projSvc.GetFileContent)
+	mux.HandleFunc("POST /api/export", projSvc.ExportProject)
 
 	// Routes Système & Librairies
 

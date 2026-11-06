@@ -1,11 +1,16 @@
 package api
 
 import (
+	"archive/zip"
 	"database/sql"
 	"encoding/json"
 	"fmt"
+	"io"
+	"log"
 	"math/rand"
 	"net/http"
+	"os"
+	"path/filepath"
 	"strings"
 	"time"
 
@@ -302,6 +307,120 @@ func (s *ProjectService) FetchProjectByName(w http.ResponseWriter, r *http.Reque
 	json.NewEncoder(w).Encode(p)
 }
 
+func (s *ProjectService) ExportProject(w http.ResponseWriter, r *http.Request) {
+	userId, err := getUserIdFromRequest(r)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusUnauthorized)
+		return
+	}
+	var body map[string]string
+	json.NewDecoder(r.Body).Decode(&body)
+	fmt.Println(body, "body")
+	var pJson entity.ProjectJSON
+	name := body["name"]
+	typeProject := body["typeProject"]
+	config.CheckCreateDir(name)
+	manager := entity.ProjectManager{}
+
+	projectName := name
+	fmt.Println(projectName)
+	var data []byte
+	err = config.DB.QueryRow("SELECT data FROM projects WHERE nom = $1 AND user_id = $2", name, userId).Scan(&data)
+	if err == sql.ErrNoRows {
+		http.Error(w, "Project not found", http.StatusNotFound)
+		return
+	}
+
+	json.Unmarshal(data, &pJson)
+	fmt.Println(pJson.Nom)
+	switch typeProject {
+	case "api":
+		config.CheckCreateDir(fmt.Sprintf("%s/api", name))
+		manager.ExporterAPI(pJson.ToModel())
+	case "models":
+		config.CheckCreateDir(fmt.Sprintf("%s/models", name))
+		manager.ExporterDB(pJson.ToModel())
+	case "frontend":
+		// config.CheckCreateDir(fmt.Sprintf("%s/frontend", name))
+		manager.ExporterStaticSite(pJson.ToModel())
+	case "full":
+		// config.CheckCreateDir(fmt.Sprintf("%s/webapp", name))
+		manager.ExporterWebApp(pJson.ToModel())
+	}
+	// CopyDir(filepath.Join(config.PROJECT_DIR, name), filepath.Join(path, name))
+	// return "Success"
+	folderToZip := filepath.Join(config.PROJECT_DIR, name)
+	fmt.Println("folder", folderToZip)
+	// Vérifier si le dossier existe
+	if _, err := os.Stat(folderToZip); os.IsNotExist(err) {
+		http.Error(w, "Dossier introuvable", http.StatusNotFound)
+		return
+	}
+
+	// 2. Configurer les headers HTTP pour le téléchargement du fichier
+	w.Header().Set("Content-Type", "application/zip")
+	w.Header().Set("Content-Disposition", `attachment; filename="archive.zip"`)
+
+	// 3. Initialiser le zip.Writer en utilisant la réponse HTTP (w) comme destination
+	zipWriter := zip.NewWriter(w)
+	defer zipWriter.Close() // Très important pour finaliser correctement le fichier zip
+
+	// 4. Parcourir le dossier et ajouter les fichiers au zip
+	err = filepath.Walk(folderToZip, func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return err
+		}
+
+		// Créer l'en-tête du fichier zip basé sur les infos du fichier d'origine
+		header, err := zip.FileInfoHeader(info)
+		if err != nil {
+			return err
+		}
+
+		// Conserver la structure des sous-dossiers dans le zip
+		relPath, err := filepath.Rel(folderToZip, path)
+		if err != nil {
+			return err
+		}
+		header.Name = relPath
+
+		// Si c'est un dossier, on adapte le nom pour le format zip et on l'ajoute
+		if info.IsDir() {
+			header.Name += "/"
+			_, err = zipWriter.CreateHeader(header)
+			return err
+		}
+
+		// Définir la méthode de compression (Deflate est la méthode standard)
+		header.Method = zip.Deflate
+
+		// Créer l'entrée du fichier dans le zip
+		writer, err := zipWriter.CreateHeader(header)
+		if err != nil {
+			return err
+		}
+
+		// Ouvrir le fichier d'origine
+		file, err := os.Open(path)
+		if err != nil {
+			return err
+		}
+		defer file.Close()
+
+		// Copier le contenu du fichier directement vers le zipWriter (via la réponse HTTP)
+		_, err = io.Copy(writer, file)
+		return err
+	})
+
+	if err != nil {
+		log.Printf("Erreur lors du zippage : %v", err)
+		// Attention: si l'écriture a déjà commencé, l'envoi de ce header d'erreur peut échouer,
+		// mais cela reste une bonne pratique en cas d'échec initial.
+		http.Error(w, "Erreur interne du serveur", http.StatusInternalServerError)
+		return
+	}
+}
+
 func (s *ProjectService) SaveProject(w http.ResponseWriter, r *http.Request) {
 	userId, err := getUserIdFromRequest(r)
 	if err != nil {
@@ -373,7 +492,7 @@ func (s *ProjectService) UploadAsset(w http.ResponseWriter, r *http.Request) {
 		Base64Image string `json:"base64_image"`
 	}
 	json.NewDecoder(r.Body).Decode(&body)
-
+	// fmt.Println(body)
 	var data []byte
 	err = config.DB.QueryRow("SELECT data FROM projects WHERE nom = $1 AND user_id = $2", body.ProjectName, userId).Scan(&data)
 	if err != nil {
@@ -404,4 +523,20 @@ func (s *ProjectService) Chat(w http.ResponseWriter, r *http.Request) {
 	intents := chatbot.ChargerIntents()
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(map[string]string{"message": chatbot.ObtenirIntention(chatbot.Reseaux, bodyContent["message"], intents)})
+}
+
+func (mgr *ProjectService) FetchProjectFiles(w http.ResponseWriter, r *http.Request) {
+	var bodyContent map[string]string
+	json.NewDecoder(r.Body).Decode(&bodyContent)
+	manager := entity.ProjectManager{}
+	file, _ := manager.GetProjectFiles(bodyContent["name"])
+	json.NewEncoder(w).Encode(file)
+}
+
+func (mgr *ProjectService) GetFileContent(w http.ResponseWriter, r *http.Request) {
+	var bodyContent map[string]string
+	json.NewDecoder(r.Body).Decode(&bodyContent)
+	manager := entity.ProjectManager{}
+	fileContent, _ := manager.GetFileContent(bodyContent["projectName"], bodyContent["path"])
+	json.NewEncoder(w).Encode(fileContent)
 }
