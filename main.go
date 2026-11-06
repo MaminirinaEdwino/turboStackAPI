@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"time"
 
 	"github.com/MaminirinaEdwino/turbostackapi/src/activation"
 	"github.com/MaminirinaEdwino/turbostackapi/src/api"
@@ -50,13 +51,37 @@ func main() {
 	// Routes Système & Librairies
 
 	// Middleware CORS global optionnel
-	handler := corsMiddleware(mux)
+	handler := RequestLoggerMiddleware(corsMiddleware(mux))
 
 	port := ":8080"
 	fmt.Printf("🚀 TurboStack API Server running on http://localhost%s\n", port)
 	log.Fatal(http.ListenAndServe(port, handler))
 }
+func RequestLoggerMiddleware(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		start := time.Now()
 
+		// Récupération de l'adresse IP du client 
+		// (gère également les cas où l'application est derrière un reverse proxy comme Nginx via X-Forwarded-For)
+		clientIP := r.Header.Get("X-Forwarded-For")
+		if clientIP == "" {
+			clientIP = r.RemoteAddr
+		}
+
+		method := r.Method
+		uri := r.RequestURI
+
+		// Affichage formaté dans la console du serveur TurboStack
+		log.Printf("[TURBOSTACK-LOG] IP: %s | Méthode: %s | URI: %s", clientIP, method, uri)
+
+		// Transmet la requête au prochain handler de la chaîne
+		next.ServeHTTP(w, r)
+
+		// Optionnel : Mesurer le temps de traitement de la requête
+		duration := time.Since(start)
+		_ = duration
+	})
+}
 func corsMiddleware(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Access-Control-Allow-Origin", "*")
