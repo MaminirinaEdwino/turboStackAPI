@@ -3,6 +3,7 @@ package entity
 import (
 	"encoding/json"
 	"fmt"
+	"log"
 	"os"
 	"strings"
 
@@ -474,11 +475,18 @@ func (mgr *webAppMaker) mainExporter() {
 
 func (mgr *webAppMaker) writeModSumFile() {
 	projectName := strings.ReplaceAll(mgr.ProjectName, " ", "_")
-	modfilepath := fmt.Sprintf("%s/%s/web-app/go.mod", config.PROJECT_DIR, projectName)
-	sumfilepath := fmt.Sprintf("%s/%s/web-app/go.sum", config.PROJECT_DIR, projectName)
-	modfile, _ := os.Create(modfilepath)
+	fmt.Println(config.PROJECT_DIR, "sum mod file")
+	modfilepath := fmt.Sprintf("%s/%s/web-app/go.mod", config.PROJECT_DIR, mgr.ProjectName)
+	sumfilepath := fmt.Sprintf("%s/%s/web-app/go.sum", config.PROJECT_DIR, mgr.ProjectName)
+	modfile, err := os.OpenFile(modfilepath, os.O_CREATE|os.O_TRUNC|os.O_RDWR, 0644)
+	if err != nil {
+		log.Println(err.Error())
+	}
 	modfile.WriteString(goapimaker.WriteGoMod(strings.ReplaceAll(projectName, " ", "_")))
-	sumfile, _ := os.Create(sumfilepath)
+	sumfile, err := os.OpenFile(sumfilepath, os.O_CREATE|os.O_TRUNC|os.O_RDWR, 0644)
+	if err != nil {
+		log.Println(err.Error())
+	}
 	sumfile.WriteString(goapimaker.WriteSum())
 }
 
@@ -637,10 +645,11 @@ func (wap *webAppMaker) GenerateView() {
 
 func (wap *webAppMaker) WebAppGenerator() {
 	wap.SetupArch()
-	wap.writeModSumFile()
+	
 	wap.CreateConfigFile()
 	// wap.CreateModelFile()
 	wap.CreateControllerFile()
 	wap.GenerateView()
 	wap.mainExporter()
+	wap.writeModSumFile()
 }
